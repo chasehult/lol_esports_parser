@@ -8,6 +8,6 @@ def get_game_dto(url: str, get_additional_data=False, translate_ids=False):
         translate_ids: whether to keep object IDs or to translate them to English names
 
     Returns:
-        A LolGameDto or LolGameNameDto with all available data.
+        A LolGameDto.
     """
     pass
