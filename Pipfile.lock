@@ -78,10 +78,10 @@
         },
         "lol-id-tools": {
             "hashes": [
-                "sha256:1289bd94883f049077710994ecd0867adfb2a7d22d36b2ce5c22de7dad0b2210"
+                "sha256:59e96c54e0e720584b21ef61560e83a9a652f02ba2c1ca2a3e71a1d6ad42857e"
             ],
             "index": "pypi",
-            "version": "==1.1.1"
+            "version": "==1.2.0"
         },
         "multidict": {
             "hashes": [

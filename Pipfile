@@ -7,9 +7,9 @@ verify_ssl = true
 pytest = "*"
 
 [packages]
-lol-id-tools = "*"
 requests = "*"
 dateparser = "*"
+lol-id-tools = "*"
 
 [requires]
 python_version = "3.8"
