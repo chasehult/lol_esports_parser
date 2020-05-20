@@ -1,5 +1,4 @@
-import pytest
-from leaguepedia_esports_parser.leaguepedia_esports_parser import get_game_dto
+from leaguepedia_esports_parser.riot_parser import get_game_dto
 
 
 def test_lck_finals():
@@ -11,11 +10,9 @@ def test_lck_finals():
     assert lol_game_name_dto['duration'] == 1776
     assert lol_game_name_dto['picks_bans'][0]['champion_name'] == 'LeBlanc'
 
-    t1_players = lol_game_name_dto['teams']['blue']['players']
+    assert lol_game_name_dto['players'].__len__() == 10
 
-    assert t1_players.__len__() == 5
-
-    faker = next(filter(lambda x: x['role'] == 'mid', t1_players))
+    faker = next(p for p in lol_game_name_dto['players'] if p['role'] == 'mid' and p['team'] == 'red')
 
     assert faker['kills'] == 3
     assert faker['total_cs'] == 242
