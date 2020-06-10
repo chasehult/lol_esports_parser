@@ -113,6 +113,7 @@ def parse_qq_game(qq_game_id: int) -> dict:
     for team in ['left', 'right']:
         # TODO properly understand who’s team A and team B
         is_team_a = team == 'right'
+        # Is Team A and Team A is blue -> blue, Is not team A and team A is not blue -> blue
         if is_team_a == (game_info['sMatchInfo']['TeamA'] == blue_team_id):
             team_side = 'blue'
         else:

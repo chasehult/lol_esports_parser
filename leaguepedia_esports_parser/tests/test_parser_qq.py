@@ -46,6 +46,3 @@ def test_lpl_finals():
 
     # TODO Add bans information
     # assert game['picksBans'][0]['championName'] == 'Zoe'
-
-##
-
