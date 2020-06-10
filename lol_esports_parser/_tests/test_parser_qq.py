@@ -1,6 +1,7 @@
 import json
 import pytest
-from leaguepedia_esports_parser.qq_parser import get_qq_series_dto, get_game_info, parse_player_battle_data
+
+from lol_esports_parser.qq.qq_parser import parse_player_battle_data, get_qq_series_dto, get_game_info
 
 
 @pytest.fixture

@@ -10,6 +10,7 @@ pytest = "*"
 requests = "*"
 dateparser = "*"
 lol-id-tools = "*"
+pytest = "*"
 riot-transmute = "*"
 
 [requires]

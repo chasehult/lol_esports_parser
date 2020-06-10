@@ -3,9 +3,9 @@ import logging
 from collections import Counter
 
 import dateparser
-import urllib.parse as urlparse
+import urllib.parse
 import requests
-from leaguepedia_esports_parser.config import endpoints, roles_list
+from lol_esports_parser.config import endpoints, roles_list
 import lol_id_tools as lit
 
 
@@ -18,8 +18,8 @@ def get_qq_series_dto(qq_match_url: str) -> dict:
     Returns:
         A LolSeriesDto.
     """
-    parsed_url = urlparse.urlparse(qq_match_url)
-    match_qq_id = urlparse.parse_qs(parsed_url.query)['bmid'][0]
+    parsed_url = urllib.parse.urlparse(qq_match_url)
+    match_qq_id = urllib.parse.parse_qs(parsed_url.query)['bmid'][0]
 
     games_list_query_url = f"{endpoints['qq']['match_list']}{match_qq_id}"
 
