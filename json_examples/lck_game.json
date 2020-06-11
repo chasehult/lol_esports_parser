@@ -1230,7 +1230,7 @@
                             {
                                 "id": 1401,
                                 "slot": 4,
-                                "name": "Enchantment: Cinderhulk"
+                                "name": "Stalker's Blade - Cinderhulk"
                             },
                             {
                                 "id": 3111,
@@ -1808,7 +1808,7 @@
                             "timestamp": 623.593,
                             "type": "PURCHASED",
                             "id": 1401,
-                            "name": "Enchantment: Cinderhulk"
+                            "name": "Stalker's Blade - Cinderhulk"
                         },
                         {
                             "timestamp": 623.593,
@@ -6792,7 +6792,7 @@
                             {
                                 "id": 1414,
                                 "slot": 3,
-                                "name": "Enchantment: Runic Echoes"
+                                "name": "Skirmisher's Sabre - Runic Echoes"
                             },
                             {
                                 "id": 1082,
@@ -7321,7 +7321,7 @@
                             "timestamp": 455.158,
                             "type": "PURCHASED",
                             "id": 1414,
-                            "name": "Enchantment: Runic Echoes"
+                            "name": "Skirmisher's Sabre - Runic Echoes"
                         },
                         {
                             "timestamp": 455.158,
