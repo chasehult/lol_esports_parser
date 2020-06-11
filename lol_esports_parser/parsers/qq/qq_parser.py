@@ -120,7 +120,6 @@ def parse_qq_game(qq_game_id: int) -> lol_dto.classes.game.LolGame:
             # We go grab some information back in game_info
             match_member = next(p for p in game_info["sMatchMember"] if p["GameName"] == player["inGameName"])
 
-            player["mvp"] = bool(match_member["iMVP"])
             player["uniqueIdentifiers"] = {
                 "qq": {"accountId": match_member["AccountId"], "memberId": match_member["MemberId"]}
             }
