@@ -8,13 +8,13 @@ with open(path.join(this_directory, "README.md"), encoding="utf-8") as f:
 setuptools.setup(
     name="lol_esports_parser",
     version="0.0.1",
-    packages=setuptools.find_packages(),
-    install_requires=["requests", "dateparser", "lol-id-tools", "riot-transmute"],
+    packages=['lol_esports_parser', 'lol_esports_parser/acs', 'lol_esports_parser/qq', 'lol_esports_parser/dto'],
+    install_requires=["requests", "dateparser", "lol-id-tools", "riot-transmute", "lol-dto"],
     url="https://github.com/mrtolkien/lol_esports_parser",
     license="MIT",
     author='Gary "Tolki" Mialaret',
     author_email="gary.mialaret+pypi@gmail.com",
-    description="A utility to transform LoL games data from both QQ and ACS into the LolGame DTO format.",
+    description="A utility to query and transform LoL games from QQ and ACS into the LolGame DTO format.",
     long_description=long_description,
     long_description_content_type="text/markdown",
 )

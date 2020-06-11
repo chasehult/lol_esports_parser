@@ -1,0 +1,1761 @@
+{
+    "sources": {
+        "riotLolApi": {
+            "gameId": 1353193,
+            "platformId": "ESPORTSTMNT03"
+        }
+    },
+    "duration": 1776,
+    "start": "2020-04-25T19:30:54+00:00",
+    "patch": "10.7",
+    "gameVersion": "10.7.314.9802",
+    "winner": "RED",
+    "teams": {
+        "BLUE": {
+            "riftHeraldKills": 0,
+            "dragonKills": 2,
+            "baronKills": 0,
+            "towerKills": 1,
+            "inhibitorKills": 0,
+            "firstTower": false,
+            "firstInhibitor": false,
+            "firstRiftHerald": false,
+            "firstDragon": true,
+            "firstBaron": false,
+            "bans": [
+                48,
+                2,
+                110,
+                42,
+                7
+            ],
+            "players": [
+                {
+                    "id": 1,
+                    "inGameName": "GEN Rascal",
+                    "profileIconId": 29,
+                    "championId": 126,
+                    "uniqueIdentifiers": null,
+                    "primaryRuneTreeId": 8200,
+                    "secondaryRuneTreeId": 8300,
+                    "runes": [
+                        {
+                            "id": 8230,
+                            "slot": 0,
+                            "stats": [
+                                11,
+                                0,
+                                0
+                            ],
+                            "name": "Phase Rush"
+                        },
+                        {
+                            "id": 8226,
+                            "slot": 1,
+                            "stats": [
+                                250,
+                                807,
+                                0
+                            ],
+                            "name": "Manaflow Band"
+                        },
+                        {
+                            "id": 8233,
+                            "slot": 2,
+                            "stats": [
+                                19,
+                                20,
+                                0
+                            ],
+                            "name": "Absolute Focus"
+                        },
+                        {
+                            "id": 8236,
+                            "slot": 3,
+                            "stats": [
+                                14,
+                                0,
+                                0
+                            ],
+                            "name": "Gathering Storm"
+                        },
+                        {
+                            "id": 8304,
+                            "slot": 4,
+                            "stats": [
+                                10,
+                                3,
+                                0
+                            ],
+                            "name": "Magical Footwear"
+                        },
+                        {
+                            "id": 8345,
+                            "slot": 5,
+                            "stats": [
+                                3,
+                                0,
+                                0
+                            ],
+                            "name": "Biscuit Delivery"
+                        }
+                    ],
+                    "summonerSpells": [
+                        {
+                            "id": 4,
+                            "slot": 0,
+                            "name": "Flash"
+                        },
+                        {
+                            "id": 12,
+                            "slot": 1,
+                            "name": "Teleport"
+                        }
+                    ],
+                    "endOfGameStats": {
+                        "items": [
+                            {
+                                "id": 3142,
+                                "slot": 0,
+                                "name": "Youmuu's Ghostblade"
+                            },
+                            {
+                                "id": 3133,
+                                "slot": 1,
+                                "name": "Caulfield's Warhammer"
+                            },
+                            {
+                                "id": 3179,
+                                "slot": 2,
+                                "name": "Umbral Glaive"
+                            },
+                            {
+                                "id": 3134,
+                                "slot": 3,
+                                "name": "Serrated Dirk"
+                            },
+                            {
+                                "id": 1028,
+                                "slot": 4,
+                                "name": "Ruby Crystal"
+                            },
+                            {
+                                "id": 3158,
+                                "slot": 5,
+                                "name": "Ionian Boots of Lucidity"
+                            },
+                            {
+                                "id": 3340,
+                                "slot": 6,
+                                "name": "Warding Totem (Trinket)"
+                            }
+                        ],
+                        "firstBlood": false,
+                        "firstBloodAssist": false,
+                        "firstTower": false,
+                        "firstTowerAssist": false,
+                        "firstInhibitor": false,
+                        "firstInhibitorAssist": false,
+                        "kills": 1,
+                        "deaths": 8,
+                        "assists": 2,
+                        "gold": 9857,
+                        "cs": 220,
+                        "level": 14,
+                        "wardsPlaced": 16,
+                        "wardsKilled": 10,
+                        "visionWardsBought": 7,
+                        "visionScore": 44,
+                        "killingSprees": 0,
+                        "largestKillingSpree": 0,
+                        "doubleKills": 0,
+                        "tripleKills": 0,
+                        "quadraKills": 0,
+                        "pentaKills": 0,
+                        "monsterKills": 18,
+                        "monsterKillsInAlliedJungle": 11,
+                        "monsterKillsInEnemyJungle": 0,
+                        "totalDamageDealt": 144351,
+                        "physicalDamageDealt": 132533,
+                        "magicDamageDealt": 11803,
+                        "totalDamageDealtToChampions": 15692,
+                        "physicalDamageDealtToChampions": 13819,
+                        "magicDamageDealtToChampions": 1873,
+                        "damageDealtToObjectives": 7203,
+                        "damageDealtToTurrets": 1755,
+                        "totalDamageTaken": 16927,
+                        "physicalDamageTaken": 8942,
+                        "magicDamageTaken": 7706,
+                        "longestTimeSpentLiving": 470,
+                        "largestCriticalStrike": 0,
+                        "goldSpent": 9675,
+                        "totalHeal": 1214,
+                        "totalUnitsHealed": 1,
+                        "damageSelfMitigated": 10238,
+                        "totalTimeCCDealt": 81,
+                        "timeCCingOthers": 5
+                    },
+                    "championName": "Jayce",
+                    "primaryRuneTreeName": "Sorcery",
+                    "secondaryRuneTreeName": "Inspiration"
+                },
+                {
+                    "id": 2,
+                    "inGameName": "GEN Clid",
+                    "profileIconId": 29,
+                    "championId": 113,
+                    "uniqueIdentifiers": null,
+                    "primaryRuneTreeId": 8400,
+                    "secondaryRuneTreeId": 8000,
+                    "runes": [
+                        {
+                            "id": 8439,
+                            "slot": 0,
+                            "stats": [
+                                295,
+                                0,
+                                0
+                            ],
+                            "name": "Aftershock"
+                        },
+                        {
+                            "id": 8463,
+                            "slot": 1,
+                            "stats": [
+                                483,
+                                0,
+                                0
+                            ],
+                            "name": "Font of Life"
+                        },
+                        {
+                            "id": 8429,
+                            "slot": 2,
+                            "stats": [
+                                59,
+                                14,
+                                14
+                            ],
+                            "name": "Conditioning"
+                        },
+                        {
+                            "id": 8451,
+                            "slot": 3,
+                            "stats": [
+                                170,
+                                0,
+                                0
+                            ],
+                            "name": "Overgrowth"
+                        },
+                        {
+                            "id": 9111,
+                            "slot": 4,
+                            "stats": [
+                                104,
+                                100,
+                                0
+                            ],
+                            "name": "Triumph"
+                        },
+                        {
+                            "id": 9105,
+                            "slot": 5,
+                            "stats": [
+                                11,
+                                50,
+                                0
+                            ],
+                            "name": "Legend: Tenacity"
+                        }
+                    ],
+                    "summonerSpells": [
+                        {
+                            "id": 11,
+                            "slot": 0,
+                            "name": "Smite"
+                        },
+                        {
+                            "id": 4,
+                            "slot": 1,
+                            "name": "Flash"
+                        }
+                    ],
+                    "endOfGameStats": {
+                        "items": [
+                            {
+                                "id": 2055,
+                                "slot": 0,
+                                "name": "Control Ward"
+                            },
+                            {
+                                "id": 0,
+                                "slot": 1,
+                                "name": ""
+                            },
+                            {
+                                "id": 2421,
+                                "slot": 2,
+                                "name": "Broken Stopwatch"
+                            },
+                            {
+                                "id": 3083,
+                                "slot": 3,
+                                "name": "Warmog's Armor"
+                            },
+                            {
+                                "id": 1401,
+                                "slot": 4,
+                                "name": "Enchantment: Cinderhulk"
+                            },
+                            {
+                                "id": 3111,
+                                "slot": 5,
+                                "name": "Mercury's Treads"
+                            },
+                            {
+                                "id": 3364,
+                                "slot": 6,
+                                "name": "Oracle Lens"
+                            }
+                        ],
+                        "firstBlood": false,
+                        "firstBloodAssist": false,
+                        "firstTower": false,
+                        "firstTowerAssist": false,
+                        "firstInhibitor": false,
+                        "firstInhibitorAssist": false,
+                        "kills": 2,
+                        "deaths": 4,
+                        "assists": 3,
+                        "gold": 8622,
+                        "cs": 147,
+                        "level": 12,
+                        "wardsPlaced": 13,
+                        "wardsKilled": 15,
+                        "visionWardsBought": 14,
+                        "visionScore": 48,
+                        "killingSprees": 0,
+                        "largestKillingSpree": 0,
+                        "doubleKills": 0,
+                        "tripleKills": 0,
+                        "quadraKills": 0,
+                        "pentaKills": 0,
+                        "monsterKills": 103,
+                        "monsterKillsInAlliedJungle": 76,
+                        "monsterKillsInEnemyJungle": 4,
+                        "totalDamageDealt": 129791,
+                        "physicalDamageDealt": 63251,
+                        "magicDamageDealt": 57509,
+                        "totalDamageDealtToChampions": 4240,
+                        "physicalDamageDealtToChampions": 1777,
+                        "magicDamageDealtToChampions": 2234,
+                        "damageDealtToObjectives": 20840,
+                        "damageDealtToTurrets": 0,
+                        "totalDamageTaken": 25224,
+                        "physicalDamageTaken": 18210,
+                        "magicDamageTaken": 6845,
+                        "longestTimeSpentLiving": 686,
+                        "largestCriticalStrike": 0,
+                        "goldSpent": 8300,
+                        "totalHeal": 6335,
+                        "totalUnitsHealed": 4,
+                        "damageSelfMitigated": 20815,
+                        "totalTimeCCDealt": 235,
+                        "timeCCingOthers": 13
+                    },
+                    "championName": "Sejuani",
+                    "primaryRuneTreeName": "Resolve",
+                    "secondaryRuneTreeName": "Precision"
+                },
+                {
+                    "id": 3,
+                    "inGameName": "GEN Bdd",
+                    "profileIconId": 29,
+                    "championId": 26,
+                    "uniqueIdentifiers": null,
+                    "primaryRuneTreeId": 8300,
+                    "secondaryRuneTreeId": 8200,
+                    "runes": [
+                        {
+                            "id": 8351,
+                            "slot": 0,
+                            "stats": [
+                                7,
+                                0,
+                                0
+                            ],
+                            "name": "Glacial Augment"
+                        },
+                        {
+                            "id": 8304,
+                            "slot": 1,
+                            "stats": [
+                                9,
+                                4,
+                                5
+                            ],
+                            "name": "Magical Footwear"
+                        },
+                        {
+                            "id": 8316,
+                            "slot": 2,
+                            "stats": [
+                                6990,
+                                0,
+                                0
+                            ],
+                            "name": "Minion Dematerializer"
+                        },
+                        {
+                            "id": 8347,
+                            "slot": 3,
+                            "stats": [
+                                0,
+                                0,
+                                0
+                            ],
+                            "name": "Cosmic Insight"
+                        },
+                        {
+                            "id": 8226,
+                            "slot": 4,
+                            "stats": [
+                                250,
+                                1087,
+                                0
+                            ],
+                            "name": "Manaflow Band"
+                        },
+                        {
+                            "id": 8210,
+                            "slot": 5,
+                            "stats": [
+                                0,
+                                0,
+                                0
+                            ],
+                            "name": "Transcendence"
+                        }
+                    ],
+                    "summonerSpells": [
+                        {
+                            "id": 4,
+                            "slot": 0,
+                            "name": "Flash"
+                        },
+                        {
+                            "id": 12,
+                            "slot": 1,
+                            "name": "Teleport"
+                        }
+                    ],
+                    "endOfGameStats": {
+                        "items": [
+                            {
+                                "id": 2139,
+                                "slot": 0,
+                                "name": "Elixir of Sorcery"
+                            },
+                            {
+                                "id": 3030,
+                                "slot": 1,
+                                "name": "Hextech GLP-800"
+                            },
+                            {
+                                "id": 2055,
+                                "slot": 2,
+                                "name": "Control Ward"
+                            },
+                            {
+                                "id": 1058,
+                                "slot": 3,
+                                "name": "Needlessly Large Rod"
+                            },
+                            {
+                                "id": 3027,
+                                "slot": 4,
+                                "name": "Rod of Ages"
+                            },
+                            {
+                                "id": 3158,
+                                "slot": 5,
+                                "name": "Ionian Boots of Lucidity"
+                            },
+                            {
+                                "id": 3340,
+                                "slot": 6,
+                                "name": "Warding Totem (Trinket)"
+                            }
+                        ],
+                        "firstBlood": false,
+                        "firstBloodAssist": false,
+                        "firstTower": false,
+                        "firstTowerAssist": false,
+                        "firstInhibitor": false,
+                        "firstInhibitorAssist": false,
+                        "kills": 1,
+                        "deaths": 1,
+                        "assists": 5,
+                        "gold": 9551,
+                        "cs": 236,
+                        "level": 16,
+                        "wardsPlaced": 17,
+                        "wardsKilled": 1,
+                        "visionWardsBought": 8,
+                        "visionScore": 26,
+                        "killingSprees": 0,
+                        "largestKillingSpree": 0,
+                        "doubleKills": 0,
+                        "tripleKills": 0,
+                        "quadraKills": 0,
+                        "pentaKills": 0,
+                        "monsterKills": 12,
+                        "monsterKillsInAlliedJungle": 8,
+                        "monsterKillsInEnemyJungle": 0,
+                        "totalDamageDealt": 147853,
+                        "physicalDamageDealt": 16393,
+                        "magicDamageDealt": 130001,
+                        "totalDamageDealtToChampions": 13191,
+                        "physicalDamageDealtToChampions": 525,
+                        "magicDamageDealtToChampions": 12666,
+                        "damageDealtToObjectives": 2809,
+                        "damageDealtToTurrets": 338,
+                        "totalDamageTaken": 11378,
+                        "physicalDamageTaken": 7292,
+                        "magicDamageTaken": 4085,
+                        "longestTimeSpentLiving": 1365,
+                        "largestCriticalStrike": 0,
+                        "goldSpent": 9785,
+                        "totalHeal": 7743,
+                        "totalUnitsHealed": 3,
+                        "damageSelfMitigated": 6433,
+                        "totalTimeCCDealt": 342,
+                        "timeCCingOthers": 26
+                    },
+                    "championName": "Zilean",
+                    "primaryRuneTreeName": "Inspiration",
+                    "secondaryRuneTreeName": "Sorcery"
+                },
+                {
+                    "id": 4,
+                    "inGameName": "GEN Ruler",
+                    "profileIconId": 29,
+                    "championId": 429,
+                    "uniqueIdentifiers": null,
+                    "primaryRuneTreeId": 8000,
+                    "secondaryRuneTreeId": 8200,
+                    "runes": [
+                        {
+                            "id": 8008,
+                            "slot": 0,
+                            "stats": [
+                                1,
+                                30,
+                                0
+                            ],
+                            "name": "Lethal Tempo"
+                        },
+                        {
+                            "id": 9101,
+                            "slot": 1,
+                            "stats": [
+                                3365,
+                                3432,
+                                0
+                            ],
+                            "name": "Overheal"
+                        },
+                        {
+                            "id": 9104,
+                            "slot": 2,
+                            "stats": [
+                                11,
+                                50,
+                                0
+                            ],
+                            "name": "Legend: Alacrity"
+                        },
+                        {
+                            "id": 8017,
+                            "slot": 3,
+                            "stats": [
+                                656,
+                                0,
+                                0
+                            ],
+                            "name": "Cut Down"
+                        },
+                        {
+                            "id": 8275,
+                            "slot": 4,
+                            "stats": [
+                                6,
+                                0,
+                                0
+                            ],
+                            "name": "Nimbus Cloak"
+                        },
+                        {
+                            "id": 8236,
+                            "slot": 5,
+                            "stats": [
+                                14,
+                                0,
+                                0
+                            ],
+                            "name": "Gathering Storm"
+                        }
+                    ],
+                    "summonerSpells": [
+                        {
+                            "id": 4,
+                            "slot": 0,
+                            "name": "Flash"
+                        },
+                        {
+                            "id": 7,
+                            "slot": 1,
+                            "name": "Heal"
+                        }
+                    ],
+                    "endOfGameStats": {
+                        "items": [
+                            {
+                                "id": 3085,
+                                "slot": 0,
+                                "name": "Runaan's Hurricane"
+                            },
+                            {
+                                "id": 3153,
+                                "slot": 1,
+                                "name": "Blade of the Ruined King"
+                            },
+                            {
+                                "id": 3035,
+                                "slot": 2,
+                                "name": "Last Whisper"
+                            },
+                            {
+                                "id": 3006,
+                                "slot": 3,
+                                "name": "Berserker's Greaves"
+                            },
+                            {
+                                "id": 1053,
+                                "slot": 4,
+                                "name": "Vampiric Scepter"
+                            },
+                            {
+                                "id": 3123,
+                                "slot": 5,
+                                "name": "Executioner's Calling"
+                            },
+                            {
+                                "id": 3363,
+                                "slot": 6,
+                                "name": "Farsight Alteration"
+                            }
+                        ],
+                        "firstBlood": false,
+                        "firstBloodAssist": false,
+                        "firstTower": false,
+                        "firstTowerAssist": false,
+                        "firstInhibitor": false,
+                        "firstInhibitorAssist": false,
+                        "kills": 2,
+                        "deaths": 3,
+                        "assists": 2,
+                        "gold": 11454,
+                        "cs": 294,
+                        "level": 14,
+                        "wardsPlaced": 15,
+                        "wardsKilled": 20,
+                        "visionWardsBought": 7,
+                        "visionScore": 48,
+                        "killingSprees": 0,
+                        "largestKillingSpree": 0,
+                        "doubleKills": 0,
+                        "tripleKills": 0,
+                        "quadraKills": 0,
+                        "pentaKills": 0,
+                        "monsterKills": 20,
+                        "monsterKillsInAlliedJungle": 16,
+                        "monsterKillsInEnemyJungle": 0,
+                        "totalDamageDealt": 157731,
+                        "physicalDamageDealt": 153723,
+                        "magicDamageDealt": 521,
+                        "totalDamageDealtToChampions": 13014,
+                        "physicalDamageDealtToChampions": 12305,
+                        "magicDamageDealtToChampions": 521,
+                        "damageDealtToObjectives": 8555,
+                        "damageDealtToTurrets": 0,
+                        "totalDamageTaken": 16378,
+                        "physicalDamageTaken": 7581,
+                        "magicDamageTaken": 8514,
+                        "longestTimeSpentLiving": 803,
+                        "largestCriticalStrike": 415,
+                        "goldSpent": 11225,
+                        "totalHeal": 1990,
+                        "totalUnitsHealed": 2,
+                        "damageSelfMitigated": 11325,
+                        "totalTimeCCDealt": 384,
+                        "timeCCingOthers": 13
+                    },
+                    "championName": "Kalista",
+                    "primaryRuneTreeName": "Precision",
+                    "secondaryRuneTreeName": "Sorcery"
+                },
+                {
+                    "id": 5,
+                    "inGameName": "GEN Life",
+                    "profileIconId": 29,
+                    "championId": 106,
+                    "uniqueIdentifiers": null,
+                    "primaryRuneTreeId": 8300,
+                    "secondaryRuneTreeId": 8200,
+                    "runes": [
+                        {
+                            "id": 8358,
+                            "slot": 0,
+                            "stats": [
+                                13,
+                                29,
+                                9
+                            ],
+                            "name": "Prototype: Omnistone"
+                        },
+                        {
+                            "id": 8313,
+                            "slot": 1,
+                            "stats": [
+                                0,
+                                0,
+                                0
+                            ],
+                            "name": "Perfect Timing"
+                        },
+                        {
+                            "id": 8316,
+                            "slot": 2,
+                            "stats": [
+                                202,
+                                0,
+                                0
+                            ],
+                            "name": "Minion Dematerializer"
+                        },
+                        {
+                            "id": 8352,
+                            "slot": 3,
+                            "stats": [
+                                30,
+                                150,
+                                0
+                            ],
+                            "name": "Time Warp Tonic"
+                        },
+                        {
+                            "id": 8275,
+                            "slot": 4,
+                            "stats": [
+                                6,
+                                0,
+                                0
+                            ],
+                            "name": "Nimbus Cloak"
+                        },
+                        {
+                            "id": 8234,
+                            "slot": 5,
+                            "stats": [
+                                9696,
+                                0,
+                                0
+                            ],
+                            "name": "Celerity"
+                        }
+                    ],
+                    "summonerSpells": [
+                        {
+                            "id": 14,
+                            "slot": 0,
+                            "name": "Ignite"
+                        },
+                        {
+                            "id": 4,
+                            "slot": 1,
+                            "name": "Flash"
+                        }
+                    ],
+                    "endOfGameStats": {
+                        "items": [
+                            {
+                                "id": 3857,
+                                "slot": 0,
+                                "name": "Pauldrons of Whiterock"
+                            },
+                            {
+                                "id": 3800,
+                                "slot": 1,
+                                "name": "Righteous Glory"
+                            },
+                            {
+                                "id": 2055,
+                                "slot": 2,
+                                "name": "Control Ward"
+                            },
+                            {
+                                "id": 1001,
+                                "slot": 3,
+                                "name": "Boots of Speed"
+                            },
+                            {
+                                "id": 1028,
+                                "slot": 4,
+                                "name": "Ruby Crystal"
+                            },
+                            {
+                                "id": 1029,
+                                "slot": 5,
+                                "name": "Cloth Armor"
+                            },
+                            {
+                                "id": 3364,
+                                "slot": 6,
+                                "name": "Oracle Lens"
+                            }
+                        ],
+                        "firstBlood": false,
+                        "firstBloodAssist": false,
+                        "firstTower": false,
+                        "firstTowerAssist": false,
+                        "firstInhibitor": false,
+                        "firstInhibitorAssist": false,
+                        "kills": 1,
+                        "deaths": 5,
+                        "assists": 1,
+                        "gold": 5802,
+                        "cs": 24,
+                        "level": 10,
+                        "wardsPlaced": 47,
+                        "wardsKilled": 7,
+                        "visionWardsBought": 17,
+                        "visionScore": 61,
+                        "killingSprees": 0,
+                        "largestKillingSpree": 0,
+                        "doubleKills": 0,
+                        "tripleKills": 0,
+                        "quadraKills": 0,
+                        "pentaKills": 0,
+                        "monsterKills": 0,
+                        "monsterKillsInAlliedJungle": 0,
+                        "monsterKillsInEnemyJungle": 0,
+                        "totalDamageDealt": 13216,
+                        "physicalDamageDealt": 5538,
+                        "magicDamageDealt": 2878,
+                        "totalDamageDealtToChampions": 3409,
+                        "physicalDamageDealtToChampions": 1022,
+                        "magicDamageDealtToChampions": 1871,
+                        "damageDealtToObjectives": 389,
+                        "damageDealtToTurrets": 0,
+                        "totalDamageTaken": 13661,
+                        "physicalDamageTaken": 7213,
+                        "magicDamageTaken": 6295,
+                        "longestTimeSpentLiving": 540,
+                        "largestCriticalStrike": 0,
+                        "goldSpent": 5425,
+                        "totalHeal": 604,
+                        "totalUnitsHealed": 1,
+                        "damageSelfMitigated": 8510,
+                        "totalTimeCCDealt": 91,
+                        "timeCCingOthers": 12
+                    },
+                    "championName": "Volibear",
+                    "primaryRuneTreeName": "Inspiration",
+                    "secondaryRuneTreeName": "Sorcery"
+                }
+            ],
+            "bansNames": [
+                "Trundle",
+                "Olaf",
+                "Varus",
+                "Corki",
+                "LeBlanc"
+            ]
+        },
+        "RED": {
+            "riftHeraldKills": 2,
+            "dragonKills": 3,
+            "baronKills": 2,
+            "towerKills": 10,
+            "inhibitorKills": 2,
+            "firstTower": true,
+            "firstInhibitor": true,
+            "firstRiftHerald": true,
+            "firstDragon": false,
+            "firstBaron": true,
+            "bans": [
+                875,
+                142,
+                104,
+                53,
+                44
+            ],
+            "players": [
+                {
+                    "id": 6,
+                    "inGameName": "T1 Canna",
+                    "profileIconId": 29,
+                    "championId": 516,
+                    "uniqueIdentifiers": null,
+                    "primaryRuneTreeId": 8300,
+                    "secondaryRuneTreeId": 8400,
+                    "runes": [
+                        {
+                            "id": 8360,
+                            "slot": 0,
+                            "stats": [
+                                14,
+                                0,
+                                0
+                            ],
+                            "name": "Unsealed Spellbook"
+                        },
+                        {
+                            "id": 8304,
+                            "slot": 1,
+                            "stats": [
+                                9,
+                                0,
+                                0
+                            ],
+                            "name": "Magical Footwear"
+                        },
+                        {
+                            "id": 8345,
+                            "slot": 2,
+                            "stats": [
+                                3,
+                                0,
+                                0
+                            ],
+                            "name": "Biscuit Delivery"
+                        },
+                        {
+                            "id": 8347,
+                            "slot": 3,
+                            "stats": [
+                                0,
+                                0,
+                                0
+                            ],
+                            "name": "Cosmic Insight"
+                        },
+                        {
+                            "id": 8444,
+                            "slot": 4,
+                            "stats": [
+                                1280,
+                                0,
+                                0
+                            ],
+                            "name": "Second Wind"
+                        },
+                        {
+                            "id": 8451,
+                            "slot": 5,
+                            "stats": [
+                                250,
+                                0,
+                                0
+                            ],
+                            "name": "Overgrowth"
+                        }
+                    ],
+                    "summonerSpells": [
+                        {
+                            "id": 12,
+                            "slot": 0,
+                            "name": "Teleport"
+                        },
+                        {
+                            "id": 4,
+                            "slot": 1,
+                            "name": "Flash"
+                        }
+                    ],
+                    "endOfGameStats": {
+                        "items": [
+                            {
+                                "id": 3111,
+                                "slot": 0,
+                                "name": "Mercury's Treads"
+                            },
+                            {
+                                "id": 3083,
+                                "slot": 1,
+                                "name": "Warmog's Armor"
+                            },
+                            {
+                                "id": 3373,
+                                "slot": 2,
+                                "name": "Forgefire Cape"
+                            },
+                            {
+                                "id": 3387,
+                                "slot": 3,
+                                "name": "Frozen Fist"
+                            },
+                            {
+                                "id": 3076,
+                                "slot": 4,
+                                "name": "Bramble Vest"
+                            },
+                            {
+                                "id": 0,
+                                "slot": 5,
+                                "name": ""
+                            },
+                            {
+                                "id": 3340,
+                                "slot": 6,
+                                "name": "Warding Totem (Trinket)"
+                            }
+                        ],
+                        "firstBlood": true,
+                        "firstBloodAssist": false,
+                        "firstTower": false,
+                        "firstTowerAssist": false,
+                        "firstInhibitor": false,
+                        "firstInhibitorAssist": true,
+                        "kills": 4,
+                        "deaths": 1,
+                        "assists": 10,
+                        "gold": 12430,
+                        "cs": 235,
+                        "level": 16,
+                        "wardsPlaced": 16,
+                        "wardsKilled": 2,
+                        "visionWardsBought": 6,
+                        "visionScore": 21,
+                        "killingSprees": 1,
+                        "largestKillingSpree": 3,
+                        "doubleKills": 0,
+                        "tripleKills": 0,
+                        "quadraKills": 0,
+                        "pentaKills": 0,
+                        "monsterKills": 0,
+                        "monsterKillsInAlliedJungle": 0,
+                        "monsterKillsInEnemyJungle": 0,
+                        "totalDamageDealt": 148177,
+                        "physicalDamageDealt": 60211,
+                        "magicDamageDealt": 84332,
+                        "totalDamageDealtToChampions": 14102,
+                        "physicalDamageDealtToChampions": 5062,
+                        "magicDamageDealtToChampions": 8824,
+                        "damageDealtToObjectives": 7894,
+                        "damageDealtToTurrets": 3213,
+                        "totalDamageTaken": 22848,
+                        "physicalDamageTaken": 15009,
+                        "magicDamageTaken": 7738,
+                        "longestTimeSpentLiving": 212,
+                        "largestCriticalStrike": 23,
+                        "goldSpent": 11200,
+                        "totalHeal": 2247,
+                        "totalUnitsHealed": 2,
+                        "damageSelfMitigated": 39249,
+                        "totalTimeCCDealt": 503,
+                        "timeCCingOthers": 37
+                    },
+                    "championName": "Ornn",
+                    "primaryRuneTreeName": "Inspiration",
+                    "secondaryRuneTreeName": "Resolve"
+                },
+                {
+                    "id": 7,
+                    "inGameName": "T1 Cuzz",
+                    "profileIconId": 29,
+                    "championId": 517,
+                    "uniqueIdentifiers": null,
+                    "primaryRuneTreeId": 8000,
+                    "secondaryRuneTreeId": 8100,
+                    "runes": [
+                        {
+                            "id": 8010,
+                            "slot": 0,
+                            "stats": [
+                                362,
+                                0,
+                                0
+                            ],
+                            "name": "Conqueror"
+                        },
+                        {
+                            "id": 8009,
+                            "slot": 1,
+                            "stats": [
+                                1831,
+                                500,
+                                0
+                            ],
+                            "name": "Presence of Mind"
+                        },
+                        {
+                            "id": 9105,
+                            "slot": 2,
+                            "stats": [
+                                11,
+                                0,
+                                0
+                            ],
+                            "name": "Legend: Tenacity"
+                        },
+                        {
+                            "id": 8299,
+                            "slot": 3,
+                            "stats": [
+                                309,
+                                0,
+                                0
+                            ],
+                            "name": "Last Stand"
+                        },
+                        {
+                            "id": 8136,
+                            "slot": 4,
+                            "stats": [
+                                17,
+                                30,
+                                0
+                            ],
+                            "name": "Zombie Ward"
+                        },
+                        {
+                            "id": 8135,
+                            "slot": 5,
+                            "stats": [
+                                6518,
+                                4,
+                                0
+                            ],
+                            "name": "Ravenous Hunter"
+                        }
+                    ],
+                    "summonerSpells": [
+                        {
+                            "id": 11,
+                            "slot": 0,
+                            "name": "Smite"
+                        },
+                        {
+                            "id": 4,
+                            "slot": 1,
+                            "name": "Flash"
+                        }
+                    ],
+                    "endOfGameStats": {
+                        "items": [
+                            {
+                                "id": 3152,
+                                "slot": 0,
+                                "name": "Hextech Protobelt-01"
+                            },
+                            {
+                                "id": 2055,
+                                "slot": 1,
+                                "name": "Control Ward"
+                            },
+                            {
+                                "id": 3386,
+                                "slot": 2,
+                                "name": "Zhonya's Paradox"
+                            },
+                            {
+                                "id": 1414,
+                                "slot": 3,
+                                "name": "Enchantment: Runic Echoes"
+                            },
+                            {
+                                "id": 1082,
+                                "slot": 4,
+                                "name": "Dark Seal"
+                            },
+                            {
+                                "id": 3047,
+                                "slot": 5,
+                                "name": "Ninja Tabi"
+                            },
+                            {
+                                "id": 3364,
+                                "slot": 6,
+                                "name": "Oracle Lens"
+                            }
+                        ],
+                        "firstBlood": false,
+                        "firstBloodAssist": false,
+                        "firstTower": false,
+                        "firstTowerAssist": false,
+                        "firstInhibitor": false,
+                        "firstInhibitorAssist": false,
+                        "kills": 2,
+                        "deaths": 1,
+                        "assists": 12,
+                        "gold": 11532,
+                        "cs": 192,
+                        "level": 15,
+                        "wardsPlaced": 30,
+                        "wardsKilled": 10,
+                        "visionWardsBought": 15,
+                        "visionScore": 70,
+                        "killingSprees": 0,
+                        "largestKillingSpree": 0,
+                        "doubleKills": 0,
+                        "tripleKills": 0,
+                        "quadraKills": 0,
+                        "pentaKills": 0,
+                        "monsterKills": 166,
+                        "monsterKillsInAlliedJungle": 93,
+                        "monsterKillsInEnemyJungle": 12,
+                        "totalDamageDealt": 172109,
+                        "physicalDamageDealt": 22228,
+                        "magicDamageDealt": 137181,
+                        "totalDamageDealtToChampions": 10518,
+                        "physicalDamageDealtToChampions": 104,
+                        "magicDamageDealtToChampions": 9873,
+                        "damageDealtToObjectives": 33043,
+                        "damageDealtToTurrets": 1012,
+                        "totalDamageTaken": 29503,
+                        "physicalDamageTaken": 22257,
+                        "magicDamageTaken": 6756,
+                        "longestTimeSpentLiving": 1224,
+                        "largestCriticalStrike": 0,
+                        "goldSpent": 10550,
+                        "totalHeal": 18696,
+                        "totalUnitsHealed": 1,
+                        "damageSelfMitigated": 17908,
+                        "totalTimeCCDealt": 448,
+                        "timeCCingOthers": 11
+                    },
+                    "championName": "Sylas",
+                    "primaryRuneTreeName": "Precision",
+                    "secondaryRuneTreeName": "Domination"
+                },
+                {
+                    "id": 8,
+                    "inGameName": "T1 Faker",
+                    "profileIconId": 29,
+                    "championId": 268,
+                    "uniqueIdentifiers": null,
+                    "primaryRuneTreeId": 8000,
+                    "secondaryRuneTreeId": 8200,
+                    "runes": [
+                        {
+                            "id": 8008,
+                            "slot": 0,
+                            "stats": [
+                                1,
+                                0,
+                                0
+                            ],
+                            "name": "Lethal Tempo"
+                        },
+                        {
+                            "id": 9111,
+                            "slot": 1,
+                            "stats": [
+                                604,
+                                240,
+                                0
+                            ],
+                            "name": "Triumph"
+                        },
+                        {
+                            "id": 9104,
+                            "slot": 2,
+                            "stats": [
+                                15,
+                                10,
+                                0
+                            ],
+                            "name": "Legend: Alacrity"
+                        },
+                        {
+                            "id": 8017,
+                            "slot": 3,
+                            "stats": [
+                                147,
+                                0,
+                                0
+                            ],
+                            "name": "Cut Down"
+                        },
+                        {
+                            "id": 8226,
+                            "slot": 4,
+                            "stats": [
+                                250,
+                                355,
+                                0
+                            ],
+                            "name": "Manaflow Band"
+                        },
+                        {
+                            "id": 8210,
+                            "slot": 5,
+                            "stats": [
+                                20,
+                                0,
+                                0
+                            ],
+                            "name": "Transcendence"
+                        }
+                    ],
+                    "summonerSpells": [
+                        {
+                            "id": 12,
+                            "slot": 0,
+                            "name": "Teleport"
+                        },
+                        {
+                            "id": 4,
+                            "slot": 1,
+                            "name": "Flash"
+                        }
+                    ],
+                    "endOfGameStats": {
+                        "items": [
+                            {
+                                "id": 2031,
+                                "slot": 0,
+                                "name": "Refillable Potion"
+                            },
+                            {
+                                "id": 1026,
+                                "slot": 1,
+                                "name": "Blasting Wand"
+                            },
+                            {
+                                "id": 3390,
+                                "slot": 2,
+                                "name": "Luden's Pulse"
+                            },
+                            {
+                                "id": 3165,
+                                "slot": 3,
+                                "name": "Morellonomicon"
+                            },
+                            {
+                                "id": 3115,
+                                "slot": 4,
+                                "name": "Nashor's Tooth"
+                            },
+                            {
+                                "id": 3020,
+                                "slot": 5,
+                                "name": "Sorcerer's Shoes"
+                            },
+                            {
+                                "id": 3363,
+                                "slot": 6,
+                                "name": "Farsight Alteration"
+                            }
+                        ],
+                        "firstBlood": false,
+                        "firstBloodAssist": false,
+                        "firstTower": false,
+                        "firstTowerAssist": true,
+                        "firstInhibitor": false,
+                        "firstInhibitorAssist": false,
+                        "kills": 3,
+                        "deaths": 1,
+                        "assists": 9,
+                        "gold": 12549,
+                        "cs": 242,
+                        "level": 16,
+                        "wardsPlaced": 15,
+                        "wardsKilled": 6,
+                        "visionWardsBought": 6,
+                        "visionScore": 31,
+                        "killingSprees": 1,
+                        "largestKillingSpree": 3,
+                        "doubleKills": 0,
+                        "tripleKills": 0,
+                        "quadraKills": 0,
+                        "pentaKills": 0,
+                        "monsterKills": 15,
+                        "monsterKillsInAlliedJungle": 4,
+                        "monsterKillsInEnemyJungle": 5,
+                        "totalDamageDealt": 151328,
+                        "physicalDamageDealt": 1916,
+                        "magicDamageDealt": 149412,
+                        "totalDamageDealtToChampions": 9975,
+                        "physicalDamageDealtToChampions": 44,
+                        "magicDamageDealtToChampions": 9930,
+                        "damageDealtToObjectives": 22907,
+                        "damageDealtToTurrets": 5652,
+                        "totalDamageTaken": 12694,
+                        "physicalDamageTaken": 8921,
+                        "magicDamageTaken": 3670,
+                        "longestTimeSpentLiving": 852,
+                        "largestCriticalStrike": 0,
+                        "goldSpent": 12370,
+                        "totalHeal": 3072,
+                        "totalUnitsHealed": 1,
+                        "damageSelfMitigated": 6735,
+                        "totalTimeCCDealt": 166,
+                        "timeCCingOthers": 6
+                    },
+                    "championName": "Azir",
+                    "primaryRuneTreeName": "Precision",
+                    "secondaryRuneTreeName": "Sorcery"
+                },
+                {
+                    "id": 9,
+                    "inGameName": "T1 Teddy",
+                    "profileIconId": 29,
+                    "championId": 523,
+                    "uniqueIdentifiers": null,
+                    "primaryRuneTreeId": 8000,
+                    "secondaryRuneTreeId": 8200,
+                    "runes": [
+                        {
+                            "id": 8010,
+                            "slot": 0,
+                            "stats": [
+                                89,
+                                0,
+                                0
+                            ],
+                            "name": "Conqueror"
+                        },
+                        {
+                            "id": 9101,
+                            "slot": 1,
+                            "stats": [
+                                6178,
+                                7067,
+                                0
+                            ],
+                            "name": "Overheal"
+                        },
+                        {
+                            "id": 9103,
+                            "slot": 2,
+                            "stats": [
+                                22,
+                                30,
+                                0
+                            ],
+                            "name": "Legend: Bloodline"
+                        },
+                        {
+                            "id": 8017,
+                            "slot": 3,
+                            "stats": [
+                                1674,
+                                0,
+                                0
+                            ],
+                            "name": "Cut Down"
+                        },
+                        {
+                            "id": 8275,
+                            "slot": 4,
+                            "stats": [
+                                7,
+                                0,
+                                0
+                            ],
+                            "name": "Nimbus Cloak"
+                        },
+                        {
+                            "id": 8236,
+                            "slot": 5,
+                            "stats": [
+                                14,
+                                0,
+                                0
+                            ],
+                            "name": "Gathering Storm"
+                        }
+                    ],
+                    "summonerSpells": [
+                        {
+                            "id": 4,
+                            "slot": 0,
+                            "name": "Flash"
+                        },
+                        {
+                            "id": 21,
+                            "slot": 1,
+                            "name": "Barrier"
+                        }
+                    ],
+                    "endOfGameStats": {
+                        "items": [
+                            {
+                                "id": 3006,
+                                "slot": 0,
+                                "name": "Berserker's Greaves"
+                            },
+                            {
+                                "id": 3026,
+                                "slot": 1,
+                                "name": "Guardian Angel"
+                            },
+                            {
+                                "id": 3140,
+                                "slot": 2,
+                                "name": "Quicksilver Sash"
+                            },
+                            {
+                                "id": 3371,
+                                "slot": 3,
+                                "name": "Molten Edge"
+                            },
+                            {
+                                "id": 3085,
+                                "slot": 4,
+                                "name": "Runaan's Hurricane"
+                            },
+                            {
+                                "id": 3046,
+                                "slot": 5,
+                                "name": "Phantom Dancer"
+                            },
+                            {
+                                "id": 3363,
+                                "slot": 6,
+                                "name": "Farsight Alteration"
+                            }
+                        ],
+                        "firstBlood": false,
+                        "firstBloodAssist": false,
+                        "firstTower": true,
+                        "firstTowerAssist": false,
+                        "firstInhibitor": true,
+                        "firstInhibitorAssist": false,
+                        "kills": 11,
+                        "deaths": 1,
+                        "assists": 6,
+                        "gold": 15658,
+                        "cs": 280,
+                        "level": 15,
+                        "wardsPlaced": 13,
+                        "wardsKilled": 12,
+                        "visionWardsBought": 4,
+                        "visionScore": 42,
+                        "killingSprees": 2,
+                        "largestKillingSpree": 7,
+                        "doubleKills": 3,
+                        "tripleKills": 1,
+                        "quadraKills": 0,
+                        "pentaKills": 0,
+                        "monsterKills": 45,
+                        "monsterKillsInAlliedJungle": 33,
+                        "monsterKillsInEnemyJungle": 8,
+                        "totalDamageDealt": 219103,
+                        "physicalDamageDealt": 211960,
+                        "magicDamageDealt": 4205,
+                        "totalDamageDealtToChampions": 29515,
+                        "physicalDamageDealtToChampions": 28924,
+                        "magicDamageDealtToChampions": 467,
+                        "damageDealtToObjectives": 16860,
+                        "damageDealtToTurrets": 9116,
+                        "totalDamageTaken": 6620,
+                        "physicalDamageTaken": 5025,
+                        "magicDamageTaken": 1548,
+                        "longestTimeSpentLiving": 718,
+                        "largestCriticalStrike": 749,
+                        "goldSpent": 14600,
+                        "totalHeal": 1272,
+                        "totalUnitsHealed": 1,
+                        "damageSelfMitigated": 16519,
+                        "totalTimeCCDealt": 201,
+                        "timeCCingOthers": 11
+                    },
+                    "championName": "Aphelios",
+                    "primaryRuneTreeName": "Precision",
+                    "secondaryRuneTreeName": "Sorcery"
+                },
+                {
+                    "id": 10,
+                    "inGameName": "T1 Effort",
+                    "profileIconId": 20,
+                    "championId": 412,
+                    "uniqueIdentifiers": null,
+                    "primaryRuneTreeId": 8400,
+                    "secondaryRuneTreeId": 8300,
+                    "runes": [
+                        {
+                            "id": 8439,
+                            "slot": 0,
+                            "stats": [
+                                157,
+                                0,
+                                0
+                            ],
+                            "name": "Aftershock"
+                        },
+                        {
+                            "id": 8463,
+                            "slot": 1,
+                            "stats": [
+                                868,
+                                0,
+                                0
+                            ],
+                            "name": "Font of Life"
+                        },
+                        {
+                            "id": 8473,
+                            "slot": 2,
+                            "stats": [
+                                155,
+                                0,
+                                0
+                            ],
+                            "name": "Bone Plating"
+                        },
+                        {
+                            "id": 8242,
+                            "slot": 3,
+                            "stats": [
+                                6,
+                                0,
+                                0
+                            ],
+                            "name": "Unflinching"
+                        },
+                        {
+                            "id": 8313,
+                            "slot": 4,
+                            "stats": [
+                                0,
+                                0,
+                                0
+                            ],
+                            "name": "Perfect Timing"
+                        },
+                        {
+                            "id": 8316,
+                            "slot": 5,
+                            "stats": [
+                                444,
+                                0,
+                                0
+                            ],
+                            "name": "Minion Dematerializer"
+                        }
+                    ],
+                    "summonerSpells": [
+                        {
+                            "id": 4,
+                            "slot": 0,
+                            "name": "Flash"
+                        },
+                        {
+                            "id": 7,
+                            "slot": 1,
+                            "name": "Heal"
+                        }
+                    ],
+                    "endOfGameStats": {
+                        "items": [
+                            {
+                                "id": 3857,
+                                "slot": 0,
+                                "name": "Pauldrons of Whiterock"
+                            },
+                            {
+                                "id": 2065,
+                                "slot": 1,
+                                "name": "Shurelya's Reverie"
+                            },
+                            {
+                                "id": 3222,
+                                "slot": 2,
+                                "name": "Mikael's Crucible"
+                            },
+                            {
+                                "id": 2055,
+                                "slot": 3,
+                                "name": "Control Ward"
+                            },
+                            {
+                                "id": 0,
+                                "slot": 4,
+                                "name": ""
+                            },
+                            {
+                                "id": 3117,
+                                "slot": 5,
+                                "name": "Boots of Mobility"
+                            },
+                            {
+                                "id": 3364,
+                                "slot": 6,
+                                "name": "Oracle Lens"
+                            }
+                        ],
+                        "firstBlood": false,
+                        "firstBloodAssist": false,
+                        "firstTower": false,
+                        "firstTowerAssist": true,
+                        "firstInhibitor": false,
+                        "firstInhibitorAssist": true,
+                        "kills": 1,
+                        "deaths": 3,
+                        "assists": 13,
+                        "gold": 7922,
+                        "cs": 26,
+                        "level": 12,
+                        "wardsPlaced": 54,
+                        "wardsKilled": 7,
+                        "visionWardsBought": 19,
+                        "visionScore": 76,
+                        "killingSprees": 0,
+                        "largestKillingSpree": 0,
+                        "doubleKills": 0,
+                        "tripleKills": 0,
+                        "quadraKills": 0,
+                        "pentaKills": 0,
+                        "monsterKills": 0,
+                        "monsterKillsInAlliedJungle": 0,
+                        "monsterKillsInEnemyJungle": 0,
+                        "totalDamageDealt": 13736,
+                        "physicalDamageDealt": 3486,
+                        "magicDamageDealt": 5770,
+                        "totalDamageDealtToChampions": 3104,
+                        "physicalDamageDealtToChampions": 373,
+                        "magicDamageDealtToChampions": 2731,
+                        "damageDealtToObjectives": 1340,
+                        "damageDealtToTurrets": 869,
+                        "totalDamageTaken": 9397,
+                        "physicalDamageTaken": 7187,
+                        "magicDamageTaken": 2016,
+                        "longestTimeSpentLiving": 679,
+                        "largestCriticalStrike": 0,
+                        "goldSpent": 7075,
+                        "totalHeal": 1532,
+                        "totalUnitsHealed": 4,
+                        "damageSelfMitigated": 6471,
+                        "totalTimeCCDealt": 59,
+                        "timeCCingOthers": 20
+                    },
+                    "championName": "Thresh",
+                    "primaryRuneTreeName": "Resolve",
+                    "secondaryRuneTreeName": "Inspiration"
+                }
+            ],
+            "bansNames": [
+                "Sett",
+                "Zoe",
+                "Graves",
+                "Blitzcrank",
+                "Taric"
+            ]
+        }
+    }
+}

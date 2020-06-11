@@ -2,7 +2,7 @@ import urllib.parse
 import lol_dto
 import riot_transmute
 
-from lol_esports_parser.acs.acs import ACS
+from lol_esports_parser.parsers.acs.acs_access import ACS
 
 acs = ACS()
 

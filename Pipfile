@@ -12,6 +12,7 @@ dateparser = "*"
 lol-id-tools = "*"
 pytest = "*"
 riot-transmute = "*"
+lol-dto = "*"
 
 [requires]
 python_version = "3.8"
