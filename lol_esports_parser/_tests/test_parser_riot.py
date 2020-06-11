@@ -16,8 +16,8 @@ def test_lck_finals():
     with open(os.path.join("json_examples", "lck_series.json"), "w+") as file:
         json.dump(lck_finals, file, indent=4)
 
-    assert lck_finals['score'] == {'T1': 3, 'GEN': 0}
-    assert lck_finals['winner'] == 'T1'
+    assert lck_finals["score"] == {"T1": 3, "GEN": 0}
+    assert lck_finals["winner"] == "T1"
 
 
 def test_lck_finals_game_3():
@@ -39,3 +39,7 @@ def test_lck_finals_game_3():
     assert faker["endOfGameStats"]["kills"] == 3
     assert faker["endOfGameStats"]["cs"] == 242
     assert faker["runes"][0]["name"] == "Lethal Tempo"
+
+    cuzz = next(p for p in game["teams"]["RED"]["players"] if p["inGameName"] == "T1 Cuzz")
+
+    assert "Skirmisher's Sabre - Runic Echoes" in [item["name"] for item in cuzz["endOfGameStats"]["items"]]

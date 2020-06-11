@@ -8188,7 +8188,7 @@
                             "lane": "MID",
                             "towerLocation": "INNER",
                             "side": "BLUE",
-                            "timestamp": 2617.492
+                            "timestamp": 1623.077
                         },
                         {
                             "type": "INHIBITOR",
@@ -39585,7 +39585,7 @@
                             "lane": "MID",
                             "towerLocation": "INNER",
                             "side": "BLUE",
-                            "timestamp": 2617.492
+                            "timestamp": 1623.077
                         },
                         {
                             "type": "TOWER",

@@ -1,6 +1,8 @@
 import datetime
 import json
 import logging
+from concurrent.futures.thread import ThreadPoolExecutor
+
 import dateparser
 
 import lol_id_tools as lit
@@ -27,11 +29,12 @@ def get_qq_series_dto(qq_match_url: str, patch: str = None) -> LolSeries:
 
     game_id_list = get_qq_games_list(qq_match_url)
 
-    games = []  # List of LolGame DTOs representing the match
-    for game in game_id_list:
-        games.append(parse_qq_game(int(game["sMatchId"]), patch))
+    games_futures = []
+    with ThreadPoolExecutor() as executor:
+        for qq_game_object in game_id_list:
+            games_futures.append(executor.submit(parse_qq_game, int(qq_game_object["sMatchId"]), patch))
 
-    return create_series(games)
+    return create_series([g.result() for g in games_futures])
 
 
 def parse_qq_game(qq_game_id: int, patch: str = None) -> lol_dto.classes.game.LolGame:
@@ -46,12 +49,11 @@ def parse_qq_game(qq_game_id: int, patch: str = None) -> lol_dto.classes.game.Lo
     """
     game_info, team_info, runes_info, qq_server_id, qq_battle_id = get_all_qq_game_info(qq_game_id)
 
-    # TODO This code is here for when the second endpoint does not work
     # blue_team_id = game_info['sMatchInfo']['BlueTeam']
     # red_team_id = game_info['sMatchInfo']['TeamA'] \
     #     if blue_team_id == game_info['sMatchInfo']['TeamB'] \
     #     else game_info['sMatchInfo']['TeamB']
-    # winner = 'blue' if blue_team_id == game_info['sMatchInfo']['MatchWin'] else 'red'
+    # winner = 'BLUE' if blue_team_id == game_info['sMatchInfo']['MatchWin'] else 'RED'
 
     blue_team_id = team_info["blue_clan_id_"]
     blue_team_name = team_info["blue_clan_name_"]
@@ -62,9 +64,9 @@ def parse_qq_game(qq_game_id: int, patch: str = None) -> lol_dto.classes.game.Lo
     winner = "BLUE" if blue_team_id == team_info["win_clan_id_"] else "RED"
 
     # We start by building the root of the game object
-    qq_source = {"qq": {"id": int(qq_game_id), "server": qq_server_id, "battleId": qq_battle_id}}
 
-    # TODO Should game_info["sMatchInfo"]["GameName"] be added somewhere?
+    # The "id" field is the url you use for the first endpoint and should be enough
+    qq_source = {"qq": {"id": int(qq_game_id), "server": qq_server_id, "battleId": qq_battle_id}}
 
     lol_game_dto = lol_dto.classes.game.LolGame(
         sources=qq_source,
@@ -92,7 +94,6 @@ def parse_qq_game(qq_game_id: int, patch: str = None) -> lol_dto.classes.game.Lo
     lol_game_dto["start"] = iso_date
     lol_game_dto["duration"] = int(battle_data["game-period"])
 
-    # TODO Parse bans
     for team_side in ["left", "right"]:
         is_team_a = team_side == "right"
         # Is Team A and Team A is blue -> blue, Is not team A and team A is not blue -> blue
@@ -114,20 +115,33 @@ def parse_qq_game(qq_game_id: int, patch: str = None) -> lol_dto.classes.game.Lo
                 "firstTower": first_tower,
                 "towerKills": int(battle_data[team_side]["tower"]),
                 "players": [],
+                "bans": [
+                    int(battle_data[team_side][f"ban-hero-{ban_number}"])
+                    for ban_number in range(1, 6)
+                    if f"ban-hero-{ban_number}" in battle_data[team_side]
+                ],
             }
         )
 
+        lol_game_dto["teams"][team_color]["bansNames"] = [
+            lit.get_name(i) for i in lol_game_dto["teams"][team_color]["bans"]
+        ]
+
+        # Sometimes, not all 5 bans are there for some reason
+        if lol_game_dto["teams"][team_color]["bans"].__len__() < 5:
+            logging.info(f"Full bans information missing for QQ game with id {qq_game_id}")
+
+        # Then, we iterate on individual player information
         for player_battle_data in battle_data[team_side]["players"]:
             player = parse_player_battle_data(player_battle_data)
 
-            # We go grab some information back in game_info
+            # We need to grab some information back in game_info
             match_member = next(p for p in game_info["sMatchMember"] if p["GameName"] == player["inGameName"])
 
             player["uniqueIdentifiers"] = {
                 "qq": {"accountId": match_member["AccountId"], "memberId": match_member["MemberId"]}
             }
 
-            # TODO See if we can match it another way than champion ID
             player_runes = next(p for p in runes_info if p["hero_id_"] == player["championId"])
 
             player["runes"] = []

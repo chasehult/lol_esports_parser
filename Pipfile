@@ -9,10 +9,10 @@ pytest = "*"
 [packages]
 requests = "*"
 dateparser = "*"
-lol-id-tools = "*"
 pytest = "*"
 riot-transmute = "*"
 lol-dto = "*"
+lol-id-tools = "*"
 
 [requires]
 python_version = "3.8"

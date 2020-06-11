@@ -8,7 +8,7 @@ with open(path.join(this_directory, "README.md"), encoding="utf-8") as f:
 setuptools.setup(
     name="lol_esports_parser",
     version="0.0.1",
-    packages=['lol_esports_parser', 'lol_esports_parser/acs', 'lol_esports_parser/qq', 'lol_esports_parser/dto'],
+    packages=["lol_esports_parser", "lol_esports_parser/acs", "lol_esports_parser/qq", "lol_esports_parser/dto"],
     install_requires=["requests", "dateparser", "lol-id-tools", "riot-transmute", "lol-dto"],
     url="https://github.com/mrtolkien/lol_esports_parser",
     license="MIT",

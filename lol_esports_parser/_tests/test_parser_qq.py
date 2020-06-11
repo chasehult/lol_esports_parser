@@ -52,9 +52,9 @@ def test_lpl_finals():
 
 
 def test_lpl_summer():
+    # This series’s game 3 is particularly buggy
     match_url = "https://lpl.qq.com/es/stats.shtml?bmid=6207"
 
     series = get_qq_series_dto(match_url, "10.11")
 
-    # TODO Cleaner test
     assert series

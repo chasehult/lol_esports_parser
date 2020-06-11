@@ -105,10 +105,10 @@
         },
         "lol-id-tools": {
             "hashes": [
-                "sha256:d84030e08e0316e179d05ca42eaf26f4f1326e2f68a2122c7f5f00263ccbf0bb"
+                "sha256:72b4ea14e188f4bef274b6ee227cc3d34cb90059482819b4bae23f16128ddcaf"
             ],
             "index": "pypi",
-            "version": "==1.2.3"
+            "version": "==1.3.0"
         },
         "more-itertools": {
             "hashes": [

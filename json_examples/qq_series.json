@@ -778,6 +778,20 @@
                             "secondaryRuneTreeId": 8000,
                             "secondaryRuneTreeName": "Precision"
                         }
+                    ],
+                    "bans": [
+                        142,
+                        134,
+                        48,
+                        201,
+                        89
+                    ],
+                    "bansNames": [
+                        "Zoe",
+                        "Syndra",
+                        "Trundle",
+                        "Braum",
+                        "Leona"
                     ]
                 },
                 "RED": {
@@ -1567,6 +1581,20 @@
                             "secondaryRuneTreeId": 8300,
                             "secondaryRuneTreeName": "Inspiration"
                         }
+                    ],
+                    "bans": [
+                        429,
+                        110,
+                        104,
+                        111,
+                        25
+                    ],
+                    "bansNames": [
+                        "Kalista",
+                        "Varus",
+                        "Graves",
+                        "Nautilus",
+                        "Morgana"
                     ]
                 }
             },
@@ -2360,6 +2388,20 @@
                             "secondaryRuneTreeId": 8300,
                             "secondaryRuneTreeName": "Inspiration"
                         }
+                    ],
+                    "bans": [
+                        104,
+                        7,
+                        429,
+                        412,
+                        201
+                    ],
+                    "bansNames": [
+                        "Graves",
+                        "LeBlanc",
+                        "Kalista",
+                        "Thresh",
+                        "Braum"
                     ]
                 },
                 "RED": {
@@ -3137,6 +3179,20 @@
                             "secondaryRuneTreeId": 8300,
                             "secondaryRuneTreeName": "Inspiration"
                         }
+                    ],
+                    "bans": [
+                        142,
+                        134,
+                        110,
+                        42,
+                        517
+                    ],
+                    "bansNames": [
+                        "Zoe",
+                        "Syndra",
+                        "Varus",
+                        "Corki",
+                        "Sylas"
                     ]
                 }
             },
@@ -3930,6 +3986,20 @@
                             "secondaryRuneTreeId": 8000,
                             "secondaryRuneTreeName": "Precision"
                         }
+                    ],
+                    "bans": [
+                        142,
+                        134,
+                        266,
+                        59,
+                        60
+                    ],
+                    "bansNames": [
+                        "Zoe",
+                        "Syndra",
+                        "Aatrox",
+                        "Jarvan IV",
+                        "Elise"
                     ]
                 },
                 "RED": {
@@ -4707,6 +4777,20 @@
                             "secondaryRuneTreeId": 8300,
                             "secondaryRuneTreeName": "Inspiration"
                         }
+                    ],
+                    "bans": [
+                        104,
+                        110,
+                        429,
+                        516,
+                        7
+                    ],
+                    "bansNames": [
+                        "Graves",
+                        "Varus",
+                        "Kalista",
+                        "Ornn",
+                        "LeBlanc"
                     ]
                 }
             },
@@ -5500,6 +5584,20 @@
                             "secondaryRuneTreeId": 8300,
                             "secondaryRuneTreeName": "Inspiration"
                         }
+                    ],
+                    "bans": [
+                        142,
+                        134,
+                        48,
+                        38,
+                        42
+                    ],
+                    "bansNames": [
+                        "Zoe",
+                        "Syndra",
+                        "Trundle",
+                        "Kassadin",
+                        "Corki"
                     ]
                 },
                 "RED": {
@@ -6289,6 +6387,20 @@
                             "secondaryRuneTreeId": 8300,
                             "secondaryRuneTreeName": "Inspiration"
                         }
+                    ],
+                    "bans": [
+                        110,
+                        429,
+                        104,
+                        2,
+                        82
+                    ],
+                    "bansNames": [
+                        "Varus",
+                        "Kalista",
+                        "Graves",
+                        "Olaf",
+                        "Mordekaiser"
                     ]
                 }
             },
@@ -7076,6 +7188,20 @@
                             "secondaryRuneTreeId": 8300,
                             "secondaryRuneTreeName": "Inspiration"
                         }
+                    ],
+                    "bans": [
+                        104,
+                        7,
+                        429,
+                        350,
+                        142
+                    ],
+                    "bansNames": [
+                        "Graves",
+                        "LeBlanc",
+                        "Kalista",
+                        "Yuumi",
+                        "Zoe"
                     ]
                 },
                 "RED": {
@@ -7859,6 +7985,20 @@
                             "secondaryRuneTreeId": 8200,
                             "secondaryRuneTreeName": "Sorcery"
                         }
+                    ],
+                    "bans": [
+                        134,
+                        110,
+                        48,
+                        42,
+                        79
+                    ],
+                    "bansNames": [
+                        "Syndra",
+                        "Varus",
+                        "Trundle",
+                        "Corki",
+                        "Gragas"
                     ]
                 }
             },
