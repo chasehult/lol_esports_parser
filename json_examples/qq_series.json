@@ -53,30 +53,24 @@
                                 "firstBlood": false,
                                 "firstTower": false,
                                 "killingSprees": 0,
-                                "largestKillingSpree": 0,
                                 "doubleKills": 0,
                                 "tripleKills": 0,
                                 "quadraKills": 0,
                                 "pentaKills": 0,
                                 "towerKills": 1,
-                                "inhibitorKills": 0,
                                 "monsterKills": 20,
                                 "monsterKillsInAlliedJungle": 11,
                                 "monsterKillsInEnemyJungle": 4,
                                 "wardsPlaced": 19,
                                 "wardsKilled": 5,
                                 "visionWardsBought": 7,
-                                "largestCriticalStrike": 0,
                                 "totalDamageDealt": 191970,
-                                "physicalDamageDealt": 90589,
-                                "magicDamageDealt": 96606,
                                 "totalDamageDealtToChampions": 13690,
                                 "physicalDamageDealtToChampions": 5050,
                                 "magicDamageDealtToChampions": 8640,
                                 "totalDamageTaken": 24165,
                                 "physicalDamageTaken": 14794,
                                 "magicDamageTaken": 8035,
-                                "totalHeal": 5877,
                                 "items": [
                                     {
                                         "id": 3143,
@@ -113,7 +107,13 @@
                                         "name": "Warding Totem (Trinket)",
                                         "slot": 7
                                     }
-                                ]
+                                ],
+                                "largestCriticalStrike": 0,
+                                "largestKillingSpree": 0,
+                                "inhibitorKills": 0,
+                                "totalHeal": 5877,
+                                "physicalDamageDealt": 90589,
+                                "magicDamageDealt": 96606
                             },
                             "uniqueIdentifiers": {
                                 "qq": {
@@ -170,7 +170,11 @@
                                     "slot": 7,
                                     "rank": 1
                                 }
-                            ]
+                            ],
+                            "primaryRuneTreeId": 8400,
+                            "primaryRuneTreeName": "Resolve",
+                            "secondaryRuneTreeId": 8300,
+                            "secondaryRuneTreeName": "Inspiration"
                         },
                         {
                             "inGameName": "JDGKanavi",
@@ -198,30 +202,24 @@
                                 "firstBlood": false,
                                 "firstTower": false,
                                 "killingSprees": 1,
-                                "largestKillingSpree": 2,
                                 "doubleKills": 0,
                                 "tripleKills": 0,
                                 "quadraKills": 0,
                                 "pentaKills": 0,
                                 "towerKills": 1,
-                                "inhibitorKills": 0,
                                 "monsterKills": 171,
                                 "monsterKillsInAlliedJungle": 98,
                                 "monsterKillsInEnemyJungle": 20,
                                 "wardsPlaced": 15,
                                 "wardsKilled": 30,
                                 "visionWardsBought": 15,
-                                "largestCriticalStrike": 0,
                                 "totalDamageDealt": 191361,
-                                "physicalDamageDealt": 130978,
-                                "magicDamageDealt": 37905,
                                 "totalDamageDealtToChampions": 9938,
                                 "physicalDamageDealtToChampions": 7122,
                                 "magicDamageDealtToChampions": 186,
                                 "totalDamageTaken": 28632,
                                 "physicalDamageTaken": 21682,
                                 "magicDamageTaken": 6051,
-                                "totalHeal": 15626,
                                 "items": [
                                     {
                                         "id": 3047,
@@ -258,7 +256,13 @@
                                         "name": "Oracle Lens",
                                         "slot": 7
                                     }
-                                ]
+                                ],
+                                "largestCriticalStrike": 0,
+                                "largestKillingSpree": 2,
+                                "inhibitorKills": 0,
+                                "totalHeal": 15626,
+                                "physicalDamageDealt": 130978,
+                                "magicDamageDealt": 37905
                             },
                             "uniqueIdentifiers": {
                                 "qq": {
@@ -315,7 +319,11 @@
                                     "slot": 7,
                                     "rank": 1
                                 }
-                            ]
+                            ],
+                            "primaryRuneTreeId": 8000,
+                            "primaryRuneTreeName": "Precision",
+                            "secondaryRuneTreeId": 8200,
+                            "secondaryRuneTreeName": "Sorcery"
                         },
                         {
                             "inGameName": "JDGYagao",
@@ -343,30 +351,24 @@
                                 "firstBlood": false,
                                 "firstTower": false,
                                 "killingSprees": 1,
-                                "largestKillingSpree": 3,
                                 "doubleKills": 0,
                                 "tripleKills": 0,
                                 "quadraKills": 0,
                                 "pentaKills": 0,
                                 "towerKills": 0,
-                                "inhibitorKills": 0,
                                 "monsterKills": 49,
                                 "monsterKillsInAlliedJungle": 25,
                                 "monsterKillsInEnemyJungle": 13,
                                 "wardsPlaced": 17,
                                 "wardsKilled": 17,
                                 "visionWardsBought": 7,
-                                "largestCriticalStrike": 0,
                                 "totalDamageDealt": 220174,
-                                "physicalDamageDealt": 28188,
-                                "magicDamageDealt": 178084,
                                 "totalDamageDealtToChampions": 18281,
                                 "physicalDamageDealtToChampions": 1009,
                                 "magicDamageDealtToChampions": 17271,
                                 "totalDamageTaken": 20082,
                                 "physicalDamageTaken": 12473,
                                 "magicDamageTaken": 6698,
-                                "totalHeal": 11564,
                                 "items": [
                                     {
                                         "id": 3157,
@@ -403,7 +405,13 @@
                                         "name": "Oracle Lens",
                                         "slot": 7
                                     }
-                                ]
+                                ],
+                                "largestCriticalStrike": 0,
+                                "largestKillingSpree": 3,
+                                "inhibitorKills": 0,
+                                "totalHeal": 11564,
+                                "physicalDamageDealt": 28188,
+                                "magicDamageDealt": 178084
                             },
                             "uniqueIdentifiers": {
                                 "qq": {
@@ -460,7 +468,11 @@
                                     "slot": 7,
                                     "rank": 1
                                 }
-                            ]
+                            ],
+                            "primaryRuneTreeId": 8100,
+                            "primaryRuneTreeName": "Domination",
+                            "secondaryRuneTreeId": 8300,
+                            "secondaryRuneTreeName": "Inspiration"
                         },
                         {
                             "inGameName": "JDGLokeN",
@@ -488,30 +500,24 @@
                                 "firstBlood": false,
                                 "firstTower": false,
                                 "killingSprees": 2,
-                                "largestKillingSpree": 4,
                                 "doubleKills": 1,
                                 "tripleKills": 0,
                                 "quadraKills": 0,
                                 "pentaKills": 0,
                                 "towerKills": 6,
-                                "inhibitorKills": 1,
                                 "monsterKills": 59,
                                 "monsterKillsInAlliedJungle": 51,
                                 "monsterKillsInEnemyJungle": 4,
                                 "wardsPlaced": 15,
                                 "wardsKilled": 14,
                                 "visionWardsBought": 5,
-                                "largestCriticalStrike": 1288,
                                 "totalDamageDealt": 301850,
-                                "physicalDamageDealt": 291596,
-                                "magicDamageDealt": 1015,
                                 "totalDamageDealtToChampions": 15625,
                                 "physicalDamageDealtToChampions": 14981,
                                 "magicDamageDealtToChampions": 195,
                                 "totalDamageTaken": 8980,
                                 "physicalDamageTaken": 7907,
                                 "magicDamageTaken": 749,
-                                "totalHeal": 675,
                                 "items": [
                                     {
                                         "id": 3072,
@@ -548,7 +554,13 @@
                                         "name": "Farsight Alteration",
                                         "slot": 7
                                     }
-                                ]
+                                ],
+                                "largestCriticalStrike": 1288,
+                                "largestKillingSpree": 4,
+                                "inhibitorKills": 1,
+                                "totalHeal": 675,
+                                "physicalDamageDealt": 291596,
+                                "magicDamageDealt": 1015
                             },
                             "uniqueIdentifiers": {
                                 "qq": {
@@ -611,7 +623,11 @@
                                     "slot": 8,
                                     "rank": 1
                                 }
-                            ]
+                            ],
+                            "primaryRuneTreeId": 8000,
+                            "primaryRuneTreeName": "Precision",
+                            "secondaryRuneTreeId": 8200,
+                            "secondaryRuneTreeName": "Sorcery"
                         },
                         {
                             "inGameName": "JDGLvMao",
@@ -639,30 +655,24 @@
                                 "firstBlood": false,
                                 "firstTower": false,
                                 "killingSprees": 0,
-                                "largestKillingSpree": 0,
                                 "doubleKills": 0,
                                 "tripleKills": 0,
                                 "quadraKills": 0,
                                 "pentaKills": 0,
                                 "towerKills": 0,
-                                "inhibitorKills": 0,
                                 "monsterKills": 0,
                                 "monsterKillsInAlliedJungle": 0,
                                 "monsterKillsInEnemyJungle": 0,
                                 "wardsPlaced": 58,
                                 "wardsKilled": 1,
                                 "visionWardsBought": 15,
-                                "largestCriticalStrike": 0,
                                 "totalDamageDealt": 17341,
-                                "physicalDamageDealt": 3414,
-                                "magicDamageDealt": 9884,
                                 "totalDamageDealtToChampions": 7608,
                                 "physicalDamageDealtToChampions": 168,
                                 "magicDamageDealtToChampions": 7440,
                                 "totalDamageTaken": 3085,
                                 "physicalDamageTaken": 2874,
                                 "magicDamageTaken": 133,
-                                "totalHeal": 11874,
                                 "items": [
                                     {
                                         "id": 3860,
@@ -699,7 +709,13 @@
                                         "name": "Oracle Lens",
                                         "slot": 7
                                     }
-                                ]
+                                ],
+                                "largestCriticalStrike": 0,
+                                "largestKillingSpree": 0,
+                                "inhibitorKills": 0,
+                                "totalHeal": 11874,
+                                "physicalDamageDealt": 3414,
+                                "magicDamageDealt": 9884
                             },
                             "uniqueIdentifiers": {
                                 "qq": {
@@ -756,7 +772,11 @@
                                     "slot": 7,
                                     "rank": 1
                                 }
-                            ]
+                            ],
+                            "primaryRuneTreeId": 8200,
+                            "primaryRuneTreeName": "Sorcery",
+                            "secondaryRuneTreeId": 8000,
+                            "secondaryRuneTreeName": "Precision"
                         }
                     ]
                 },
@@ -798,30 +818,24 @@
                                 "firstBlood": false,
                                 "firstTower": true,
                                 "killingSprees": 1,
-                                "largestKillingSpree": 2,
                                 "doubleKills": 0,
                                 "tripleKills": 0,
                                 "quadraKills": 0,
                                 "pentaKills": 0,
                                 "towerKills": 2,
-                                "inhibitorKills": 0,
                                 "monsterKills": 35,
                                 "monsterKillsInAlliedJungle": 27,
                                 "monsterKillsInEnemyJungle": 2,
                                 "wardsPlaced": 14,
                                 "wardsKilled": 7,
                                 "visionWardsBought": 2,
-                                "largestCriticalStrike": 0,
                                 "totalDamageDealt": 225376,
-                                "physicalDamageDealt": 201125,
-                                "magicDamageDealt": 1777,
                                 "totalDamageDealtToChampions": 12498,
                                 "physicalDamageDealtToChampions": 10446,
                                 "magicDamageDealtToChampions": 267,
                                 "totalDamageTaken": 29149,
                                 "physicalDamageTaken": 17565,
                                 "magicDamageTaken": 10215,
-                                "totalHeal": 2925,
                                 "items": [
                                     {
                                         "id": 3153,
@@ -858,7 +872,13 @@
                                         "name": "Warding Totem (Trinket)",
                                         "slot": 7
                                     }
-                                ]
+                                ],
+                                "largestCriticalStrike": 0,
+                                "largestKillingSpree": 2,
+                                "inhibitorKills": 0,
+                                "totalHeal": 2925,
+                                "physicalDamageDealt": 201125,
+                                "magicDamageDealt": 1777
                             },
                             "uniqueIdentifiers": {
                                 "qq": {
@@ -921,7 +941,11 @@
                                     "slot": 8,
                                     "rank": 1
                                 }
-                            ]
+                            ],
+                            "primaryRuneTreeId": 8000,
+                            "primaryRuneTreeName": "Precision",
+                            "secondaryRuneTreeId": 8400,
+                            "secondaryRuneTreeName": "Resolve"
                         },
                         {
                             "inGameName": "TESKarsa",
@@ -949,30 +973,24 @@
                                 "firstBlood": false,
                                 "firstTower": false,
                                 "killingSprees": 0,
-                                "largestKillingSpree": 0,
                                 "doubleKills": 0,
                                 "tripleKills": 0,
                                 "quadraKills": 0,
                                 "pentaKills": 0,
                                 "towerKills": 2,
-                                "inhibitorKills": 0,
                                 "monsterKills": 152,
                                 "monsterKillsInAlliedJungle": 96,
                                 "monsterKillsInEnemyJungle": 11,
                                 "wardsPlaced": 24,
                                 "wardsKilled": 8,
                                 "visionWardsBought": 14,
-                                "largestCriticalStrike": 0,
                                 "totalDamageDealt": 170498,
-                                "physicalDamageDealt": 127030,
-                                "magicDamageDealt": 28144,
                                 "totalDamageDealtToChampions": 4516,
                                 "physicalDamageDealtToChampions": 4333,
                                 "magicDamageDealtToChampions": 118,
                                 "totalDamageTaken": 24235,
                                 "physicalDamageTaken": 17147,
                                 "magicDamageTaken": 6367,
-                                "totalHeal": 8203,
                                 "items": [
                                     {
                                         "id": 1412,
@@ -1009,7 +1027,13 @@
                                         "name": "Warding Totem (Trinket)",
                                         "slot": 7
                                     }
-                                ]
+                                ],
+                                "largestCriticalStrike": 0,
+                                "largestKillingSpree": 0,
+                                "inhibitorKills": 0,
+                                "totalHeal": 8203,
+                                "physicalDamageDealt": 127030,
+                                "magicDamageDealt": 28144
                             },
                             "uniqueIdentifiers": {
                                 "qq": {
@@ -1072,7 +1096,11 @@
                                     "slot": 8,
                                     "rank": 1
                                 }
-                            ]
+                            ],
+                            "primaryRuneTreeId": 8000,
+                            "primaryRuneTreeName": "Precision",
+                            "secondaryRuneTreeId": 8300,
+                            "secondaryRuneTreeName": "Inspiration"
                         },
                         {
                             "inGameName": "TESknight",
@@ -1100,30 +1128,24 @@
                                 "firstBlood": false,
                                 "firstTower": false,
                                 "killingSprees": 0,
-                                "largestKillingSpree": 0,
                                 "doubleKills": 0,
                                 "tripleKills": 0,
                                 "quadraKills": 0,
                                 "pentaKills": 0,
                                 "towerKills": 1,
-                                "inhibitorKills": 0,
                                 "monsterKills": 16,
                                 "monsterKillsInAlliedJungle": 12,
                                 "monsterKillsInEnemyJungle": 4,
                                 "wardsPlaced": 9,
                                 "wardsKilled": 8,
                                 "visionWardsBought": 5,
-                                "largestCriticalStrike": 0,
                                 "totalDamageDealt": 187421,
-                                "physicalDamageDealt": 21561,
-                                "magicDamageDealt": 161954,
                                 "totalDamageDealtToChampions": 15570,
                                 "physicalDamageDealtToChampions": 1106,
                                 "magicDamageDealtToChampions": 14463,
                                 "totalDamageTaken": 17978,
                                 "physicalDamageTaken": 6458,
                                 "magicDamageTaken": 10909,
-                                "totalHeal": 5347,
                                 "items": [
                                     {
                                         "id": 2033,
@@ -1160,7 +1182,13 @@
                                         "name": "Oracle Lens",
                                         "slot": 7
                                     }
-                                ]
+                                ],
+                                "largestCriticalStrike": 0,
+                                "largestKillingSpree": 0,
+                                "inhibitorKills": 0,
+                                "totalHeal": 5347,
+                                "physicalDamageDealt": 21561,
+                                "magicDamageDealt": 161954
                             },
                             "uniqueIdentifiers": {
                                 "qq": {
@@ -1223,7 +1251,11 @@
                                     "slot": 8,
                                     "rank": 1
                                 }
-                            ]
+                            ],
+                            "primaryRuneTreeId": 8400,
+                            "primaryRuneTreeName": "Resolve",
+                            "secondaryRuneTreeId": 8300,
+                            "secondaryRuneTreeName": "Inspiration"
                         },
                         {
                             "inGameName": "TESJackeyLove",
@@ -1251,30 +1283,24 @@
                                 "firstBlood": true,
                                 "firstTower": false,
                                 "killingSprees": 0,
-                                "largestKillingSpree": 0,
                                 "doubleKills": 0,
                                 "tripleKills": 0,
                                 "quadraKills": 0,
                                 "pentaKills": 0,
                                 "towerKills": 0,
-                                "inhibitorKills": 0,
                                 "monsterKills": 30,
                                 "monsterKillsInAlliedJungle": 28,
                                 "monsterKillsInEnemyJungle": 0,
                                 "wardsPlaced": 12,
                                 "wardsKilled": 10,
                                 "visionWardsBought": 5,
-                                "largestCriticalStrike": 714,
                                 "totalDamageDealt": 250991,
-                                "physicalDamageDealt": 241277,
-                                "magicDamageDealt": 2722,
                                 "totalDamageDealtToChampions": 21136,
                                 "physicalDamageDealtToChampions": 20090,
                                 "magicDamageDealtToChampions": 0,
                                 "totalDamageTaken": 12444,
                                 "physicalDamageTaken": 6493,
                                 "magicDamageTaken": 5926,
-                                "totalHeal": 2216,
                                 "items": [
                                     {
                                         "id": 3046,
@@ -1311,7 +1337,13 @@
                                         "name": "Farsight Alteration",
                                         "slot": 7
                                     }
-                                ]
+                                ],
+                                "largestCriticalStrike": 714,
+                                "largestKillingSpree": 0,
+                                "inhibitorKills": 0,
+                                "totalHeal": 2216,
+                                "physicalDamageDealt": 241277,
+                                "magicDamageDealt": 2722
                             },
                             "uniqueIdentifiers": {
                                 "qq": {
@@ -1374,7 +1406,11 @@
                                     "slot": 8,
                                     "rank": 1
                                 }
-                            ]
+                            ],
+                            "primaryRuneTreeId": 8000,
+                            "primaryRuneTreeName": "Precision",
+                            "secondaryRuneTreeId": 8200,
+                            "secondaryRuneTreeName": "Sorcery"
                         },
                         {
                             "inGameName": "TESQiuQiu",
@@ -1402,30 +1438,24 @@
                                 "firstBlood": false,
                                 "firstTower": false,
                                 "killingSprees": 0,
-                                "largestKillingSpree": 0,
                                 "doubleKills": 0,
                                 "tripleKills": 0,
                                 "quadraKills": 0,
                                 "pentaKills": 0,
                                 "towerKills": 0,
-                                "inhibitorKills": 0,
                                 "monsterKills": 0,
                                 "monsterKillsInAlliedJungle": 0,
                                 "monsterKillsInEnemyJungle": 0,
                                 "wardsPlaced": 57,
                                 "wardsKilled": 12,
                                 "visionWardsBought": 20,
-                                "largestCriticalStrike": 0,
                                 "totalDamageDealt": 14140,
-                                "physicalDamageDealt": 3281,
-                                "magicDamageDealt": 3950,
                                 "totalDamageDealtToChampions": 2644,
                                 "physicalDamageDealtToChampions": 329,
                                 "magicDamageDealtToChampions": 1664,
                                 "totalDamageTaken": 9962,
                                 "physicalDamageTaken": 5588,
                                 "magicDamageTaken": 4020,
-                                "totalHeal": 1274,
                                 "items": [
                                     {
                                         "id": 2055,
@@ -1462,7 +1492,13 @@
                                         "name": "Oracle Lens",
                                         "slot": 7
                                     }
-                                ]
+                                ],
+                                "largestCriticalStrike": 0,
+                                "largestKillingSpree": 0,
+                                "inhibitorKills": 0,
+                                "totalHeal": 1274,
+                                "physicalDamageDealt": 3281,
+                                "magicDamageDealt": 3950
                             },
                             "uniqueIdentifiers": {
                                 "qq": {
@@ -1525,13 +1561,18 @@
                                     "slot": 8,
                                     "rank": 1
                                 }
-                            ]
+                            ],
+                            "primaryRuneTreeId": 8400,
+                            "primaryRuneTreeName": "Resolve",
+                            "secondaryRuneTreeId": 8300,
+                            "secondaryRuneTreeName": "Inspiration"
                         }
                     ]
                 }
             },
             "winner": "BLUE",
-            "start": "2020-05-02T17:32:42+00:00",
+            "patch": "10.7",
+            "start": "2020-05-02T17:32:42+08:00",
             "duration": 2124
         },
         {
@@ -1582,30 +1623,24 @@
                                 "firstBlood": false,
                                 "firstTower": false,
                                 "killingSprees": 2,
-                                "largestKillingSpree": 2,
                                 "doubleKills": 0,
                                 "tripleKills": 0,
                                 "quadraKills": 0,
                                 "pentaKills": 0,
                                 "towerKills": 2,
-                                "inhibitorKills": 0,
                                 "monsterKills": 78,
                                 "monsterKillsInAlliedJungle": 54,
                                 "monsterKillsInEnemyJungle": 12,
                                 "wardsPlaced": 16,
                                 "wardsKilled": 2,
                                 "visionWardsBought": 5,
-                                "largestCriticalStrike": 0,
                                 "totalDamageDealt": 235726,
-                                "physicalDamageDealt": 232545,
-                                "magicDamageDealt": 173,
                                 "totalDamageDealtToChampions": 11851,
                                 "physicalDamageDealtToChampions": 11520,
                                 "magicDamageDealtToChampions": 173,
                                 "totalDamageTaken": 25222,
                                 "physicalDamageTaken": 14612,
                                 "magicDamageTaken": 5790,
-                                "totalHeal": 14618,
                                 "items": [
                                     {
                                         "id": 2421,
@@ -1642,7 +1677,13 @@
                                         "name": "Warding Totem (Trinket)",
                                         "slot": 7
                                     }
-                                ]
+                                ],
+                                "largestCriticalStrike": 0,
+                                "largestKillingSpree": 2,
+                                "inhibitorKills": 0,
+                                "totalHeal": 14618,
+                                "physicalDamageDealt": 232545,
+                                "magicDamageDealt": 173
                             },
                             "uniqueIdentifiers": {
                                 "qq": {
@@ -1699,7 +1740,11 @@
                                     "slot": 7,
                                     "rank": 1
                                 }
-                            ]
+                            ],
+                            "primaryRuneTreeId": 8000,
+                            "primaryRuneTreeName": "Precision",
+                            "secondaryRuneTreeId": 8400,
+                            "secondaryRuneTreeName": "Resolve"
                         },
                         {
                             "inGameName": "TESKarsa",
@@ -1727,30 +1772,24 @@
                                 "firstBlood": false,
                                 "firstTower": false,
                                 "killingSprees": 1,
-                                "largestKillingSpree": 2,
                                 "doubleKills": 0,
                                 "tripleKills": 0,
                                 "quadraKills": 0,
                                 "pentaKills": 0,
                                 "towerKills": 3,
-                                "inhibitorKills": 1,
                                 "monsterKills": 122,
                                 "monsterKillsInAlliedJungle": 48,
                                 "monsterKillsInEnemyJungle": 22,
                                 "wardsPlaced": 13,
                                 "wardsKilled": 22,
                                 "visionWardsBought": 13,
-                                "largestCriticalStrike": 0,
                                 "totalDamageDealt": 131990,
-                                "physicalDamageDealt": 74475,
-                                "magicDamageDealt": 41414,
                                 "totalDamageDealtToChampions": 6049,
                                 "physicalDamageDealtToChampions": 3415,
                                 "magicDamageDealtToChampions": 2316,
                                 "totalDamageTaken": 26034,
                                 "physicalDamageTaken": 17471,
                                 "magicDamageTaken": 8206,
-                                "totalHeal": 19064,
                                 "items": [
                                     {
                                         "id": 1413,
@@ -1787,7 +1826,13 @@
                                         "name": "Oracle Lens",
                                         "slot": 7
                                     }
-                                ]
+                                ],
+                                "largestCriticalStrike": 0,
+                                "largestKillingSpree": 2,
+                                "inhibitorKills": 1,
+                                "totalHeal": 19064,
+                                "physicalDamageDealt": 74475,
+                                "magicDamageDealt": 41414
                             },
                             "uniqueIdentifiers": {
                                 "qq": {
@@ -1850,7 +1895,11 @@
                                     "slot": 8,
                                     "rank": 1
                                 }
-                            ]
+                            ],
+                            "primaryRuneTreeId": 8000,
+                            "primaryRuneTreeName": "Precision",
+                            "secondaryRuneTreeId": 8200,
+                            "secondaryRuneTreeName": "Sorcery"
                         },
                         {
                             "inGameName": "TESknight",
@@ -1878,30 +1927,24 @@
                                 "firstBlood": true,
                                 "firstTower": false,
                                 "killingSprees": 1,
-                                "largestKillingSpree": 2,
                                 "doubleKills": 0,
                                 "tripleKills": 0,
                                 "quadraKills": 0,
                                 "pentaKills": 0,
                                 "towerKills": 0,
-                                "inhibitorKills": 0,
                                 "monsterKills": 49,
                                 "monsterKillsInAlliedJungle": 29,
                                 "monsterKillsInEnemyJungle": 13,
                                 "wardsPlaced": 14,
                                 "wardsKilled": 10,
                                 "visionWardsBought": 9,
-                                "largestCriticalStrike": 0,
                                 "totalDamageDealt": 241290,
-                                "physicalDamageDealt": 11053,
-                                "magicDamageDealt": 220767,
                                 "totalDamageDealtToChampions": 28606,
                                 "physicalDamageDealtToChampions": 504,
                                 "magicDamageDealtToChampions": 27791,
                                 "totalDamageTaken": 11324,
                                 "physicalDamageTaken": 5784,
                                 "magicDamageTaken": 5443,
-                                "totalHeal": 2040,
                                 "items": [
                                     {
                                         "id": 3165,
@@ -1938,7 +1981,13 @@
                                         "name": "Oracle Lens",
                                         "slot": 7
                                     }
-                                ]
+                                ],
+                                "largestCriticalStrike": 0,
+                                "largestKillingSpree": 2,
+                                "inhibitorKills": 0,
+                                "totalHeal": 2040,
+                                "physicalDamageDealt": 11053,
+                                "magicDamageDealt": 220767
                             },
                             "uniqueIdentifiers": {
                                 "qq": {
@@ -2001,7 +2050,11 @@
                                     "slot": 8,
                                     "rank": 1
                                 }
-                            ]
+                            ],
+                            "primaryRuneTreeId": 8200,
+                            "primaryRuneTreeName": "Sorcery",
+                            "secondaryRuneTreeId": 8300,
+                            "secondaryRuneTreeName": "Inspiration"
                         },
                         {
                             "inGameName": "TESJackeyLove",
@@ -2029,30 +2082,24 @@
                                 "firstBlood": false,
                                 "firstTower": true,
                                 "killingSprees": 2,
-                                "largestKillingSpree": 3,
                                 "doubleKills": 1,
                                 "tripleKills": 0,
                                 "quadraKills": 0,
                                 "pentaKills": 0,
                                 "towerKills": 5,
-                                "inhibitorKills": 0,
                                 "monsterKills": 32,
                                 "monsterKillsInAlliedJungle": 17,
                                 "monsterKillsInEnemyJungle": 7,
                                 "wardsPlaced": 14,
                                 "wardsKilled": 13,
                                 "visionWardsBought": 7,
-                                "largestCriticalStrike": 1030,
                                 "totalDamageDealt": 270612,
-                                "physicalDamageDealt": 241951,
-                                "magicDamageDealt": 1956,
                                 "totalDamageDealtToChampions": 17147,
                                 "physicalDamageDealtToChampions": 15221,
                                 "magicDamageDealtToChampions": 1075,
                                 "totalDamageTaken": 9003,
                                 "physicalDamageTaken": 6552,
                                 "magicDamageTaken": 2371,
-                                "totalHeal": 1246,
                                 "items": [
                                     {
                                         "id": 1018,
@@ -2089,7 +2136,13 @@
                                         "name": "Farsight Alteration",
                                         "slot": 7
                                     }
-                                ]
+                                ],
+                                "largestCriticalStrike": 1030,
+                                "largestKillingSpree": 3,
+                                "inhibitorKills": 0,
+                                "totalHeal": 1246,
+                                "physicalDamageDealt": 241951,
+                                "magicDamageDealt": 1956
                             },
                             "uniqueIdentifiers": {
                                 "qq": {
@@ -2152,7 +2205,11 @@
                                     "slot": 8,
                                     "rank": 1
                                 }
-                            ]
+                            ],
+                            "primaryRuneTreeId": 8000,
+                            "primaryRuneTreeName": "Precision",
+                            "secondaryRuneTreeId": 8200,
+                            "secondaryRuneTreeName": "Sorcery"
                         },
                         {
                             "inGameName": "TESQiuQiu",
@@ -2180,30 +2237,24 @@
                                 "firstBlood": false,
                                 "firstTower": false,
                                 "killingSprees": 0,
-                                "largestKillingSpree": 0,
                                 "doubleKills": 0,
                                 "tripleKills": 0,
                                 "quadraKills": 0,
                                 "pentaKills": 0,
                                 "towerKills": 0,
-                                "inhibitorKills": 0,
                                 "monsterKills": 0,
                                 "monsterKillsInAlliedJungle": 0,
                                 "monsterKillsInEnemyJungle": 0,
                                 "wardsPlaced": 60,
                                 "wardsKilled": 14,
                                 "visionWardsBought": 20,
-                                "largestCriticalStrike": 0,
                                 "totalDamageDealt": 16515,
-                                "physicalDamageDealt": 3623,
-                                "magicDamageDealt": 5537,
                                 "totalDamageDealtToChampions": 2741,
                                 "physicalDamageDealtToChampions": 587,
                                 "magicDamageDealtToChampions": 1567,
                                 "totalDamageTaken": 13193,
                                 "physicalDamageTaken": 8643,
                                 "magicDamageTaken": 4377,
-                                "totalHeal": 2438,
                                 "items": [
                                     {
                                         "id": 2055,
@@ -2240,7 +2291,13 @@
                                         "name": "Oracle Lens",
                                         "slot": 7
                                     }
-                                ]
+                                ],
+                                "largestCriticalStrike": 0,
+                                "largestKillingSpree": 0,
+                                "inhibitorKills": 0,
+                                "totalHeal": 2438,
+                                "physicalDamageDealt": 3623,
+                                "magicDamageDealt": 5537
                             },
                             "uniqueIdentifiers": {
                                 "qq": {
@@ -2297,7 +2354,11 @@
                                     "slot": 7,
                                     "rank": 2
                                 }
-                            ]
+                            ],
+                            "primaryRuneTreeId": 8400,
+                            "primaryRuneTreeName": "Resolve",
+                            "secondaryRuneTreeId": 8300,
+                            "secondaryRuneTreeName": "Inspiration"
                         }
                     ]
                 },
@@ -2339,30 +2400,24 @@
                                 "firstBlood": false,
                                 "firstTower": false,
                                 "killingSprees": 1,
-                                "largestKillingSpree": 2,
                                 "doubleKills": 0,
                                 "tripleKills": 0,
                                 "quadraKills": 0,
                                 "pentaKills": 0,
                                 "towerKills": 2,
-                                "inhibitorKills": 0,
                                 "monsterKills": 8,
                                 "monsterKillsInAlliedJungle": 8,
                                 "monsterKillsInEnemyJungle": 0,
                                 "wardsPlaced": 17,
                                 "wardsKilled": 5,
                                 "visionWardsBought": 6,
-                                "largestCriticalStrike": 0,
                                 "totalDamageDealt": 164212,
-                                "physicalDamageDealt": 81315,
-                                "magicDamageDealt": 77981,
                                 "totalDamageDealtToChampions": 8479,
                                 "physicalDamageDealtToChampions": 2604,
                                 "magicDamageDealtToChampions": 5380,
                                 "totalDamageTaken": 19611,
                                 "physicalDamageTaken": 10017,
                                 "magicDamageTaken": 9191,
-                                "totalHeal": 1328,
                                 "items": [
                                     {
                                         "id": 3082,
@@ -2399,7 +2454,13 @@
                                         "name": "Warding Totem (Trinket)",
                                         "slot": 7
                                     }
-                                ]
+                                ],
+                                "largestCriticalStrike": 0,
+                                "largestKillingSpree": 2,
+                                "inhibitorKills": 0,
+                                "totalHeal": 1328,
+                                "physicalDamageDealt": 81315,
+                                "magicDamageDealt": 77981
                             },
                             "uniqueIdentifiers": {
                                 "qq": {
@@ -2456,7 +2517,11 @@
                                     "slot": 7,
                                     "rank": 1
                                 }
-                            ]
+                            ],
+                            "primaryRuneTreeId": 8400,
+                            "primaryRuneTreeName": "Resolve",
+                            "secondaryRuneTreeId": 8300,
+                            "secondaryRuneTreeName": "Inspiration"
                         },
                         {
                             "inGameName": "JDGKanavi",
@@ -2484,30 +2549,24 @@
                                 "firstBlood": false,
                                 "firstTower": false,
                                 "killingSprees": 0,
-                                "largestKillingSpree": 0,
                                 "doubleKills": 0,
                                 "tripleKills": 0,
                                 "quadraKills": 0,
                                 "pentaKills": 0,
                                 "towerKills": 0,
-                                "inhibitorKills": 0,
                                 "monsterKills": 147,
                                 "monsterKillsInAlliedJungle": 109,
                                 "monsterKillsInEnemyJungle": 2,
                                 "wardsPlaced": 15,
                                 "wardsKilled": 11,
                                 "visionWardsBought": 10,
-                                "largestCriticalStrike": 0,
                                 "totalDamageDealt": 177758,
-                                "physicalDamageDealt": 135257,
-                                "magicDamageDealt": 31073,
                                 "totalDamageDealtToChampions": 6652,
                                 "physicalDamageDealtToChampions": 5322,
                                 "magicDamageDealtToChampions": 607,
                                 "totalDamageTaken": 25095,
                                 "physicalDamageTaken": 16156,
                                 "magicDamageTaken": 8235,
-                                "totalHeal": 8013,
                                 "items": [
                                     {
                                         "id": 3047,
@@ -2544,7 +2603,13 @@
                                         "name": "Warding Totem (Trinket)",
                                         "slot": 7
                                     }
-                                ]
+                                ],
+                                "largestCriticalStrike": 0,
+                                "largestKillingSpree": 0,
+                                "inhibitorKills": 0,
+                                "totalHeal": 8013,
+                                "physicalDamageDealt": 135257,
+                                "magicDamageDealt": 31073
                             },
                             "uniqueIdentifiers": {
                                 "qq": {
@@ -2607,7 +2672,11 @@
                                     "slot": 8,
                                     "rank": 1
                                 }
-                            ]
+                            ],
+                            "primaryRuneTreeId": 8000,
+                            "primaryRuneTreeName": "Precision",
+                            "secondaryRuneTreeId": 8300,
+                            "secondaryRuneTreeName": "Inspiration"
                         },
                         {
                             "inGameName": "JDGYagao",
@@ -2635,30 +2704,24 @@
                                 "firstBlood": false,
                                 "firstTower": false,
                                 "killingSprees": 1,
-                                "largestKillingSpree": 2,
                                 "doubleKills": 0,
                                 "tripleKills": 0,
                                 "quadraKills": 0,
                                 "pentaKills": 0,
                                 "towerKills": 0,
-                                "inhibitorKills": 0,
                                 "monsterKills": 19,
                                 "monsterKillsInAlliedJungle": 4,
                                 "monsterKillsInEnemyJungle": 8,
                                 "wardsPlaced": 11,
                                 "wardsKilled": 16,
                                 "visionWardsBought": 7,
-                                "largestCriticalStrike": 0,
                                 "totalDamageDealt": 173405,
-                                "physicalDamageDealt": 4681,
-                                "magicDamageDealt": 168069,
                                 "totalDamageDealtToChampions": 12172,
                                 "physicalDamageDealtToChampions": 298,
                                 "magicDamageDealtToChampions": 11219,
                                 "totalDamageTaken": 14937,
                                 "physicalDamageTaken": 6096,
                                 "magicDamageTaken": 8683,
-                                "totalHeal": 1862,
                                 "items": [
                                     {
                                         "id": 3386,
@@ -2695,7 +2758,13 @@
                                         "name": "Oracle Lens",
                                         "slot": 7
                                     }
-                                ]
+                                ],
+                                "largestCriticalStrike": 0,
+                                "largestKillingSpree": 2,
+                                "inhibitorKills": 0,
+                                "totalHeal": 1862,
+                                "physicalDamageDealt": 4681,
+                                "magicDamageDealt": 168069
                             },
                             "uniqueIdentifiers": {
                                 "qq": {
@@ -2758,7 +2827,11 @@
                                     "slot": 8,
                                     "rank": 1
                                 }
-                            ]
+                            ],
+                            "primaryRuneTreeId": 8000,
+                            "primaryRuneTreeName": "Precision",
+                            "secondaryRuneTreeId": 8300,
+                            "secondaryRuneTreeName": "Inspiration"
                         },
                         {
                             "inGameName": "JDGLokeN",
@@ -2786,30 +2859,24 @@
                                 "firstBlood": false,
                                 "firstTower": false,
                                 "killingSprees": 1,
-                                "largestKillingSpree": 2,
                                 "doubleKills": 0,
                                 "tripleKills": 0,
                                 "quadraKills": 0,
                                 "pentaKills": 0,
                                 "towerKills": 0,
-                                "inhibitorKills": 0,
                                 "monsterKills": 31,
                                 "monsterKillsInAlliedJungle": 27,
                                 "monsterKillsInEnemyJungle": 0,
                                 "wardsPlaced": 17,
                                 "wardsKilled": 7,
                                 "visionWardsBought": 7,
-                                "largestCriticalStrike": 848,
                                 "totalDamageDealt": 209454,
-                                "physicalDamageDealt": 196909,
-                                "magicDamageDealt": 3743,
                                 "totalDamageDealtToChampions": 20199,
                                 "physicalDamageDealtToChampions": 18104,
                                 "magicDamageDealtToChampions": 847,
                                 "totalDamageTaken": 11091,
                                 "physicalDamageTaken": 6782,
                                 "magicDamageTaken": 4026,
-                                "totalHeal": 2516,
                                 "items": [
                                     {
                                         "id": 1055,
@@ -2846,7 +2913,13 @@
                                         "name": "Farsight Alteration",
                                         "slot": 7
                                     }
-                                ]
+                                ],
+                                "largestCriticalStrike": 848,
+                                "largestKillingSpree": 2,
+                                "inhibitorKills": 0,
+                                "totalHeal": 2516,
+                                "physicalDamageDealt": 196909,
+                                "magicDamageDealt": 3743
                             },
                             "uniqueIdentifiers": {
                                 "qq": {
@@ -2909,7 +2982,11 @@
                                     "slot": 8,
                                     "rank": 1
                                 }
-                            ]
+                            ],
+                            "primaryRuneTreeId": 8000,
+                            "primaryRuneTreeName": "Precision",
+                            "secondaryRuneTreeId": 8200,
+                            "secondaryRuneTreeName": "Sorcery"
                         },
                         {
                             "inGameName": "JDGLvMao",
@@ -2937,30 +3014,24 @@
                                 "firstBlood": false,
                                 "firstTower": false,
                                 "killingSprees": 0,
-                                "largestKillingSpree": 0,
                                 "doubleKills": 0,
                                 "tripleKills": 0,
                                 "quadraKills": 0,
                                 "pentaKills": 0,
                                 "towerKills": 0,
-                                "inhibitorKills": 0,
                                 "monsterKills": 0,
                                 "monsterKillsInAlliedJungle": 0,
                                 "monsterKillsInEnemyJungle": 0,
                                 "wardsPlaced": 61,
                                 "wardsKilled": 5,
                                 "visionWardsBought": 19,
-                                "largestCriticalStrike": 0,
                                 "totalDamageDealt": 19412,
-                                "physicalDamageDealt": 3530,
-                                "magicDamageDealt": 9414,
                                 "totalDamageDealtToChampions": 4386,
                                 "physicalDamageDealtToChampions": 522,
                                 "magicDamageDealtToChampions": 3793,
                                 "totalDamageTaken": 16454,
                                 "physicalDamageTaken": 9169,
                                 "magicDamageTaken": 6608,
-                                "totalHeal": 4396,
                                 "items": [
                                     {
                                         "id": 3860,
@@ -2997,7 +3068,13 @@
                                         "name": "Oracle Lens",
                                         "slot": 7
                                     }
-                                ]
+                                ],
+                                "largestCriticalStrike": 0,
+                                "largestKillingSpree": 0,
+                                "inhibitorKills": 0,
+                                "totalHeal": 4396,
+                                "physicalDamageDealt": 3530,
+                                "magicDamageDealt": 9414
                             },
                             "uniqueIdentifiers": {
                                 "qq": {
@@ -3054,13 +3131,18 @@
                                     "slot": 7,
                                     "rank": 2
                                 }
-                            ]
+                            ],
+                            "primaryRuneTreeId": 8400,
+                            "primaryRuneTreeName": "Resolve",
+                            "secondaryRuneTreeId": 8300,
+                            "secondaryRuneTreeName": "Inspiration"
                         }
                     ]
                 }
             },
             "winner": "BLUE",
-            "start": "2020-05-02T18:34:11+00:00",
+            "patch": "10.7",
+            "start": "2020-05-02T18:34:11+08:00",
             "duration": 2048
         },
         {
@@ -3111,30 +3193,24 @@
                                 "firstBlood": true,
                                 "firstTower": false,
                                 "killingSprees": 0,
-                                "largestKillingSpree": 0,
                                 "doubleKills": 0,
                                 "tripleKills": 0,
                                 "quadraKills": 0,
                                 "pentaKills": 0,
                                 "towerKills": 0,
-                                "inhibitorKills": 0,
                                 "monsterKills": 29,
                                 "monsterKillsInAlliedJungle": 11,
                                 "monsterKillsInEnemyJungle": 0,
                                 "wardsPlaced": 16,
                                 "wardsKilled": 5,
                                 "visionWardsBought": 6,
-                                "largestCriticalStrike": 0,
                                 "totalDamageDealt": 154607,
-                                "physicalDamageDealt": 144147,
-                                "magicDamageDealt": 1655,
                                 "totalDamageDealtToChampions": 3312,
                                 "physicalDamageDealtToChampions": 2593,
                                 "magicDamageDealtToChampions": 718,
                                 "totalDamageTaken": 24222,
                                 "physicalDamageTaken": 15124,
                                 "magicDamageTaken": 8690,
-                                "totalHeal": 3697,
                                 "items": [
                                     {
                                         "id": 3077,
@@ -3171,7 +3247,13 @@
                                         "name": "Warding Totem (Trinket)",
                                         "slot": 7
                                     }
-                                ]
+                                ],
+                                "largestCriticalStrike": 0,
+                                "largestKillingSpree": 0,
+                                "inhibitorKills": 0,
+                                "totalHeal": 3697,
+                                "physicalDamageDealt": 144147,
+                                "magicDamageDealt": 1655
                             },
                             "uniqueIdentifiers": {
                                 "qq": {
@@ -3228,7 +3310,11 @@
                                     "slot": 7,
                                     "rank": 1
                                 }
-                            ]
+                            ],
+                            "primaryRuneTreeId": 8000,
+                            "primaryRuneTreeName": "Precision",
+                            "secondaryRuneTreeId": 8400,
+                            "secondaryRuneTreeName": "Resolve"
                         },
                         {
                             "inGameName": "JDGKanavi",
@@ -3256,30 +3342,24 @@
                                 "firstBlood": false,
                                 "firstTower": true,
                                 "killingSprees": 1,
-                                "largestKillingSpree": 2,
                                 "doubleKills": 0,
                                 "tripleKills": 0,
                                 "quadraKills": 0,
                                 "pentaKills": 0,
                                 "towerKills": 2,
-                                "inhibitorKills": 0,
                                 "monsterKills": 133,
                                 "monsterKillsInAlliedJungle": 87,
                                 "monsterKillsInEnemyJungle": 17,
                                 "wardsPlaced": 10,
                                 "wardsKilled": 27,
                                 "visionWardsBought": 9,
-                                "largestCriticalStrike": 0,
                                 "totalDamageDealt": 127990,
-                                "physicalDamageDealt": 80994,
-                                "magicDamageDealt": 32923,
                                 "totalDamageDealtToChampions": 4301,
                                 "physicalDamageDealtToChampions": 2753,
                                 "magicDamageDealtToChampions": 1027,
                                 "totalDamageTaken": 28569,
                                 "physicalDamageTaken": 18249,
                                 "magicDamageTaken": 10008,
-                                "totalHeal": 12202,
                                 "items": [
                                     {
                                         "id": 3193,
@@ -3316,7 +3396,13 @@
                                         "name": "Oracle Lens",
                                         "slot": 7
                                     }
-                                ]
+                                ],
+                                "largestCriticalStrike": 0,
+                                "largestKillingSpree": 2,
+                                "inhibitorKills": 0,
+                                "totalHeal": 12202,
+                                "physicalDamageDealt": 80994,
+                                "magicDamageDealt": 32923
                             },
                             "uniqueIdentifiers": {
                                 "qq": {
@@ -3379,7 +3465,11 @@
                                     "slot": 8,
                                     "rank": 1
                                 }
-                            ]
+                            ],
+                            "primaryRuneTreeId": 8000,
+                            "primaryRuneTreeName": "Precision",
+                            "secondaryRuneTreeId": 8200,
+                            "secondaryRuneTreeName": "Sorcery"
                         },
                         {
                             "inGameName": "JDGYagao",
@@ -3407,30 +3497,24 @@
                                 "firstBlood": false,
                                 "firstTower": false,
                                 "killingSprees": 0,
-                                "largestKillingSpree": 0,
                                 "doubleKills": 0,
                                 "tripleKills": 0,
                                 "quadraKills": 0,
                                 "pentaKills": 0,
                                 "towerKills": 1,
-                                "inhibitorKills": 0,
                                 "monsterKills": 20,
                                 "monsterKillsInAlliedJungle": 20,
                                 "monsterKillsInEnemyJungle": 0,
                                 "wardsPlaced": 12,
                                 "wardsKilled": 12,
                                 "visionWardsBought": 6,
-                                "largestCriticalStrike": 0,
                                 "totalDamageDealt": 146927,
-                                "physicalDamageDealt": 7795,
-                                "magicDamageDealt": 139132,
                                 "totalDamageDealtToChampions": 9187,
                                 "physicalDamageDealtToChampions": 291,
                                 "magicDamageDealtToChampions": 8896,
                                 "totalDamageTaken": 13534,
                                 "physicalDamageTaken": 6315,
                                 "magicDamageTaken": 7058,
-                                "totalHeal": 1073,
                                 "items": [
                                     {
                                         "id": 3157,
@@ -3467,7 +3551,13 @@
                                         "name": "Farsight Alteration",
                                         "slot": 7
                                     }
-                                ]
+                                ],
+                                "largestCriticalStrike": 0,
+                                "largestKillingSpree": 0,
+                                "inhibitorKills": 0,
+                                "totalHeal": 1073,
+                                "physicalDamageDealt": 7795,
+                                "magicDamageDealt": 139132
                             },
                             "uniqueIdentifiers": {
                                 "qq": {
@@ -3530,7 +3620,11 @@
                                     "slot": 8,
                                     "rank": 1
                                 }
-                            ]
+                            ],
+                            "primaryRuneTreeId": 8000,
+                            "primaryRuneTreeName": "Precision",
+                            "secondaryRuneTreeId": 8300,
+                            "secondaryRuneTreeName": "Inspiration"
                         },
                         {
                             "inGameName": "JDGLokeN",
@@ -3558,30 +3652,24 @@
                                 "firstBlood": false,
                                 "firstTower": false,
                                 "killingSprees": 0,
-                                "largestKillingSpree": 0,
                                 "doubleKills": 0,
                                 "tripleKills": 0,
                                 "quadraKills": 0,
                                 "pentaKills": 0,
                                 "towerKills": 2,
-                                "inhibitorKills": 0,
                                 "monsterKills": 34,
                                 "monsterKillsInAlliedJungle": 26,
                                 "monsterKillsInEnemyJungle": 0,
                                 "wardsPlaced": 12,
                                 "wardsKilled": 11,
                                 "visionWardsBought": 4,
-                                "largestCriticalStrike": 934,
                                 "totalDamageDealt": 218919,
-                                "physicalDamageDealt": 214537,
-                                "magicDamageDealt": 1990,
                                 "totalDamageDealtToChampions": 9654,
                                 "physicalDamageDealtToChampions": 9179,
                                 "magicDamageDealtToChampions": 475,
                                 "totalDamageTaken": 13747,
                                 "physicalDamageTaken": 7836,
                                 "magicDamageTaken": 5818,
-                                "totalHeal": 57,
                                 "items": [
                                     {
                                         "id": 1055,
@@ -3618,7 +3706,13 @@
                                         "name": "Farsight Alteration",
                                         "slot": 7
                                     }
-                                ]
+                                ],
+                                "largestCriticalStrike": 934,
+                                "largestKillingSpree": 0,
+                                "inhibitorKills": 0,
+                                "totalHeal": 57,
+                                "physicalDamageDealt": 214537,
+                                "magicDamageDealt": 1990
                             },
                             "uniqueIdentifiers": {
                                 "qq": {
@@ -3681,7 +3775,11 @@
                                     "slot": 8,
                                     "rank": 1
                                 }
-                            ]
+                            ],
+                            "primaryRuneTreeId": 8000,
+                            "primaryRuneTreeName": "Precision",
+                            "secondaryRuneTreeId": 8200,
+                            "secondaryRuneTreeName": "Sorcery"
                         },
                         {
                             "inGameName": "JDGLvMao",
@@ -3709,30 +3807,24 @@
                                 "firstBlood": false,
                                 "firstTower": false,
                                 "killingSprees": 0,
-                                "largestKillingSpree": 0,
                                 "doubleKills": 0,
                                 "tripleKills": 0,
                                 "quadraKills": 0,
                                 "pentaKills": 0,
                                 "towerKills": 0,
-                                "inhibitorKills": 0,
                                 "monsterKills": 0,
                                 "monsterKillsInAlliedJungle": 0,
                                 "monsterKillsInEnemyJungle": 0,
                                 "wardsPlaced": 44,
                                 "wardsKilled": 3,
                                 "visionWardsBought": 16,
-                                "largestCriticalStrike": 0,
                                 "totalDamageDealt": 21288,
-                                "physicalDamageDealt": 4328,
-                                "magicDamageDealt": 11778,
                                 "totalDamageDealtToChampions": 10270,
                                 "physicalDamageDealtToChampions": 605,
                                 "magicDamageDealtToChampions": 9664,
                                 "totalDamageTaken": 5875,
                                 "physicalDamageTaken": 3221,
                                 "magicDamageTaken": 2653,
-                                "totalHeal": 13835,
                                 "items": [
                                     {
                                         "id": 3860,
@@ -3769,7 +3861,13 @@
                                         "name": "Oracle Lens",
                                         "slot": 7
                                     }
-                                ]
+                                ],
+                                "largestCriticalStrike": 0,
+                                "largestKillingSpree": 0,
+                                "inhibitorKills": 0,
+                                "totalHeal": 13835,
+                                "physicalDamageDealt": 4328,
+                                "magicDamageDealt": 11778
                             },
                             "uniqueIdentifiers": {
                                 "qq": {
@@ -3826,7 +3924,11 @@
                                     "slot": 7,
                                     "rank": 1
                                 }
-                            ]
+                            ],
+                            "primaryRuneTreeId": 8200,
+                            "primaryRuneTreeName": "Sorcery",
+                            "secondaryRuneTreeId": 8000,
+                            "secondaryRuneTreeName": "Precision"
                         }
                     ]
                 },
@@ -3868,30 +3970,24 @@
                                 "firstBlood": false,
                                 "firstTower": false,
                                 "killingSprees": 0,
-                                "largestKillingSpree": 0,
                                 "doubleKills": 0,
                                 "tripleKills": 0,
                                 "quadraKills": 0,
                                 "pentaKills": 0,
                                 "towerKills": 1,
-                                "inhibitorKills": 1,
                                 "monsterKills": 32,
                                 "monsterKillsInAlliedJungle": 29,
                                 "monsterKillsInEnemyJungle": 0,
                                 "wardsPlaced": 13,
                                 "wardsKilled": 12,
                                 "visionWardsBought": 3,
-                                "largestCriticalStrike": 0,
                                 "totalDamageDealt": 182414,
-                                "physicalDamageDealt": 160590,
-                                "magicDamageDealt": 17817,
                                 "totalDamageDealtToChampions": 13959,
                                 "physicalDamageDealtToChampions": 13246,
                                 "magicDamageDealtToChampions": 713,
                                 "totalDamageTaken": 9422,
                                 "physicalDamageTaken": 7529,
                                 "magicDamageTaken": 1853,
-                                "totalHeal": 2035,
                                 "items": [
                                     {
                                         "id": 3142,
@@ -3928,7 +4024,13 @@
                                         "name": "Warding Totem (Trinket)",
                                         "slot": 7
                                     }
-                                ]
+                                ],
+                                "largestCriticalStrike": 0,
+                                "largestKillingSpree": 0,
+                                "inhibitorKills": 1,
+                                "totalHeal": 2035,
+                                "physicalDamageDealt": 160590,
+                                "magicDamageDealt": 17817
                             },
                             "uniqueIdentifiers": {
                                 "qq": {
@@ -3985,7 +4087,11 @@
                                     "slot": 7,
                                     "rank": 1
                                 }
-                            ]
+                            ],
+                            "primaryRuneTreeId": 8200,
+                            "primaryRuneTreeName": "Sorcery",
+                            "secondaryRuneTreeId": 8300,
+                            "secondaryRuneTreeName": "Inspiration"
                         },
                         {
                             "inGameName": "TESKarsa",
@@ -4013,30 +4119,24 @@
                                 "firstBlood": false,
                                 "firstTower": false,
                                 "killingSprees": 0,
-                                "largestKillingSpree": 0,
                                 "doubleKills": 0,
                                 "tripleKills": 0,
                                 "quadraKills": 0,
                                 "pentaKills": 0,
                                 "towerKills": 0,
-                                "inhibitorKills": 0,
                                 "monsterKills": 120,
                                 "monsterKillsInAlliedJungle": 76,
                                 "monsterKillsInEnemyJungle": 1,
                                 "wardsPlaced": 32,
                                 "wardsKilled": 10,
                                 "visionWardsBought": 14,
-                                "largestCriticalStrike": 0,
                                 "totalDamageDealt": 124624,
-                                "physicalDamageDealt": 26199,
-                                "magicDamageDealt": 90326,
                                 "totalDamageDealtToChampions": 8142,
                                 "physicalDamageDealtToChampions": 464,
                                 "magicDamageDealtToChampions": 6991,
                                 "totalDamageTaken": 20654,
                                 "physicalDamageTaken": 14245,
                                 "magicDamageTaken": 6025,
-                                "totalHeal": 12123,
                                 "items": [
                                     {
                                         "id": 3020,
@@ -4073,7 +4173,13 @@
                                         "name": "Oracle Lens",
                                         "slot": 7
                                     }
-                                ]
+                                ],
+                                "largestCriticalStrike": 0,
+                                "largestKillingSpree": 0,
+                                "inhibitorKills": 0,
+                                "totalHeal": 12123,
+                                "physicalDamageDealt": 26199,
+                                "magicDamageDealt": 90326
                             },
                             "uniqueIdentifiers": {
                                 "qq": {
@@ -4136,7 +4242,11 @@
                                     "slot": 8,
                                     "rank": 1
                                 }
-                            ]
+                            ],
+                            "primaryRuneTreeId": 8100,
+                            "primaryRuneTreeName": "Domination",
+                            "secondaryRuneTreeId": 8300,
+                            "secondaryRuneTreeName": "Inspiration"
                         },
                         {
                             "inGameName": "TESknight",
@@ -4164,30 +4274,24 @@
                                 "firstBlood": false,
                                 "firstTower": false,
                                 "killingSprees": 1,
-                                "largestKillingSpree": 6,
                                 "doubleKills": 2,
                                 "tripleKills": 1,
                                 "quadraKills": 0,
                                 "pentaKills": 0,
                                 "towerKills": 3,
-                                "inhibitorKills": 0,
                                 "monsterKills": 36,
                                 "monsterKillsInAlliedJungle": 36,
                                 "monsterKillsInEnemyJungle": 0,
                                 "wardsPlaced": 7,
                                 "wardsKilled": 10,
                                 "visionWardsBought": 3,
-                                "largestCriticalStrike": 498,
                                 "totalDamageDealt": 204235,
-                                "physicalDamageDealt": 21133,
-                                "magicDamageDealt": 182635,
                                 "totalDamageDealtToChampions": 22098,
                                 "physicalDamageDealtToChampions": 1971,
                                 "magicDamageDealtToChampions": 19841,
                                 "totalDamageTaken": 11632,
                                 "physicalDamageTaken": 5130,
                                 "magicDamageTaken": 6404,
-                                "totalHeal": 2101,
                                 "items": [
                                     {
                                         "id": 3078,
@@ -4224,7 +4328,13 @@
                                         "name": "Oracle Lens",
                                         "slot": 7
                                     }
-                                ]
+                                ],
+                                "largestCriticalStrike": 498,
+                                "largestKillingSpree": 6,
+                                "inhibitorKills": 0,
+                                "totalHeal": 2101,
+                                "physicalDamageDealt": 21133,
+                                "magicDamageDealt": 182635
                             },
                             "uniqueIdentifiers": {
                                 "qq": {
@@ -4287,7 +4397,11 @@
                                     "slot": 8,
                                     "rank": 1
                                 }
-                            ]
+                            ],
+                            "primaryRuneTreeId": 8000,
+                            "primaryRuneTreeName": "Precision",
+                            "secondaryRuneTreeId": 8300,
+                            "secondaryRuneTreeName": "Inspiration"
                         },
                         {
                             "inGameName": "TESJackeyLove",
@@ -4315,30 +4429,24 @@
                                 "firstBlood": false,
                                 "firstTower": false,
                                 "killingSprees": 1,
-                                "largestKillingSpree": 3,
                                 "doubleKills": 1,
                                 "tripleKills": 0,
                                 "quadraKills": 0,
                                 "pentaKills": 0,
                                 "towerKills": 3,
-                                "inhibitorKills": 0,
                                 "monsterKills": 28,
                                 "monsterKillsInAlliedJungle": 16,
                                 "monsterKillsInEnemyJungle": 4,
                                 "wardsPlaced": 10,
                                 "wardsKilled": 7,
                                 "visionWardsBought": 3,
-                                "largestCriticalStrike": 913,
                                 "totalDamageDealt": 218455,
-                                "physicalDamageDealt": 209193,
-                                "magicDamageDealt": 2180,
                                 "totalDamageDealtToChampions": 15716,
                                 "physicalDamageDealtToChampions": 15193,
                                 "magicDamageDealtToChampions": 522,
                                 "totalDamageTaken": 9309,
                                 "physicalDamageTaken": 4736,
                                 "magicDamageTaken": 4573,
-                                "totalHeal": 1571,
                                 "items": [
                                     {
                                         "id": 3046,
@@ -4375,7 +4483,13 @@
                                         "name": "Farsight Alteration",
                                         "slot": 7
                                     }
-                                ]
+                                ],
+                                "largestCriticalStrike": 913,
+                                "largestKillingSpree": 3,
+                                "inhibitorKills": 0,
+                                "totalHeal": 1571,
+                                "physicalDamageDealt": 209193,
+                                "magicDamageDealt": 2180
                             },
                             "uniqueIdentifiers": {
                                 "qq": {
@@ -4438,7 +4552,11 @@
                                     "slot": 8,
                                     "rank": 1
                                 }
-                            ]
+                            ],
+                            "primaryRuneTreeId": 8000,
+                            "primaryRuneTreeName": "Precision",
+                            "secondaryRuneTreeId": 8200,
+                            "secondaryRuneTreeName": "Sorcery"
                         },
                         {
                             "inGameName": "TESQiuQiu",
@@ -4466,30 +4584,24 @@
                                 "firstBlood": false,
                                 "firstTower": false,
                                 "killingSprees": 0,
-                                "largestKillingSpree": 0,
                                 "doubleKills": 0,
                                 "tripleKills": 0,
                                 "quadraKills": 0,
                                 "pentaKills": 0,
                                 "towerKills": 1,
-                                "inhibitorKills": 0,
                                 "monsterKills": 0,
                                 "monsterKillsInAlliedJungle": 0,
                                 "monsterKillsInEnemyJungle": 0,
                                 "wardsPlaced": 47,
                                 "wardsKilled": 5,
                                 "visionWardsBought": 16,
-                                "largestCriticalStrike": 0,
                                 "totalDamageDealt": 16513,
-                                "physicalDamageDealt": 5582,
-                                "magicDamageDealt": 4002,
                                 "totalDamageDealtToChampions": 2557,
                                 "physicalDamageDealtToChampions": 480,
                                 "magicDamageDealtToChampions": 2077,
                                 "totalDamageTaken": 14233,
                                 "physicalDamageTaken": 7773,
                                 "magicDamageTaken": 6459,
-                                "totalHeal": 5743,
                                 "items": [
                                     {
                                         "id": 3107,
@@ -4526,7 +4638,13 @@
                                         "name": "Oracle Lens",
                                         "slot": 7
                                     }
-                                ]
+                                ],
+                                "largestCriticalStrike": 0,
+                                "largestKillingSpree": 0,
+                                "inhibitorKills": 0,
+                                "totalHeal": 5743,
+                                "physicalDamageDealt": 5582,
+                                "magicDamageDealt": 4002
                             },
                             "uniqueIdentifiers": {
                                 "qq": {
@@ -4583,13 +4701,18 @@
                                     "slot": 7,
                                     "rank": 2
                                 }
-                            ]
+                            ],
+                            "primaryRuneTreeId": 8400,
+                            "primaryRuneTreeName": "Resolve",
+                            "secondaryRuneTreeId": 8300,
+                            "secondaryRuneTreeName": "Inspiration"
                         }
                     ]
                 }
             },
             "winner": "RED",
-            "start": "2020-05-02T19:35:01+00:00",
+            "patch": "10.7",
+            "start": "2020-05-02T19:35:01+08:00",
             "duration": 1840
         },
         {
@@ -4640,30 +4763,24 @@
                                 "firstBlood": false,
                                 "firstTower": false,
                                 "killingSprees": 0,
-                                "largestKillingSpree": 0,
                                 "doubleKills": 0,
                                 "tripleKills": 0,
                                 "quadraKills": 0,
                                 "pentaKills": 0,
                                 "towerKills": 3,
-                                "inhibitorKills": 0,
                                 "monsterKills": 24,
                                 "monsterKillsInAlliedJungle": 11,
                                 "monsterKillsInEnemyJungle": 0,
                                 "wardsPlaced": 18,
                                 "wardsKilled": 6,
                                 "visionWardsBought": 9,
-                                "largestCriticalStrike": 868,
                                 "totalDamageDealt": 256061,
-                                "physicalDamageDealt": 227630,
-                                "magicDamageDealt": 12042,
                                 "totalDamageDealtToChampions": 19255,
                                 "physicalDamageDealtToChampions": 13922,
                                 "magicDamageDealtToChampions": 3835,
                                 "totalDamageTaken": 16400,
                                 "physicalDamageTaken": 8711,
                                 "magicDamageTaken": 7272,
-                                "totalHeal": 3288,
                                 "items": [
                                     {
                                         "id": 2055,
@@ -4700,7 +4817,13 @@
                                         "name": "Farsight Alteration",
                                         "slot": 7
                                     }
-                                ]
+                                ],
+                                "largestCriticalStrike": 868,
+                                "largestKillingSpree": 0,
+                                "inhibitorKills": 0,
+                                "totalHeal": 3288,
+                                "physicalDamageDealt": 227630,
+                                "magicDamageDealt": 12042
                             },
                             "uniqueIdentifiers": {
                                 "qq": {
@@ -4757,7 +4880,11 @@
                                     "slot": 7,
                                     "rank": 1
                                 }
-                            ]
+                            ],
+                            "primaryRuneTreeId": 8400,
+                            "primaryRuneTreeName": "Resolve",
+                            "secondaryRuneTreeId": 8300,
+                            "secondaryRuneTreeName": "Inspiration"
                         },
                         {
                             "inGameName": "JDGKanavi",
@@ -4785,30 +4912,24 @@
                                 "firstBlood": false,
                                 "firstTower": false,
                                 "killingSprees": 0,
-                                "largestKillingSpree": 0,
                                 "doubleKills": 0,
                                 "tripleKills": 0,
                                 "quadraKills": 0,
                                 "pentaKills": 0,
                                 "towerKills": 2,
-                                "inhibitorKills": 1,
                                 "monsterKills": 147,
                                 "monsterKillsInAlliedJungle": 110,
                                 "monsterKillsInEnemyJungle": 11,
                                 "wardsPlaced": 32,
                                 "wardsKilled": 15,
                                 "visionWardsBought": 9,
-                                "largestCriticalStrike": 0,
                                 "totalDamageDealt": 155585,
-                                "physicalDamageDealt": 25615,
-                                "magicDamageDealt": 120610,
                                 "totalDamageDealtToChampions": 8258,
                                 "physicalDamageDealtToChampions": 100,
                                 "magicDamageDealtToChampions": 8045,
                                 "totalDamageTaken": 26602,
                                 "physicalDamageTaken": 19348,
                                 "magicDamageTaken": 7026,
-                                "totalHeal": 14445,
                                 "items": [
                                     {
                                         "id": 0,
@@ -4845,7 +4966,13 @@
                                         "name": "Oracle Lens",
                                         "slot": 7
                                     }
-                                ]
+                                ],
+                                "largestCriticalStrike": 0,
+                                "largestKillingSpree": 0,
+                                "inhibitorKills": 1,
+                                "totalHeal": 14445,
+                                "physicalDamageDealt": 25615,
+                                "magicDamageDealt": 120610
                             },
                             "uniqueIdentifiers": {
                                 "qq": {
@@ -4908,7 +5035,11 @@
                                     "slot": 8,
                                     "rank": 1
                                 }
-                            ]
+                            ],
+                            "primaryRuneTreeId": 8000,
+                            "primaryRuneTreeName": "Precision",
+                            "secondaryRuneTreeId": 8100,
+                            "secondaryRuneTreeName": "Domination"
                         },
                         {
                             "inGameName": "JDGYagao",
@@ -4936,30 +5067,24 @@
                                 "firstBlood": false,
                                 "firstTower": false,
                                 "killingSprees": 2,
-                                "largestKillingSpree": 3,
                                 "doubleKills": 0,
                                 "tripleKills": 0,
                                 "quadraKills": 0,
                                 "pentaKills": 0,
                                 "towerKills": 1,
-                                "inhibitorKills": 0,
                                 "monsterKills": 17,
                                 "monsterKillsInAlliedJungle": 8,
                                 "monsterKillsInEnemyJungle": 9,
                                 "wardsPlaced": 11,
                                 "wardsKilled": 4,
                                 "visionWardsBought": 5,
-                                "largestCriticalStrike": 0,
                                 "totalDamageDealt": 127300,
-                                "physicalDamageDealt": 21813,
-                                "magicDamageDealt": 101917,
                                 "totalDamageDealtToChampions": 12533,
                                 "physicalDamageDealtToChampions": 1117,
                                 "magicDamageDealtToChampions": 11416,
                                 "totalDamageTaken": 15848,
                                 "physicalDamageTaken": 10444,
                                 "magicDamageTaken": 5052,
-                                "totalHeal": 3893,
                                 "items": [
                                     {
                                         "id": 1058,
@@ -4996,7 +5121,13 @@
                                         "name": "Oracle Lens",
                                         "slot": 7
                                     }
-                                ]
+                                ],
+                                "largestCriticalStrike": 0,
+                                "largestKillingSpree": 3,
+                                "inhibitorKills": 0,
+                                "totalHeal": 3893,
+                                "physicalDamageDealt": 21813,
+                                "magicDamageDealt": 101917
                             },
                             "uniqueIdentifiers": {
                                 "qq": {
@@ -5059,7 +5190,11 @@
                                     "slot": 8,
                                     "rank": 1
                                 }
-                            ]
+                            ],
+                            "primaryRuneTreeId": 8100,
+                            "primaryRuneTreeName": "Domination",
+                            "secondaryRuneTreeId": 8300,
+                            "secondaryRuneTreeName": "Inspiration"
                         },
                         {
                             "inGameName": "JDGLokeN",
@@ -5087,30 +5222,24 @@
                                 "firstBlood": false,
                                 "firstTower": false,
                                 "killingSprees": 2,
-                                "largestKillingSpree": 4,
                                 "doubleKills": 0,
                                 "tripleKills": 0,
                                 "quadraKills": 0,
                                 "pentaKills": 0,
                                 "towerKills": 3,
-                                "inhibitorKills": 1,
                                 "monsterKills": 28,
                                 "monsterKillsInAlliedJungle": 21,
                                 "monsterKillsInEnemyJungle": 4,
                                 "wardsPlaced": 13,
                                 "wardsKilled": 18,
                                 "visionWardsBought": 6,
-                                "largestCriticalStrike": 634,
                                 "totalDamageDealt": 198999,
-                                "physicalDamageDealt": 192908,
-                                "magicDamageDealt": 3369,
                                 "totalDamageDealtToChampions": 17869,
                                 "physicalDamageDealtToChampions": 17228,
                                 "magicDamageDealtToChampions": 455,
                                 "totalDamageTaken": 7808,
                                 "physicalDamageTaken": 4446,
                                 "magicDamageTaken": 3040,
-                                "totalHeal": 2495,
                                 "items": [
                                     {
                                         "id": 1053,
@@ -5147,7 +5276,13 @@
                                         "name": "Farsight Alteration",
                                         "slot": 7
                                     }
-                                ]
+                                ],
+                                "largestCriticalStrike": 634,
+                                "largestKillingSpree": 4,
+                                "inhibitorKills": 1,
+                                "totalHeal": 2495,
+                                "physicalDamageDealt": 192908,
+                                "magicDamageDealt": 3369
                             },
                             "uniqueIdentifiers": {
                                 "qq": {
@@ -5210,7 +5345,11 @@
                                     "slot": 8,
                                     "rank": 1
                                 }
-                            ]
+                            ],
+                            "primaryRuneTreeId": 8000,
+                            "primaryRuneTreeName": "Precision",
+                            "secondaryRuneTreeId": 8200,
+                            "secondaryRuneTreeName": "Sorcery"
                         },
                         {
                             "inGameName": "JDGLvMao",
@@ -5238,30 +5377,24 @@
                                 "firstBlood": false,
                                 "firstTower": false,
                                 "killingSprees": 0,
-                                "largestKillingSpree": 0,
                                 "doubleKills": 0,
                                 "tripleKills": 0,
                                 "quadraKills": 0,
                                 "pentaKills": 0,
                                 "towerKills": 1,
-                                "inhibitorKills": 0,
                                 "monsterKills": 0,
                                 "monsterKillsInAlliedJungle": 0,
                                 "monsterKillsInEnemyJungle": 0,
                                 "wardsPlaced": 51,
                                 "wardsKilled": 5,
                                 "visionWardsBought": 18,
-                                "largestCriticalStrike": 0,
                                 "totalDamageDealt": 17451,
-                                "physicalDamageDealt": 6339,
-                                "magicDamageDealt": 8053,
                                 "totalDamageDealtToChampions": 4122,
                                 "physicalDamageDealtToChampions": 824,
                                 "magicDamageDealtToChampions": 3297,
                                 "totalDamageTaken": 11137,
                                 "physicalDamageTaken": 6471,
                                 "magicDamageTaken": 4365,
-                                "totalHeal": 1889,
                                 "items": [
                                     {
                                         "id": 3857,
@@ -5298,7 +5431,13 @@
                                         "name": "Oracle Lens",
                                         "slot": 7
                                     }
-                                ]
+                                ],
+                                "largestCriticalStrike": 0,
+                                "largestKillingSpree": 0,
+                                "inhibitorKills": 0,
+                                "totalHeal": 1889,
+                                "physicalDamageDealt": 6339,
+                                "magicDamageDealt": 8053
                             },
                             "uniqueIdentifiers": {
                                 "qq": {
@@ -5355,7 +5494,11 @@
                                     "slot": 7,
                                     "rank": 2
                                 }
-                            ]
+                            ],
+                            "primaryRuneTreeId": 8400,
+                            "primaryRuneTreeName": "Resolve",
+                            "secondaryRuneTreeId": 8300,
+                            "secondaryRuneTreeName": "Inspiration"
                         }
                     ]
                 },
@@ -5397,30 +5540,24 @@
                                 "firstBlood": false,
                                 "firstTower": false,
                                 "killingSprees": 0,
-                                "largestKillingSpree": 0,
                                 "doubleKills": 0,
                                 "tripleKills": 0,
                                 "quadraKills": 0,
                                 "pentaKills": 0,
                                 "towerKills": 0,
-                                "inhibitorKills": 0,
                                 "monsterKills": 4,
                                 "monsterKillsInAlliedJungle": 0,
                                 "monsterKillsInEnemyJungle": 0,
                                 "wardsPlaced": 13,
                                 "wardsKilled": 4,
                                 "visionWardsBought": 5,
-                                "largestCriticalStrike": 0,
                                 "totalDamageDealt": 135191,
-                                "physicalDamageDealt": 60908,
-                                "magicDamageDealt": 68059,
                                 "totalDamageDealtToChampions": 9900,
                                 "physicalDamageDealtToChampions": 2988,
                                 "magicDamageDealtToChampions": 6494,
                                 "totalDamageTaken": 20563,
                                 "physicalDamageTaken": 15836,
                                 "magicDamageTaken": 4030,
-                                "totalHeal": 2852,
                                 "items": [
                                     {
                                         "id": 0,
@@ -5457,7 +5594,13 @@
                                         "name": "Warding Totem (Trinket)",
                                         "slot": 7
                                     }
-                                ]
+                                ],
+                                "largestCriticalStrike": 0,
+                                "largestKillingSpree": 0,
+                                "inhibitorKills": 0,
+                                "totalHeal": 2852,
+                                "physicalDamageDealt": 60908,
+                                "magicDamageDealt": 68059
                             },
                             "uniqueIdentifiers": {
                                 "qq": {
@@ -5520,7 +5663,11 @@
                                     "slot": 8,
                                     "rank": 1
                                 }
-                            ]
+                            ],
+                            "primaryRuneTreeId": 8300,
+                            "primaryRuneTreeName": "Inspiration",
+                            "secondaryRuneTreeId": 8400,
+                            "secondaryRuneTreeName": "Resolve"
                         },
                         {
                             "inGameName": "TESKarsa",
@@ -5548,30 +5695,24 @@
                                 "firstBlood": true,
                                 "firstTower": true,
                                 "killingSprees": 1,
-                                "largestKillingSpree": 2,
                                 "doubleKills": 0,
                                 "tripleKills": 0,
                                 "quadraKills": 0,
                                 "pentaKills": 0,
                                 "towerKills": 2,
-                                "inhibitorKills": 0,
                                 "monsterKills": 162,
                                 "monsterKillsInAlliedJungle": 102,
                                 "monsterKillsInEnemyJungle": 0,
                                 "wardsPlaced": 21,
                                 "wardsKilled": 6,
                                 "visionWardsBought": 13,
-                                "largestCriticalStrike": 0,
                                 "totalDamageDealt": 182936,
-                                "physicalDamageDealt": 134462,
-                                "magicDamageDealt": 35299,
                                 "totalDamageDealtToChampions": 6971,
                                 "physicalDamageDealtToChampions": 5803,
                                 "magicDamageDealtToChampions": 965,
                                 "totalDamageTaken": 23547,
                                 "physicalDamageTaken": 17375,
                                 "magicDamageTaken": 6095,
-                                "totalHeal": 6775,
                                 "items": [
                                     {
                                         "id": 1412,
@@ -5608,7 +5749,13 @@
                                         "name": "Warding Totem (Trinket)",
                                         "slot": 7
                                     }
-                                ]
+                                ],
+                                "largestCriticalStrike": 0,
+                                "largestKillingSpree": 2,
+                                "inhibitorKills": 0,
+                                "totalHeal": 6775,
+                                "physicalDamageDealt": 134462,
+                                "magicDamageDealt": 35299
                             },
                             "uniqueIdentifiers": {
                                 "qq": {
@@ -5671,7 +5818,11 @@
                                     "slot": 8,
                                     "rank": 1
                                 }
-                            ]
+                            ],
+                            "primaryRuneTreeId": 8000,
+                            "primaryRuneTreeName": "Precision",
+                            "secondaryRuneTreeId": 8300,
+                            "secondaryRuneTreeName": "Inspiration"
                         },
                         {
                             "inGameName": "TESknight",
@@ -5699,30 +5850,24 @@
                                 "firstBlood": false,
                                 "firstTower": false,
                                 "killingSprees": 1,
-                                "largestKillingSpree": 2,
                                 "doubleKills": 0,
                                 "tripleKills": 0,
                                 "quadraKills": 0,
                                 "pentaKills": 0,
                                 "towerKills": 0,
-                                "inhibitorKills": 0,
                                 "monsterKills": 19,
                                 "monsterKillsInAlliedJungle": 12,
                                 "monsterKillsInEnemyJungle": 4,
                                 "wardsPlaced": 6,
                                 "wardsKilled": 7,
                                 "visionWardsBought": 2,
-                                "largestCriticalStrike": 0,
                                 "totalDamageDealt": 185870,
-                                "physicalDamageDealt": 19768,
-                                "magicDamageDealt": 162777,
                                 "totalDamageDealtToChampions": 12813,
                                 "physicalDamageDealtToChampions": 1457,
                                 "magicDamageDealtToChampions": 11181,
                                 "totalDamageTaken": 16526,
                                 "physicalDamageTaken": 8040,
                                 "magicDamageTaken": 8036,
-                                "totalHeal": 2954,
                                 "items": [
                                     {
                                         "id": 2033,
@@ -5759,7 +5904,13 @@
                                         "name": "Oracle Lens",
                                         "slot": 7
                                     }
-                                ]
+                                ],
+                                "largestCriticalStrike": 0,
+                                "largestKillingSpree": 2,
+                                "inhibitorKills": 0,
+                                "totalHeal": 2954,
+                                "physicalDamageDealt": 19768,
+                                "magicDamageDealt": 162777
                             },
                             "uniqueIdentifiers": {
                                 "qq": {
@@ -5822,7 +5973,11 @@
                                     "slot": 8,
                                     "rank": 1
                                 }
-                            ]
+                            ],
+                            "primaryRuneTreeId": 8400,
+                            "primaryRuneTreeName": "Resolve",
+                            "secondaryRuneTreeId": 8300,
+                            "secondaryRuneTreeName": "Inspiration"
                         },
                         {
                             "inGameName": "TESJackeyLove",
@@ -5850,30 +6005,24 @@
                                 "firstBlood": false,
                                 "firstTower": false,
                                 "killingSprees": 0,
-                                "largestKillingSpree": 0,
                                 "doubleKills": 0,
                                 "tripleKills": 0,
                                 "quadraKills": 0,
                                 "pentaKills": 0,
                                 "towerKills": 0,
-                                "inhibitorKills": 0,
                                 "monsterKills": 16,
                                 "monsterKillsInAlliedJungle": 13,
                                 "monsterKillsInEnemyJungle": 0,
                                 "wardsPlaced": 12,
                                 "wardsKilled": 17,
                                 "visionWardsBought": 5,
-                                "largestCriticalStrike": 897,
                                 "totalDamageDealt": 159366,
-                                "physicalDamageDealt": 156157,
-                                "magicDamageDealt": 1210,
                                 "totalDamageDealtToChampions": 10608,
                                 "physicalDamageDealtToChampions": 9985,
                                 "magicDamageDealtToChampions": 430,
                                 "totalDamageTaken": 12652,
                                 "physicalDamageTaken": 5998,
                                 "magicDamageTaken": 6435,
-                                "totalHeal": 1634,
                                 "items": [
                                     {
                                         "id": 3371,
@@ -5910,7 +6059,13 @@
                                         "name": "Farsight Alteration",
                                         "slot": 7
                                     }
-                                ]
+                                ],
+                                "largestCriticalStrike": 897,
+                                "largestKillingSpree": 0,
+                                "inhibitorKills": 0,
+                                "totalHeal": 1634,
+                                "physicalDamageDealt": 156157,
+                                "magicDamageDealt": 1210
                             },
                             "uniqueIdentifiers": {
                                 "qq": {
@@ -5973,7 +6128,11 @@
                                     "slot": 8,
                                     "rank": 1
                                 }
-                            ]
+                            ],
+                            "primaryRuneTreeId": 8000,
+                            "primaryRuneTreeName": "Precision",
+                            "secondaryRuneTreeId": 8200,
+                            "secondaryRuneTreeName": "Sorcery"
                         },
                         {
                             "inGameName": "TESQiuQiu",
@@ -6001,30 +6160,24 @@
                                 "firstBlood": false,
                                 "firstTower": false,
                                 "killingSprees": 0,
-                                "largestKillingSpree": 0,
                                 "doubleKills": 0,
                                 "tripleKills": 0,
                                 "quadraKills": 0,
                                 "pentaKills": 0,
                                 "towerKills": 0,
-                                "inhibitorKills": 0,
                                 "monsterKills": 0,
                                 "monsterKillsInAlliedJungle": 0,
                                 "monsterKillsInEnemyJungle": 0,
                                 "wardsPlaced": 52,
                                 "wardsKilled": 8,
                                 "visionWardsBought": 16,
-                                "largestCriticalStrike": 0,
                                 "totalDamageDealt": 24003,
-                                "physicalDamageDealt": 7053,
-                                "magicDamageDealt": 10267,
                                 "totalDamageDealtToChampions": 4197,
                                 "physicalDamageDealtToChampions": 579,
                                 "magicDamageDealtToChampions": 2986,
                                 "totalDamageTaken": 13170,
                                 "physicalDamageTaken": 8092,
                                 "magicDamageTaken": 4723,
-                                "totalHeal": 870,
                                 "items": [
                                     {
                                         "id": 2055,
@@ -6061,7 +6214,13 @@
                                         "name": "Oracle Lens",
                                         "slot": 7
                                     }
-                                ]
+                                ],
+                                "largestCriticalStrike": 0,
+                                "largestKillingSpree": 0,
+                                "inhibitorKills": 0,
+                                "totalHeal": 870,
+                                "physicalDamageDealt": 7053,
+                                "magicDamageDealt": 10267
                             },
                             "uniqueIdentifiers": {
                                 "qq": {
@@ -6124,13 +6283,18 @@
                                     "slot": 8,
                                     "rank": 1
                                 }
-                            ]
+                            ],
+                            "primaryRuneTreeId": 8400,
+                            "primaryRuneTreeName": "Resolve",
+                            "secondaryRuneTreeId": 8300,
+                            "secondaryRuneTreeName": "Inspiration"
                         }
                     ]
                 }
             },
             "winner": "BLUE",
-            "start": "2020-05-02T20:46:21+00:00",
+            "patch": "10.7",
+            "start": "2020-05-02T20:46:21+08:00",
             "duration": 1795
         },
         {
@@ -6181,30 +6345,24 @@
                                 "firstBlood": false,
                                 "firstTower": false,
                                 "killingSprees": 0,
-                                "largestKillingSpree": 0,
                                 "doubleKills": 0,
                                 "tripleKills": 0,
                                 "quadraKills": 0,
                                 "pentaKills": 0,
                                 "towerKills": 1,
-                                "inhibitorKills": 0,
                                 "monsterKills": 32,
                                 "monsterKillsInAlliedJungle": 15,
                                 "monsterKillsInEnemyJungle": 0,
                                 "wardsPlaced": 6,
                                 "wardsKilled": 5,
                                 "visionWardsBought": 1,
-                                "largestCriticalStrike": 0,
                                 "totalDamageDealt": 124878,
-                                "physicalDamageDealt": 124361,
-                                "magicDamageDealt": 516,
                                 "totalDamageDealtToChampions": 15199,
                                 "physicalDamageDealtToChampions": 14682,
                                 "magicDamageDealtToChampions": 516,
                                 "totalDamageTaken": 22412,
                                 "physicalDamageTaken": 10832,
                                 "magicDamageTaken": 7591,
-                                "totalHeal": 9911,
                                 "items": [
                                     {
                                         "id": 1037,
@@ -6241,7 +6399,13 @@
                                         "name": "Oracle Lens",
                                         "slot": 7
                                     }
-                                ]
+                                ],
+                                "largestCriticalStrike": 0,
+                                "largestKillingSpree": 0,
+                                "inhibitorKills": 0,
+                                "totalHeal": 9911,
+                                "physicalDamageDealt": 124361,
+                                "magicDamageDealt": 516
                             },
                             "uniqueIdentifiers": {
                                 "qq": {
@@ -6298,7 +6462,11 @@
                                     "slot": 7,
                                     "rank": 1
                                 }
-                            ]
+                            ],
+                            "primaryRuneTreeId": 8000,
+                            "primaryRuneTreeName": "Precision",
+                            "secondaryRuneTreeId": 8400,
+                            "secondaryRuneTreeName": "Resolve"
                         },
                         {
                             "inGameName": "TESKarsa",
@@ -6326,30 +6494,24 @@
                                 "firstBlood": false,
                                 "firstTower": false,
                                 "killingSprees": 0,
-                                "largestKillingSpree": 0,
                                 "doubleKills": 0,
                                 "tripleKills": 0,
                                 "quadraKills": 0,
                                 "pentaKills": 0,
                                 "towerKills": 0,
-                                "inhibitorKills": 0,
                                 "monsterKills": 134,
                                 "monsterKillsInAlliedJungle": 78,
                                 "monsterKillsInEnemyJungle": 19,
                                 "wardsPlaced": 11,
                                 "wardsKilled": 7,
                                 "visionWardsBought": 13,
-                                "largestCriticalStrike": 0,
                                 "totalDamageDealt": 137066,
-                                "physicalDamageDealt": 68444,
-                                "magicDamageDealt": 59457,
                                 "totalDamageDealtToChampions": 5766,
                                 "physicalDamageDealtToChampions": 2821,
                                 "magicDamageDealtToChampions": 2165,
                                 "totalDamageTaken": 22583,
                                 "physicalDamageTaken": 16837,
                                 "magicDamageTaken": 5686,
-                                "totalHeal": 8844,
                                 "items": [
                                     {
                                         "id": 1401,
@@ -6386,7 +6548,13 @@
                                         "name": "Oracle Lens",
                                         "slot": 7
                                     }
-                                ]
+                                ],
+                                "largestCriticalStrike": 0,
+                                "largestKillingSpree": 0,
+                                "inhibitorKills": 0,
+                                "totalHeal": 8844,
+                                "physicalDamageDealt": 68444,
+                                "magicDamageDealt": 59457
                             },
                             "uniqueIdentifiers": {
                                 "qq": {
@@ -6443,7 +6611,11 @@
                                     "slot": 7,
                                     "rank": 2
                                 }
-                            ]
+                            ],
+                            "primaryRuneTreeId": 8400,
+                            "primaryRuneTreeName": "Resolve",
+                            "secondaryRuneTreeId": 8000,
+                            "secondaryRuneTreeName": "Precision"
                         },
                         {
                             "inGameName": "TESknight",
@@ -6471,30 +6643,24 @@
                                 "firstBlood": false,
                                 "firstTower": false,
                                 "killingSprees": 1,
-                                "largestKillingSpree": 4,
                                 "doubleKills": 0,
                                 "tripleKills": 0,
                                 "quadraKills": 0,
                                 "pentaKills": 0,
                                 "towerKills": 0,
-                                "inhibitorKills": 0,
                                 "monsterKills": 8,
                                 "monsterKillsInAlliedJungle": 8,
                                 "monsterKillsInEnemyJungle": 0,
                                 "wardsPlaced": 11,
                                 "wardsKilled": 5,
                                 "visionWardsBought": 4,
-                                "largestCriticalStrike": 0,
                                 "totalDamageDealt": 89152,
-                                "physicalDamageDealt": 10521,
-                                "magicDamageDealt": 78631,
                                 "totalDamageDealtToChampions": 14027,
                                 "physicalDamageDealtToChampions": 701,
                                 "magicDamageDealtToChampions": 13325,
                                 "totalDamageTaken": 20669,
                                 "physicalDamageTaken": 12247,
                                 "magicDamageTaken": 7826,
-                                "totalHeal": 7402,
                                 "items": [
                                     {
                                         "id": 2033,
@@ -6531,7 +6697,13 @@
                                         "name": "Oracle Lens",
                                         "slot": 7
                                     }
-                                ]
+                                ],
+                                "largestCriticalStrike": 0,
+                                "largestKillingSpree": 4,
+                                "inhibitorKills": 0,
+                                "totalHeal": 7402,
+                                "physicalDamageDealt": 10521,
+                                "magicDamageDealt": 78631
                             },
                             "uniqueIdentifiers": {
                                 "qq": {
@@ -6588,7 +6760,11 @@
                                     "slot": 7,
                                     "rank": 1
                                 }
-                            ]
+                            ],
+                            "primaryRuneTreeId": 8000,
+                            "primaryRuneTreeName": "Precision",
+                            "secondaryRuneTreeId": 8300,
+                            "secondaryRuneTreeName": "Inspiration"
                         },
                         {
                             "inGameName": "TESJackeyLove",
@@ -6616,30 +6792,24 @@
                                 "firstBlood": false,
                                 "firstTower": false,
                                 "killingSprees": 1,
-                                "largestKillingSpree": 2,
                                 "doubleKills": 1,
                                 "tripleKills": 0,
                                 "quadraKills": 0,
                                 "pentaKills": 0,
                                 "towerKills": 1,
-                                "inhibitorKills": 0,
                                 "monsterKills": 12,
                                 "monsterKillsInAlliedJungle": 12,
                                 "monsterKillsInEnemyJungle": 0,
                                 "wardsPlaced": 12,
                                 "wardsKilled": 15,
                                 "visionWardsBought": 6,
-                                "largestCriticalStrike": 599,
                                 "totalDamageDealt": 137439,
-                                "physicalDamageDealt": 127865,
-                                "magicDamageDealt": 1740,
                                 "totalDamageDealtToChampions": 16760,
                                 "physicalDamageDealtToChampions": 15625,
                                 "magicDamageDealtToChampions": 522,
                                 "totalDamageTaken": 9031,
                                 "physicalDamageTaken": 5400,
                                 "magicDamageTaken": 3039,
-                                "totalHeal": 1060,
                                 "items": [
                                     {
                                         "id": 3085,
@@ -6676,7 +6846,13 @@
                                         "name": "Farsight Alteration",
                                         "slot": 7
                                     }
-                                ]
+                                ],
+                                "largestCriticalStrike": 599,
+                                "largestKillingSpree": 2,
+                                "inhibitorKills": 0,
+                                "totalHeal": 1060,
+                                "physicalDamageDealt": 127865,
+                                "magicDamageDealt": 1740
                             },
                             "uniqueIdentifiers": {
                                 "qq": {
@@ -6739,7 +6915,11 @@
                                     "slot": 8,
                                     "rank": 1
                                 }
-                            ]
+                            ],
+                            "primaryRuneTreeId": 8000,
+                            "primaryRuneTreeName": "Precision",
+                            "secondaryRuneTreeId": 8200,
+                            "secondaryRuneTreeName": "Sorcery"
                         },
                         {
                             "inGameName": "TESQiuQiu",
@@ -6767,30 +6947,24 @@
                                 "firstBlood": false,
                                 "firstTower": false,
                                 "killingSprees": 0,
-                                "largestKillingSpree": 0,
                                 "doubleKills": 0,
                                 "tripleKills": 0,
                                 "quadraKills": 0,
                                 "pentaKills": 0,
                                 "towerKills": 0,
-                                "inhibitorKills": 0,
                                 "monsterKills": 0,
                                 "monsterKillsInAlliedJungle": 0,
                                 "monsterKillsInEnemyJungle": 0,
                                 "wardsPlaced": 39,
                                 "wardsKilled": 7,
                                 "visionWardsBought": 11,
-                                "largestCriticalStrike": 0,
                                 "totalDamageDealt": 17924,
-                                "physicalDamageDealt": 5816,
-                                "magicDamageDealt": 5277,
                                 "totalDamageDealtToChampions": 3293,
                                 "physicalDamageDealtToChampions": 410,
                                 "magicDamageDealtToChampions": 2314,
                                 "totalDamageTaken": 12055,
                                 "physicalDamageTaken": 7307,
                                 "magicDamageTaken": 4141,
-                                "totalHeal": 2507,
                                 "items": [
                                     {
                                         "id": 2055,
@@ -6827,7 +7001,13 @@
                                         "name": "Oracle Lens",
                                         "slot": 7
                                     }
-                                ]
+                                ],
+                                "largestCriticalStrike": 0,
+                                "largestKillingSpree": 0,
+                                "inhibitorKills": 0,
+                                "totalHeal": 2507,
+                                "physicalDamageDealt": 5816,
+                                "magicDamageDealt": 5277
                             },
                             "uniqueIdentifiers": {
                                 "qq": {
@@ -6890,7 +7070,11 @@
                                     "slot": 8,
                                     "rank": 1
                                 }
-                            ]
+                            ],
+                            "primaryRuneTreeId": 8400,
+                            "primaryRuneTreeName": "Resolve",
+                            "secondaryRuneTreeId": 8300,
+                            "secondaryRuneTreeName": "Inspiration"
                         }
                     ]
                 },
@@ -6932,30 +7116,24 @@
                                 "firstBlood": false,
                                 "firstTower": false,
                                 "killingSprees": 1,
-                                "largestKillingSpree": 2,
                                 "doubleKills": 0,
                                 "tripleKills": 0,
                                 "quadraKills": 0,
                                 "pentaKills": 0,
                                 "towerKills": 1,
-                                "inhibitorKills": 0,
                                 "monsterKills": 8,
                                 "monsterKillsInAlliedJungle": 5,
                                 "monsterKillsInEnemyJungle": 0,
                                 "wardsPlaced": 16,
                                 "wardsKilled": 6,
                                 "visionWardsBought": 8,
-                                "largestCriticalStrike": 19,
                                 "totalDamageDealt": 126479,
-                                "physicalDamageDealt": 61901,
-                                "magicDamageDealt": 63740,
                                 "totalDamageDealtToChampions": 14472,
                                 "physicalDamageDealtToChampions": 5299,
                                 "magicDamageDealtToChampions": 8334,
                                 "totalDamageTaken": 19856,
                                 "physicalDamageTaken": 12559,
                                 "magicDamageTaken": 6162,
-                                "totalHeal": 3730,
                                 "items": [
                                     {
                                         "id": 2055,
@@ -6992,7 +7170,13 @@
                                         "name": "Warding Totem (Trinket)",
                                         "slot": 7
                                     }
-                                ]
+                                ],
+                                "largestCriticalStrike": 19,
+                                "largestKillingSpree": 2,
+                                "inhibitorKills": 0,
+                                "totalHeal": 3730,
+                                "physicalDamageDealt": 61901,
+                                "magicDamageDealt": 63740
                             },
                             "uniqueIdentifiers": {
                                 "qq": {
@@ -7049,7 +7233,11 @@
                                     "slot": 7,
                                     "rank": 1
                                 }
-                            ]
+                            ],
+                            "primaryRuneTreeId": 8400,
+                            "primaryRuneTreeName": "Resolve",
+                            "secondaryRuneTreeId": 8300,
+                            "secondaryRuneTreeName": "Inspiration"
                         },
                         {
                             "inGameName": "JDGKanavi",
@@ -7077,30 +7265,24 @@
                                 "firstBlood": true,
                                 "firstTower": false,
                                 "killingSprees": 1,
-                                "largestKillingSpree": 3,
                                 "doubleKills": 0,
                                 "tripleKills": 0,
                                 "quadraKills": 0,
                                 "pentaKills": 0,
                                 "towerKills": 0,
-                                "inhibitorKills": 0,
                                 "monsterKills": 124,
                                 "monsterKillsInAlliedJungle": 94,
                                 "monsterKillsInEnemyJungle": 3,
                                 "wardsPlaced": 8,
                                 "wardsKilled": 10,
                                 "visionWardsBought": 10,
-                                "largestCriticalStrike": 0,
                                 "totalDamageDealt": 133319,
-                                "physicalDamageDealt": 106081,
-                                "magicDamageDealt": 8191,
                                 "totalDamageDealtToChampions": 8058,
                                 "physicalDamageDealtToChampions": 6045,
                                 "magicDamageDealtToChampions": 442,
                                 "totalDamageTaken": 25423,
                                 "physicalDamageTaken": 16939,
                                 "magicDamageTaken": 7984,
-                                "totalHeal": 16263,
                                 "items": [
                                     {
                                         "id": 3111,
@@ -7137,7 +7319,13 @@
                                         "name": "Oracle Lens",
                                         "slot": 7
                                     }
-                                ]
+                                ],
+                                "largestCriticalStrike": 0,
+                                "largestKillingSpree": 3,
+                                "inhibitorKills": 0,
+                                "totalHeal": 16263,
+                                "physicalDamageDealt": 106081,
+                                "magicDamageDealt": 8191
                             },
                             "uniqueIdentifiers": {
                                 "qq": {
@@ -7200,7 +7388,11 @@
                                     "slot": 8,
                                     "rank": 1
                                 }
-                            ]
+                            ],
+                            "primaryRuneTreeId": 8000,
+                            "primaryRuneTreeName": "Precision",
+                            "secondaryRuneTreeId": 8200,
+                            "secondaryRuneTreeName": "Sorcery"
                         },
                         {
                             "inGameName": "JDGYagao",
@@ -7228,30 +7420,24 @@
                                 "firstBlood": false,
                                 "firstTower": false,
                                 "killingSprees": 1,
-                                "largestKillingSpree": 2,
                                 "doubleKills": 1,
                                 "tripleKills": 0,
                                 "quadraKills": 0,
                                 "pentaKills": 0,
                                 "towerKills": 3,
-                                "inhibitorKills": 0,
                                 "monsterKills": 8,
                                 "monsterKillsInAlliedJungle": 8,
                                 "monsterKillsInEnemyJungle": 0,
                                 "wardsPlaced": 13,
                                 "wardsKilled": 5,
                                 "visionWardsBought": 3,
-                                "largestCriticalStrike": 0,
                                 "totalDamageDealt": 89945,
-                                "physicalDamageDealt": 18021,
-                                "magicDamageDealt": 68474,
                                 "totalDamageDealtToChampions": 13987,
                                 "physicalDamageDealtToChampions": 819,
                                 "magicDamageDealtToChampions": 12822,
                                 "totalDamageTaken": 19678,
                                 "physicalDamageTaken": 14433,
                                 "magicDamageTaken": 5051,
-                                "totalHeal": 6910,
                                 "items": [
                                     {
                                         "id": 3111,
@@ -7288,7 +7474,13 @@
                                         "name": "Farsight Alteration",
                                         "slot": 7
                                     }
-                                ]
+                                ],
+                                "largestCriticalStrike": 0,
+                                "largestKillingSpree": 2,
+                                "inhibitorKills": 0,
+                                "totalHeal": 6910,
+                                "physicalDamageDealt": 18021,
+                                "magicDamageDealt": 68474
                             },
                             "uniqueIdentifiers": {
                                 "qq": {
@@ -7351,7 +7543,11 @@
                                     "slot": 8,
                                     "rank": 1
                                 }
-                            ]
+                            ],
+                            "primaryRuneTreeId": 8000,
+                            "primaryRuneTreeName": "Precision",
+                            "secondaryRuneTreeId": 8100,
+                            "secondaryRuneTreeName": "Domination"
                         },
                         {
                             "inGameName": "JDGLokeN",
@@ -7379,30 +7575,24 @@
                                 "firstBlood": false,
                                 "firstTower": true,
                                 "killingSprees": 2,
-                                "largestKillingSpree": 5,
                                 "doubleKills": 3,
                                 "tripleKills": 1,
                                 "quadraKills": 0,
                                 "pentaKills": 0,
                                 "towerKills": 2,
-                                "inhibitorKills": 1,
                                 "monsterKills": 36,
                                 "monsterKillsInAlliedJungle": 23,
                                 "monsterKillsInEnemyJungle": 0,
                                 "wardsPlaced": 11,
                                 "wardsKilled": 14,
                                 "visionWardsBought": 4,
-                                "largestCriticalStrike": 1076,
                                 "totalDamageDealt": 195648,
-                                "physicalDamageDealt": 190022,
-                                "magicDamageDealt": 1899,
                                 "totalDamageDealtToChampions": 22404,
                                 "physicalDamageDealtToChampions": 19838,
                                 "magicDamageDealtToChampions": 1054,
                                 "totalDamageTaken": 7472,
                                 "physicalDamageTaken": 6369,
                                 "magicDamageTaken": 1096,
-                                "totalHeal": 7,
                                 "items": [
                                     {
                                         "id": 3508,
@@ -7439,7 +7629,13 @@
                                         "name": "Farsight Alteration",
                                         "slot": 7
                                     }
-                                ]
+                                ],
+                                "largestCriticalStrike": 1076,
+                                "largestKillingSpree": 5,
+                                "inhibitorKills": 1,
+                                "totalHeal": 7,
+                                "physicalDamageDealt": 190022,
+                                "magicDamageDealt": 1899
                             },
                             "uniqueIdentifiers": {
                                 "qq": {
@@ -7502,7 +7698,11 @@
                                     "slot": 8,
                                     "rank": 1
                                 }
-                            ]
+                            ],
+                            "primaryRuneTreeId": 8000,
+                            "primaryRuneTreeName": "Precision",
+                            "secondaryRuneTreeId": 8200,
+                            "secondaryRuneTreeName": "Sorcery"
                         },
                         {
                             "inGameName": "JDGLvMao",
@@ -7530,30 +7730,24 @@
                                 "firstBlood": false,
                                 "firstTower": false,
                                 "killingSprees": 0,
-                                "largestKillingSpree": 0,
                                 "doubleKills": 0,
                                 "tripleKills": 0,
                                 "quadraKills": 0,
                                 "pentaKills": 0,
                                 "towerKills": 1,
-                                "inhibitorKills": 0,
                                 "monsterKills": 0,
                                 "monsterKillsInAlliedJungle": 0,
                                 "monsterKillsInEnemyJungle": 0,
                                 "wardsPlaced": 43,
                                 "wardsKilled": 8,
                                 "visionWardsBought": 16,
-                                "largestCriticalStrike": 0,
                                 "totalDamageDealt": 24674,
-                                "physicalDamageDealt": 5720,
-                                "magicDamageDealt": 12907,
                                 "totalDamageDealtToChampions": 4775,
                                 "physicalDamageDealtToChampions": 586,
                                 "magicDamageDealtToChampions": 3884,
                                 "totalDamageTaken": 11082,
                                 "physicalDamageTaken": 7424,
                                 "magicDamageTaken": 3532,
-                                "totalHeal": 5596,
                                 "items": [
                                     {
                                         "id": 3860,
@@ -7590,7 +7784,13 @@
                                         "name": "Oracle Lens",
                                         "slot": 7
                                     }
-                                ]
+                                ],
+                                "largestCriticalStrike": 0,
+                                "largestKillingSpree": 0,
+                                "inhibitorKills": 0,
+                                "totalHeal": 5596,
+                                "physicalDamageDealt": 5720,
+                                "magicDamageDealt": 12907
                             },
                             "uniqueIdentifiers": {
                                 "qq": {
@@ -7653,13 +7853,18 @@
                                     "slot": 8,
                                     "rank": 1
                                 }
-                            ]
+                            ],
+                            "primaryRuneTreeId": 8400,
+                            "primaryRuneTreeName": "Resolve",
+                            "secondaryRuneTreeId": 8200,
+                            "secondaryRuneTreeName": "Sorcery"
                         }
                     ]
                 }
             },
             "winner": "RED",
-            "start": "2020-05-02T21:46:41+00:00",
+            "patch": "10.7",
+            "start": "2020-05-02T21:46:41+08:00",
             "duration": 1679
         }
     ]

@@ -29,7 +29,7 @@ def test_parse_player(game_info):
 def test_lpl_finals():
     match_url = "http://lol.qq.com/match/match_data.shtml?bmid=6131"
 
-    series = get_qq_series_dto(match_url)
+    series = get_qq_series_dto(match_url, "10.7")
 
     with open(os.path.join("json_examples", "qq_series.json"), "w+") as file:
         json.dump(series, file, indent=4)
@@ -48,3 +48,13 @@ def test_lpl_finals():
     assert yagao["endOfGameStats"]["kills"] == 4
     assert yagao["endOfGameStats"]["cs"] == 184
     assert yagao["runes"][0]["name"] == "Fleet Footwork"
+    assert yagao["primaryRuneTreeName"] == "Precision"
+
+
+def test_lpl_summer():
+    match_url = "https://lpl.qq.com/es/stats.shtml?bmid=6207"
+
+    series = get_qq_series_dto(match_url, "10.11")
+
+    # TODO Cleaner test
+    assert series

@@ -28,7 +28,7 @@ class ACS:
 
     def _get_from_api(self, uri):
         request_url = "{}{}".format(self.base_url, uri)
-        logging.info("Making a call to: " + request_url)
+        logging.debug("Making a call to: " + request_url)
 
         response = self.session.get(request_url, cookies={"id_token": self.token})
 

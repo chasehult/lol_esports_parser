@@ -1,20 +1,25 @@
+import datetime
 import json
-from datetime import timezone
+import logging
 import dateparser
-from collections import Counter
 
 import lol_id_tools as lit
 import lol_dto
 
-from lol_esports_parser.dto.series_dto import LolSeries
+from lol_esports_parser.dto.series_dto import LolSeries, create_series
 from lol_esports_parser.parsers.qq.qq_access import get_qq_games_list, get_all_qq_game_info
+from lol_esports_parser.parsers.qq.rune_tree_handler import RuneTreeHandler
 
 
-def get_qq_series_dto(qq_match_url: str) -> LolSeries:
+rune_tree_handler = RuneTreeHandler()
+
+
+def get_qq_series_dto(qq_match_url: str, patch: str = None) -> LolSeries:
     """Returns a LolSeriesDto.
 
     Params:
         qq_url: the qq url of the full match, usually acquired from Leaguepedia.
+        patch: if given will use patch information to infer rune tree information.
 
     Returns:
         A LolSeries.
@@ -24,28 +29,17 @@ def get_qq_series_dto(qq_match_url: str) -> LolSeries:
 
     games = []  # List of LolGame DTOs representing the match
     for game in game_id_list:
-        games.append(parse_qq_game(int(game["sMatchId"])))
+        games.append(parse_qq_game(int(game["sMatchId"]), patch))
 
-    # Making extra sure they’re in the right order
-    games = sorted(games, key=lambda x: x["start"])
-
-    # We get the team names from the first game
-    team_names = [games[0]["teams"][team_side]["name"] for team_side in ["BLUE", "RED"]]
-    team_scores = Counter({team_name: 0 for team_name in team_names})
-
-    for lol_game_dto in games:
-        for team_side, team in lol_game_dto["teams"].items():
-            if lol_game_dto["winner"] == team_side:
-                team_scores[team["name"]] += 1
-
-    return LolSeries(score=dict(team_scores), winner=team_scores.most_common(1)[0][0], games=games)
+    return create_series(games)
 
 
-def parse_qq_game(qq_game_id: int) -> lol_dto.classes.game.LolGame:
+def parse_qq_game(qq_game_id: int, patch: str = None) -> lol_dto.classes.game.LolGame:
     """Parses a QQ game and returns a LolGameDto.
 
     Params:
         qq_id: the qq game id, acquired from qq’s match list endpoint and therefore a string.
+        patch: optional patch to include in the object
 
     Returns:
         A LolGameDto.
@@ -84,37 +78,46 @@ def parse_qq_game(qq_game_id: int) -> lol_dto.classes.game.LolGame:
         winner=winner,
     )
 
+    if patch:
+        lol_game_dto["patch"] = patch
+
     # This is a json inside the json of game_info
     battle_data = json.loads(game_info["battleInfo"]["BattleData"])
 
-    date_time = dateparser.parse(f"{battle_data['game-date']} {battle_data['game-time']}")
-    date_time = date_time.replace(tzinfo=timezone.utc)
+    # The 'game-time' field sometimes has sub-second digits that we cut
+    date_time = dateparser.parse(f"{battle_data['game-date']}T{battle_data['game-time'][:8]}")
+    date_time = date_time.replace(tzinfo=datetime.timezone(datetime.timedelta(hours=8)))
     iso_date = date_time.isoformat(timespec="seconds")
 
     lol_game_dto["start"] = iso_date
     lol_game_dto["duration"] = int(battle_data["game-period"])
 
     # TODO Parse bans
-    for team in ["left", "right"]:
-        is_team_a = team == "right"
+    for team_side in ["left", "right"]:
+        is_team_a = team_side == "right"
         # Is Team A and Team A is blue -> blue, Is not team A and team A is not blue -> blue
         if is_team_a == (game_info["sMatchInfo"]["TeamA"] == blue_team_id):
-            team_side = "BLUE"
+            team_color = "BLUE"
         else:
-            team_side = "RED"
+            team_color = "RED"
 
-        # TODO Add kills and gold totals
-        lol_game_dto["teams"][team_side].update(
+        # Sometimes the firstTower field isn’t there and needs to be calculated from the players
+        if "firstTower" in battle_data[team_side]:
+            first_tower = bool(battle_data[team_side]["firstTower"])
+        else:
+            first_tower = True in (bool(player["firstTower"]) for player in battle_data[team_side]["players"])
+
+        lol_game_dto["teams"][team_color].update(
             {
-                "baronKills": int(battle_data[team]["b-dragon"]),
-                "dragonKills": int(battle_data[team]["s-dragon"]),
-                "firstTower": bool(battle_data[team]["firstTower"]),
-                "towerKills": int(battle_data[team]["tower"]),
+                "baronKills": int(battle_data[team_side]["b-dragon"]),
+                "dragonKills": int(battle_data[team_side]["s-dragon"]),
+                "firstTower": first_tower,
+                "towerKills": int(battle_data[team_side]["tower"]),
                 "players": [],
             }
         )
 
-        for role_index, player_battle_data in enumerate(battle_data[team]["players"]):
+        for player_battle_data in battle_data[team_side]["players"]:
             player = parse_player_battle_data(player_battle_data)
 
             # We go grab some information back in game_info
@@ -140,9 +143,16 @@ def parse_qq_game(qq_game_id: int) -> lol_dto.classes.game.LolGame:
                     )
                 )
 
-            # TODO Add PrimaryTree/SecondaryTree info
+            # We need patch information to properly load rune tree names
+            if patch:
+                player["primaryRuneTreeId"], player["primaryRuneTreeName"] = rune_tree_handler.get_primary_tree(
+                    player["runes"], patch
+                )
+                player["secondaryRuneTreeId"], player["secondaryRuneTreeName"] = rune_tree_handler.get_secondary_tree(
+                    player["runes"], patch
+                )
 
-            lol_game_dto["teams"][team_side]["players"].append(player)
+            lol_game_dto["teams"][team_color]["players"].append(player)
 
     return lol_game_dto
 
@@ -160,31 +170,25 @@ def parse_player_battle_data(player_battle_data: dict) -> lol_dto.classes.game.L
         firstTower=bool(player_battle_data["firstTower"]),
         # Then we add other numerical statistics
         killingSprees=int(player_battle_data["killingSprees"]),
-        largestKillingSpree=int(player_battle_data["largestKillingSpree"]),
         doubleKills=int(player_battle_data["dKills"]),
         tripleKills=int(player_battle_data["tKills"]),
         quadraKills=int(player_battle_data["qKills"]),
         pentaKills=int(player_battle_data["pKills"]),
         towerKills=int(player_battle_data["towerKills"]),
-        inhibitorKills=int(player_battle_data["inhibitorKills"]),
         monsterKills=int(player_battle_data["neutralKilled"]),
         monsterKillsInAlliedJungle=int(player_battle_data["neutralKilledTJungle"]),
         monsterKillsInEnemyJungle=int(player_battle_data["neutralKilledEJungle"]),
         wardsPlaced=int(player_battle_data["wardsPlaced"]),
         wardsKilled=int(player_battle_data["wardsKilled"]),
         visionWardsBought=int(player_battle_data["visionWardsBought"]),
-        largestCriticalStrike=int(player_battle_data["largestCriticalStrike"]),
         # Damage totals, using a nomenclature close to match-v4
         totalDamageDealt=int(player_battle_data["totalDamage"]),
-        physicalDamageDealt=int(player_battle_data["pDamageDealt"]),
-        magicDamageDealt=int(player_battle_data["mDamageDealt"]),
         totalDamageDealtToChampions=int(player_battle_data["totalDamageToChamp"]),
         physicalDamageDealtToChampions=int(player_battle_data["pDamageToChamp"]),
         magicDamageDealtToChampions=int(player_battle_data["mDamageDealtToChamp"]),
         totalDamageTaken=int(player_battle_data["totalDamageTaken"]),
         physicalDamageTaken=int(player_battle_data["pDamageTaken"]),
         magicDamageTaken=int(player_battle_data["mDamageTaken"]),
-        totalHeal=int(player_battle_data["totalHeal"]),
         items=[
             lol_dto.classes.game.LolGamePlayerItem(
                 id=int(player_battle_data["equip"][key]),
@@ -194,6 +198,16 @@ def parse_player_battle_data(player_battle_data: dict) -> lol_dto.classes.game.L
             for key in player_battle_data["equip"]
         ],
     )
+
+    # TODO Check how to raise the error only once
+    for field_name in ["largestCriticalStrike", "largestKillingSpree", "inhibitorKills", "totalHeal"]:
+        if field_name in player_battle_data:
+            end_of_game_stats[field_name] = int(player_battle_data[field_name])
+
+    if "pDamageDealt" in player_battle_data:
+        end_of_game_stats["physicalDamageDealt"] = int(player_battle_data["pDamageDealt"])
+    if "mDamageDealt" in player_battle_data:
+        end_of_game_stats["magicDamageDealt"] = int(player_battle_data["mDamageDealt"])
 
     return lol_dto.classes.game.LolGamePlayer(
         # This is the raw player name in the game

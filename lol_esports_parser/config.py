@@ -15,7 +15,8 @@ with open(endpoints_location) as file:
 if not os.path.exists(credentials_location):
     print(
         f"Creating {credentials_location} locally.\n"
-        f"Password will be saved in clear, so make sure only your user has read access on the file."
+        "This information is required to connect to the ACS endpoints.\n"
+        f"Password will be saved in clear, so make sure only your user has read access on the file.\n"
     )
     account_name = input("Please input your LoL account name:")
     password = input("Please input your LoL account password:")
