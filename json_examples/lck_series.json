@@ -8107,55 +8107,55 @@
                             "lane": "BOT",
                             "towerLocation": "OUTER",
                             "side": "RED",
-                            "timestamp": 1322.612
+                            "timestamp": 761.328
                         },
                         {
                             "type": "TOWER",
                             "lane": "TOP",
                             "towerLocation": "OUTER",
                             "side": "RED",
-                            "timestamp": 1068.407
+                            "timestamp": 903.876
                         },
                         {
                             "type": "TOWER",
                             "lane": "MID",
                             "towerLocation": "OUTER",
                             "side": "RED",
-                            "timestamp": 882.621
+                            "timestamp": 1091.86
                         },
                         {
                             "type": "TOWER",
                             "lane": "MID",
                             "towerLocation": "INNER",
                             "side": "RED",
-                            "timestamp": 1610.52
+                            "timestamp": 1507.328
                         },
                         {
                             "type": "TOWER",
                             "lane": "BOT",
                             "towerLocation": "INNER",
                             "side": "RED",
-                            "timestamp": 1621.861
+                            "timestamp": 1922.195
                         },
                         {
                             "type": "TOWER",
                             "lane": "MID",
                             "towerLocation": "INHIBITOR",
                             "side": "RED",
-                            "timestamp": 1634.72
+                            "timestamp": 2145.328
                         },
                         {
                             "type": "INHIBITOR",
                             "lane": "MID",
                             "side": "RED",
-                            "timestamp": 1778.895
+                            "timestamp": 2694.248
                         },
                         {
                             "type": "TOWER",
                             "lane": "TOP",
                             "towerLocation": "INNER",
                             "side": "RED",
-                            "timestamp": 1807.301
+                            "timestamp": 2160.767
                         },
                         {
                             "type": "TOWER",
@@ -8188,13 +8188,13 @@
                             "lane": "MID",
                             "towerLocation": "INNER",
                             "side": "BLUE",
-                            "timestamp": 1623.077
+                            "timestamp": 2617.492
                         },
                         {
                             "type": "INHIBITOR",
                             "lane": "MID",
                             "side": "RED",
-                            "timestamp": 1778.895
+                            "timestamp": 2694.248
                         },
                         {
                             "type": "INHIBITOR",
@@ -8213,14 +8213,14 @@
                             "lane": "BOT",
                             "towerLocation": "NEXUS",
                             "side": "RED",
-                            "timestamp": 1796.098
+                            "timestamp": 2707.691
                         },
                         {
                             "type": "TOWER",
                             "lane": "TOP",
                             "towerLocation": "NEXUS",
                             "side": "RED",
-                            "timestamp": 1802.873
+                            "timestamp": 2713.646
                         }
                     ],
                     "name": "T1"
@@ -15859,7 +15859,7 @@
                             "lane": "MID",
                             "towerLocation": "OUTER",
                             "side": "BLUE",
-                            "timestamp": 1266.199
+                            "timestamp": 2046.652
                         }
                     ],
                     "name": "GEN"
@@ -22042,76 +22042,76 @@
                             "lane": "MID",
                             "towerLocation": "OUTER",
                             "side": "RED",
-                            "timestamp": 882.621
+                            "timestamp": 1091.86
                         },
                         {
                             "type": "TOWER",
                             "lane": "TOP",
                             "towerLocation": "OUTER",
                             "side": "RED",
-                            "timestamp": 1068.407
+                            "timestamp": 903.876
                         },
                         {
                             "type": "TOWER",
                             "lane": "TOP",
                             "towerLocation": "OUTER",
                             "side": "BLUE",
-                            "timestamp": 1315.767
+                            "timestamp": 1133.79
                         },
                         {
                             "type": "TOWER",
                             "lane": "BOT",
                             "towerLocation": "OUTER",
                             "side": "RED",
-                            "timestamp": 1322.612
+                            "timestamp": 761.328
                         },
                         {
                             "type": "TOWER",
                             "lane": "MID",
                             "towerLocation": "INNER",
                             "side": "RED",
-                            "timestamp": 1610.52
+                            "timestamp": 1507.328
                         },
                         {
                             "type": "TOWER",
                             "lane": "BOT",
                             "towerLocation": "INNER",
                             "side": "RED",
-                            "timestamp": 1621.861
+                            "timestamp": 1922.195
                         },
                         {
                             "type": "TOWER",
                             "lane": "MID",
                             "towerLocation": "INHIBITOR",
                             "side": "RED",
-                            "timestamp": 1634.72
+                            "timestamp": 2145.328
                         },
                         {
                             "type": "INHIBITOR",
                             "lane": "MID",
                             "side": "RED",
-                            "timestamp": 1778.895
+                            "timestamp": 2694.248
                         },
                         {
                             "type": "TOWER",
                             "lane": "BOT",
                             "towerLocation": "NEXUS",
                             "side": "RED",
-                            "timestamp": 1796.098
+                            "timestamp": 2707.691
                         },
                         {
                             "type": "TOWER",
                             "lane": "TOP",
                             "towerLocation": "NEXUS",
                             "side": "RED",
-                            "timestamp": 1802.873
+                            "timestamp": 2713.646
                         },
                         {
                             "type": "TOWER",
                             "lane": "TOP",
                             "towerLocation": "INNER",
                             "side": "RED",
-                            "timestamp": 1807.301
+                            "timestamp": 2160.767
                         }
                     ],
                     "name": "T1"
@@ -27812,14 +27812,14 @@
                             "lane": "BOT",
                             "towerLocation": "OUTER",
                             "side": "BLUE",
-                            "timestamp": 1219.914
+                            "timestamp": 1278.318
                         },
                         {
                             "type": "TOWER",
                             "lane": "MID",
                             "towerLocation": "OUTER",
                             "side": "BLUE",
-                            "timestamp": 1266.199
+                            "timestamp": 2046.652
                         }
                     ],
                     "name": "GEN"
@@ -33654,7 +33654,7 @@
                             "lane": "BOT",
                             "towerLocation": "OUTER",
                             "side": "RED",
-                            "timestamp": 1322.612
+                            "timestamp": 761.328
                         },
                         {
                             "type": "TOWER",
@@ -39550,21 +39550,21 @@
                             "lane": "MID",
                             "towerLocation": "OUTER",
                             "side": "BLUE",
-                            "timestamp": 1266.199
+                            "timestamp": 2046.652
                         },
                         {
                             "type": "TOWER",
                             "lane": "TOP",
                             "towerLocation": "OUTER",
                             "side": "BLUE",
-                            "timestamp": 1315.767
+                            "timestamp": 1133.79
                         },
                         {
                             "type": "TOWER",
                             "lane": "BOT",
                             "towerLocation": "OUTER",
                             "side": "BLUE",
-                            "timestamp": 1219.914
+                            "timestamp": 1278.318
                         },
                         {
                             "type": "TOWER",
@@ -39585,7 +39585,7 @@
                             "lane": "MID",
                             "towerLocation": "INNER",
                             "side": "BLUE",
-                            "timestamp": 1623.077
+                            "timestamp": 2617.492
                         },
                         {
                             "type": "TOWER",

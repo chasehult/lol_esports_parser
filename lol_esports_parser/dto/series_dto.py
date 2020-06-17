@@ -1,3 +1,4 @@
+import logging
 from typing import TypedDict, List, Dict
 from collections import Counter
 import lol_dto
@@ -18,7 +19,12 @@ def create_series(games: List[lol_dto.classes.game.LolGame]) -> LolSeries:
     """Creates a LolSeries from a list of LolGame.
     """
     # Making extra sure they’re in the right order
-    games = sorted(games, key=lambda x: x["start"])
+    try:
+        if sorted(games, key=lambda x: x["start"]) != games:
+            logging.warning(' GAMES MIGHT BE IN THE WRONG ORDER')
+    except KeyError:
+        # The missing field should already have been raised
+        pass
 
     # We get the team names from the first game
     team_scores = Counter()
