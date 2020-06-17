@@ -1,4 +1,6 @@
 import logging
+import time
+
 import requests
 
 from lol_esports_parser.config import credentials, endpoints
@@ -17,22 +19,27 @@ class ACS:
         "scope": "openid offline_access lol ban profile email phone",
     }
 
-    def __init__(self):
+    def __init__(self, retry_once=True):
         self.session = requests.Session()
         self.token = self.get_token()
         self.base_url = endpoints["acs"]["game"]
+        self.retry_once = retry_once
 
     def get_token(self):
         token_request = self.session.post("https://auth.riotgames.com/token", data=self.data)
         return token_request.json()["id_token"]
 
-    def _get_from_api(self, uri):
+    def _get_from_api(self, uri, first_try=True):
         request_url = "{}{}".format(self.base_url, uri)
         logging.debug("Making a call to: " + request_url)
 
         response = self.session.get(request_url, cookies={"id_token": self.token})
 
         if response.status_code != 200:
+            if self.retry_once and first_try:
+                time.sleep(1)
+                return self._get_from_api(uri, False)
+
             logging.error("Status code %d", response.status_code)
             logging.error("Headers: %s", response.headers)
             logging.error("Resp: %s", response.text)
