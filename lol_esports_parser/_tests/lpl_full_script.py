@@ -2,7 +2,7 @@ from concurrent.futures.thread import ThreadPoolExecutor
 from leaguepedia_parser import LeaguepediaParser
 
 from lol_esports_parser.parsers.acs.acs_parser import get_acs_game
-from lol_esports_parser.parsers.qq.qq_parser import get_qq_series_dto
+from lol_esports_parser.parsers.qq.qq_parser import get_qq_series
 
 logger.setLevel(logging.INFO)
 lp = LeaguepediaParser()
@@ -24,7 +24,7 @@ with ThreadPoolExecutor() as executor:
                 loaded_series.add(game["match_history_url"])
 
                 results[game["match_history_url"]] = {
-                    "result": executor.submit(get_qq_series_dto, game["match_history_url"], add_names=False),
+                    "result": executor.submit(get_qq_series, game["match_history_url"], add_names=False),
                     "games": [game],
                 }
             else:

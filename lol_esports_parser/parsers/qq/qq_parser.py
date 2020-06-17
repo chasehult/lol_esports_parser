@@ -12,14 +12,14 @@ import lol_dto
 
 from lol_esports_parser.dto.series_dto import LolSeries, create_series
 from lol_esports_parser.parsers.qq.qq_access import get_qq_games_list, get_all_qq_game_info
-from lol_esports_parser.parsers.qq.rune_tree_handler import RuneTreeHandler
+from lol_esports_parser.parsers.rune_tree_handler import RuneTreeHandler
 
 
 rune_tree_handler = RuneTreeHandler()
 roles = {"1": "TOP", "5": "JGL", "2": "MID", "3": "BOT", "4": "SUP"}
 
 
-def get_qq_series_dto(qq_match_url: str, patch: str = None, add_names: bool = True) -> LolSeries:
+def get_qq_series(qq_match_url: str, patch: str = None, add_names: bool = True) -> LolSeries:
     """Returns a LolSeriesDto.
 
     Params:
@@ -391,7 +391,7 @@ def parse_player_battle_data(
         )
 
         if add_names:
-            summoner_spell["name"] = lit.get_name(summoner_spell["id"])
+            summoner_spell["name"] = lit.get_name(summoner_spell["id"], object_type="summoner_spell")
 
         player["summonerSpells"].append(summoner_spell)
 

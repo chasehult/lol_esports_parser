@@ -109,12 +109,12 @@
                                 {
                                     "id": 12,
                                     "slot": 1,
-                                    "name": "Alistar"
+                                    "name": "Teleport"
                                 },
                                 {
                                     "id": 4,
                                     "slot": 2,
-                                    "name": "Twisted Fate"
+                                    "name": "Flash"
                                 }
                             ],
                             "runes": [
@@ -259,12 +259,12 @@
                                 {
                                     "id": 1,
                                     "slot": 1,
-                                    "name": "Annie"
+                                    "name": "Cleanse"
                                 },
                                 {
                                     "id": 4,
                                     "slot": 2,
-                                    "name": "Twisted Fate"
+                                    "name": "Flash"
                                 }
                             ],
                             "runes": [
@@ -415,12 +415,12 @@
                                 {
                                     "id": 3,
                                     "slot": 1,
-                                    "name": "Galio"
+                                    "name": "Exhaust"
                                 },
                                 {
                                     "id": 7,
                                     "slot": 2,
-                                    "name": "LeBlanc"
+                                    "name": "Heal"
                                 }
                             ],
                             "runes": [
@@ -565,12 +565,12 @@
                                 {
                                     "id": 4,
                                     "slot": 1,
-                                    "name": "Twisted Fate"
+                                    "name": "Flash"
                                 },
                                 {
                                     "id": 12,
                                     "slot": 2,
-                                    "name": "Alistar"
+                                    "name": "Teleport"
                                 }
                             ],
                             "runes": [
@@ -715,12 +715,12 @@
                                 {
                                     "id": 4,
                                     "slot": 1,
-                                    "name": "Twisted Fate"
+                                    "name": "Flash"
                                 },
                                 {
                                     "id": 11,
                                     "slot": 2,
-                                    "name": "Master Yi"
+                                    "name": "Smite"
                                 }
                             ],
                             "runes": [
@@ -893,12 +893,12 @@
                                 {
                                     "id": 11,
                                     "slot": 1,
-                                    "name": "Master Yi"
+                                    "name": "Smite"
                                 },
                                 {
                                     "id": 4,
                                     "slot": 2,
-                                    "name": "Twisted Fate"
+                                    "name": "Flash"
                                 }
                             ],
                             "runes": [
@@ -1049,12 +1049,12 @@
                                 {
                                     "id": 14,
                                     "slot": 1,
-                                    "name": "Sion"
+                                    "name": "Ignite"
                                 },
                                 {
                                     "id": 4,
                                     "slot": 2,
-                                    "name": "Twisted Fate"
+                                    "name": "Flash"
                                 }
                             ],
                             "runes": [
@@ -1205,12 +1205,12 @@
                                 {
                                     "id": 4,
                                     "slot": 1,
-                                    "name": "Twisted Fate"
+                                    "name": "Flash"
                                 },
                                 {
                                     "id": 7,
                                     "slot": 2,
-                                    "name": "LeBlanc"
+                                    "name": "Heal"
                                 }
                             ],
                             "runes": [
@@ -1361,12 +1361,12 @@
                                 {
                                     "id": 4,
                                     "slot": 1,
-                                    "name": "Twisted Fate"
+                                    "name": "Flash"
                                 },
                                 {
                                     "id": 12,
                                     "slot": 2,
-                                    "name": "Alistar"
+                                    "name": "Teleport"
                                 }
                             ],
                             "runes": [
@@ -1517,12 +1517,12 @@
                                 {
                                     "id": 4,
                                     "slot": 1,
-                                    "name": "Twisted Fate"
+                                    "name": "Flash"
                                 },
                                 {
                                     "id": 12,
                                     "slot": 2,
-                                    "name": "Alistar"
+                                    "name": "Teleport"
                                 }
                             ],
                             "runes": [
@@ -1717,12 +1717,12 @@
                                 {
                                     "id": 11,
                                     "slot": 1,
-                                    "name": "Master Yi"
+                                    "name": "Smite"
                                 },
                                 {
                                     "id": 4,
                                     "slot": 2,
-                                    "name": "Twisted Fate"
+                                    "name": "Flash"
                                 }
                             ],
                             "runes": [
@@ -1873,12 +1873,12 @@
                                 {
                                     "id": 14,
                                     "slot": 1,
-                                    "name": "Sion"
+                                    "name": "Ignite"
                                 },
                                 {
                                     "id": 4,
                                     "slot": 2,
-                                    "name": "Twisted Fate"
+                                    "name": "Flash"
                                 }
                             ],
                             "runes": [
@@ -2023,12 +2023,12 @@
                                 {
                                     "id": 4,
                                     "slot": 1,
-                                    "name": "Twisted Fate"
+                                    "name": "Flash"
                                 },
                                 {
                                     "id": 7,
                                     "slot": 2,
-                                    "name": "LeBlanc"
+                                    "name": "Heal"
                                 }
                             ],
                             "runes": [
@@ -2179,12 +2179,12 @@
                                 {
                                     "id": 4,
                                     "slot": 1,
-                                    "name": "Twisted Fate"
+                                    "name": "Flash"
                                 },
                                 {
                                     "id": 12,
                                     "slot": 2,
-                                    "name": "Alistar"
+                                    "name": "Teleport"
                                 }
                             ],
                             "runes": [
@@ -2329,12 +2329,12 @@
                                 {
                                     "id": 4,
                                     "slot": 1,
-                                    "name": "Twisted Fate"
+                                    "name": "Flash"
                                 },
                                 {
                                     "id": 12,
                                     "slot": 2,
-                                    "name": "Alistar"
+                                    "name": "Teleport"
                                 }
                             ],
                             "runes": [
@@ -2513,12 +2513,12 @@
                                 {
                                     "id": 12,
                                     "slot": 1,
-                                    "name": "Alistar"
+                                    "name": "Teleport"
                                 },
                                 {
                                     "id": 4,
                                     "slot": 2,
-                                    "name": "Twisted Fate"
+                                    "name": "Flash"
                                 }
                             ],
                             "runes": [
@@ -2663,12 +2663,12 @@
                                 {
                                     "id": 7,
                                     "slot": 1,
-                                    "name": "LeBlanc"
+                                    "name": "Heal"
                                 },
                                 {
                                     "id": 4,
                                     "slot": 2,
-                                    "name": "Twisted Fate"
+                                    "name": "Flash"
                                 }
                             ],
                             "runes": [
@@ -2819,12 +2819,12 @@
                                 {
                                     "id": 4,
                                     "slot": 1,
-                                    "name": "Twisted Fate"
+                                    "name": "Flash"
                                 },
                                 {
                                     "id": 1,
                                     "slot": 2,
-                                    "name": "Annie"
+                                    "name": "Cleanse"
                                 }
                             ],
                             "runes": [
@@ -2969,12 +2969,12 @@
                                 {
                                     "id": 4,
                                     "slot": 1,
-                                    "name": "Twisted Fate"
+                                    "name": "Flash"
                                 },
                                 {
                                     "id": 12,
                                     "slot": 2,
-                                    "name": "Alistar"
+                                    "name": "Teleport"
                                 }
                             ],
                             "runes": [
@@ -3125,12 +3125,12 @@
                                 {
                                     "id": 4,
                                     "slot": 1,
-                                    "name": "Twisted Fate"
+                                    "name": "Flash"
                                 },
                                 {
                                     "id": 11,
                                     "slot": 2,
-                                    "name": "Master Yi"
+                                    "name": "Smite"
                                 }
                             ],
                             "runes": [
@@ -3325,12 +3325,12 @@
                                 {
                                     "id": 12,
                                     "slot": 1,
-                                    "name": "Alistar"
+                                    "name": "Teleport"
                                 },
                                 {
                                     "id": 4,
                                     "slot": 2,
-                                    "name": "Twisted Fate"
+                                    "name": "Flash"
                                 }
                             ],
                             "runes": [
@@ -3475,12 +3475,12 @@
                                 {
                                     "id": 1,
                                     "slot": 1,
-                                    "name": "Annie"
+                                    "name": "Cleanse"
                                 },
                                 {
                                     "id": 4,
                                     "slot": 2,
-                                    "name": "Twisted Fate"
+                                    "name": "Flash"
                                 }
                             ],
                             "runes": [
@@ -3631,12 +3631,12 @@
                                 {
                                     "id": 3,
                                     "slot": 1,
-                                    "name": "Galio"
+                                    "name": "Exhaust"
                                 },
                                 {
                                     "id": 7,
                                     "slot": 2,
-                                    "name": "LeBlanc"
+                                    "name": "Heal"
                                 }
                             ],
                             "runes": [
@@ -3781,12 +3781,12 @@
                                 {
                                     "id": 4,
                                     "slot": 1,
-                                    "name": "Twisted Fate"
+                                    "name": "Flash"
                                 },
                                 {
                                     "id": 12,
                                     "slot": 2,
-                                    "name": "Alistar"
+                                    "name": "Teleport"
                                 }
                             ],
                             "runes": [
@@ -3937,12 +3937,12 @@
                                 {
                                     "id": 4,
                                     "slot": 1,
-                                    "name": "Twisted Fate"
+                                    "name": "Flash"
                                 },
                                 {
                                     "id": 11,
                                     "slot": 2,
-                                    "name": "Master Yi"
+                                    "name": "Smite"
                                 }
                             ],
                             "runes": [
@@ -4121,12 +4121,12 @@
                                 {
                                     "id": 11,
                                     "slot": 1,
-                                    "name": "Master Yi"
+                                    "name": "Smite"
                                 },
                                 {
                                     "id": 4,
                                     "slot": 2,
-                                    "name": "Twisted Fate"
+                                    "name": "Flash"
                                 }
                             ],
                             "runes": [
@@ -4277,12 +4277,12 @@
                                 {
                                     "id": 7,
                                     "slot": 1,
-                                    "name": "LeBlanc"
+                                    "name": "Heal"
                                 },
                                 {
                                     "id": 4,
                                     "slot": 2,
-                                    "name": "Twisted Fate"
+                                    "name": "Flash"
                                 }
                             ],
                             "runes": [
@@ -4427,12 +4427,12 @@
                                 {
                                     "id": 4,
                                     "slot": 1,
-                                    "name": "Twisted Fate"
+                                    "name": "Flash"
                                 },
                                 {
                                     "id": 12,
                                     "slot": 2,
-                                    "name": "Alistar"
+                                    "name": "Teleport"
                                 }
                             ],
                             "runes": [
@@ -4583,12 +4583,12 @@
                                 {
                                     "id": 4,
                                     "slot": 1,
-                                    "name": "Twisted Fate"
+                                    "name": "Flash"
                                 },
                                 {
                                     "id": 12,
                                     "slot": 2,
-                                    "name": "Alistar"
+                                    "name": "Teleport"
                                 }
                             ],
                             "runes": [
@@ -4733,12 +4733,12 @@
                                 {
                                     "id": 4,
                                     "slot": 1,
-                                    "name": "Twisted Fate"
+                                    "name": "Flash"
                                 },
                                 {
                                     "id": 12,
                                     "slot": 2,
-                                    "name": "Alistar"
+                                    "name": "Teleport"
                                 }
                             ],
                             "runes": [
@@ -4933,12 +4933,12 @@
                                 {
                                     "id": 12,
                                     "slot": 1,
-                                    "name": "Alistar"
+                                    "name": "Teleport"
                                 },
                                 {
                                     "id": 4,
                                     "slot": 2,
-                                    "name": "Twisted Fate"
+                                    "name": "Flash"
                                 }
                             ],
                             "runes": [
@@ -5083,12 +5083,12 @@
                                 {
                                     "id": 7,
                                     "slot": 1,
-                                    "name": "LeBlanc"
+                                    "name": "Heal"
                                 },
                                 {
                                     "id": 4,
                                     "slot": 2,
-                                    "name": "Twisted Fate"
+                                    "name": "Flash"
                                 }
                             ],
                             "runes": [
@@ -5239,12 +5239,12 @@
                                 {
                                     "id": 4,
                                     "slot": 1,
-                                    "name": "Twisted Fate"
+                                    "name": "Flash"
                                 },
                                 {
                                     "id": 3,
                                     "slot": 2,
-                                    "name": "Galio"
+                                    "name": "Exhaust"
                                 }
                             ],
                             "runes": [
@@ -5389,12 +5389,12 @@
                                 {
                                     "id": 4,
                                     "slot": 1,
-                                    "name": "Twisted Fate"
+                                    "name": "Flash"
                                 },
                                 {
                                     "id": 12,
                                     "slot": 2,
-                                    "name": "Alistar"
+                                    "name": "Teleport"
                                 }
                             ],
                             "runes": [
@@ -5545,12 +5545,12 @@
                                 {
                                     "id": 4,
                                     "slot": 1,
-                                    "name": "Twisted Fate"
+                                    "name": "Flash"
                                 },
                                 {
                                     "id": 11,
                                     "slot": 2,
-                                    "name": "Master Yi"
+                                    "name": "Smite"
                                 }
                             ],
                             "runes": [
@@ -5729,12 +5729,12 @@
                                 {
                                     "id": 11,
                                     "slot": 1,
-                                    "name": "Master Yi"
+                                    "name": "Smite"
                                 },
                                 {
                                     "id": 4,
                                     "slot": 2,
-                                    "name": "Twisted Fate"
+                                    "name": "Flash"
                                 }
                             ],
                             "runes": [
@@ -5885,12 +5885,12 @@
                                 {
                                     "id": 14,
                                     "slot": 1,
-                                    "name": "Sion"
+                                    "name": "Ignite"
                                 },
                                 {
                                     "id": 4,
                                     "slot": 2,
-                                    "name": "Twisted Fate"
+                                    "name": "Flash"
                                 }
                             ],
                             "runes": [
@@ -6041,12 +6041,12 @@
                                 {
                                     "id": 4,
                                     "slot": 1,
-                                    "name": "Twisted Fate"
+                                    "name": "Flash"
                                 },
                                 {
                                     "id": 7,
                                     "slot": 2,
-                                    "name": "LeBlanc"
+                                    "name": "Heal"
                                 }
                             ],
                             "runes": [
@@ -6197,12 +6197,12 @@
                                 {
                                     "id": 4,
                                     "slot": 1,
-                                    "name": "Twisted Fate"
+                                    "name": "Flash"
                                 },
                                 {
                                     "id": 12,
                                     "slot": 2,
-                                    "name": "Alistar"
+                                    "name": "Teleport"
                                 }
                             ],
                             "runes": [
@@ -6353,12 +6353,12 @@
                                 {
                                     "id": 4,
                                     "slot": 1,
-                                    "name": "Twisted Fate"
+                                    "name": "Flash"
                                 },
                                 {
                                     "id": 12,
                                     "slot": 2,
-                                    "name": "Alistar"
+                                    "name": "Teleport"
                                 }
                             ],
                             "runes": [
@@ -6553,12 +6553,12 @@
                                 {
                                     "id": 11,
                                     "slot": 1,
-                                    "name": "Master Yi"
+                                    "name": "Smite"
                                 },
                                 {
                                     "id": 4,
                                     "slot": 2,
-                                    "name": "Twisted Fate"
+                                    "name": "Flash"
                                 }
                             ],
                             "runes": [
@@ -6703,12 +6703,12 @@
                                 {
                                     "id": 3,
                                     "slot": 1,
-                                    "name": "Galio"
+                                    "name": "Exhaust"
                                 },
                                 {
                                     "id": 4,
                                     "slot": 2,
-                                    "name": "Twisted Fate"
+                                    "name": "Flash"
                                 }
                             ],
                             "runes": [
@@ -6859,12 +6859,12 @@
                                 {
                                     "id": 4,
                                     "slot": 1,
-                                    "name": "Twisted Fate"
+                                    "name": "Flash"
                                 },
                                 {
                                     "id": 7,
                                     "slot": 2,
-                                    "name": "LeBlanc"
+                                    "name": "Heal"
                                 }
                             ],
                             "runes": [
@@ -7015,12 +7015,12 @@
                                 {
                                     "id": 4,
                                     "slot": 1,
-                                    "name": "Twisted Fate"
+                                    "name": "Flash"
                                 },
                                 {
                                     "id": 12,
                                     "slot": 2,
-                                    "name": "Alistar"
+                                    "name": "Teleport"
                                 }
                             ],
                             "runes": [
@@ -7165,12 +7165,12 @@
                                 {
                                     "id": 4,
                                     "slot": 1,
-                                    "name": "Twisted Fate"
+                                    "name": "Flash"
                                 },
                                 {
                                     "id": 12,
                                     "slot": 2,
-                                    "name": "Alistar"
+                                    "name": "Teleport"
                                 }
                             ],
                             "runes": [
@@ -7343,12 +7343,12 @@
                                 {
                                     "id": 12,
                                     "slot": 1,
-                                    "name": "Alistar"
+                                    "name": "Teleport"
                                 },
                                 {
                                     "id": 4,
                                     "slot": 2,
-                                    "name": "Twisted Fate"
+                                    "name": "Flash"
                                 }
                             ],
                             "runes": [
@@ -7493,12 +7493,12 @@
                                 {
                                     "id": 1,
                                     "slot": 1,
-                                    "name": "Annie"
+                                    "name": "Cleanse"
                                 },
                                 {
                                     "id": 4,
                                     "slot": 2,
-                                    "name": "Twisted Fate"
+                                    "name": "Flash"
                                 }
                             ],
                             "runes": [
@@ -7649,12 +7649,12 @@
                                 {
                                     "id": 4,
                                     "slot": 1,
-                                    "name": "Twisted Fate"
+                                    "name": "Flash"
                                 },
                                 {
                                     "id": 7,
                                     "slot": 2,
-                                    "name": "LeBlanc"
+                                    "name": "Heal"
                                 }
                             ],
                             "runes": [
@@ -7805,12 +7805,12 @@
                                 {
                                     "id": 4,
                                     "slot": 1,
-                                    "name": "Twisted Fate"
+                                    "name": "Flash"
                                 },
                                 {
                                     "id": 12,
                                     "slot": 2,
-                                    "name": "Alistar"
+                                    "name": "Teleport"
                                 }
                             ],
                             "runes": [
@@ -7961,12 +7961,12 @@
                                 {
                                     "id": 4,
                                     "slot": 1,
-                                    "name": "Twisted Fate"
+                                    "name": "Flash"
                                 },
                                 {
                                     "id": 11,
                                     "slot": 2,
-                                    "name": "Master Yi"
+                                    "name": "Smite"
                                 }
                             ],
                             "runes": [

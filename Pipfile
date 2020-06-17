@@ -10,7 +10,6 @@ leaguepedia-parser = "*"
 [packages]
 requests = "*"
 dateparser = "*"
-pytest = "*"
 riot-transmute = "*"
 lol-dto = "*"
 lol-id-tools = "*"

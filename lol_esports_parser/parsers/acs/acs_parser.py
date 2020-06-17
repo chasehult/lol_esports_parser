@@ -1,5 +1,5 @@
+import logging
 import urllib.parse
-import warnings
 from concurrent.futures.thread import ThreadPoolExecutor
 
 import lol_dto
@@ -50,15 +50,15 @@ def get_acs_game(mh_url: str, get_timeline: bool = False, add_names: bool = Fals
 
     for team in game["teams"].values():
         for player in team["players"]:
-            # We get team name from the first player in the list
+            # We get team name from the first player in the team’s list
             if "name" not in team:
                 team["name"] = player["inGameName"].split(" ")[0]
 
-            # We assert every player has the same tag or raise a warning
+            # We assert every player has the same tag or raise an info-level log
             try:
                 assert player["inGameName"].split(" ")[0] == team["name"]
             except AssertionError:
-                warnings.warn(
+                logging.info(
                     f"Game {mh_url} has an issue with team tags\n"
                     f'Conflict between team tag {team["name"]} and player {player["inGameName"]}'
                 )

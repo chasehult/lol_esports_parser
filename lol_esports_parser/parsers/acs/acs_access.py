@@ -1,9 +1,10 @@
 import logging
 import time
+from json import JSONDecodeError
 
 import requests
 
-from lol_esports_parser.config import credentials, endpoints
+from lol_esports_parser.config import credentials, endpoints, credentials_location
 
 
 class ACS:
@@ -25,12 +26,20 @@ class ACS:
         self.base_url = endpoints["acs"]["game"]
         self.retry_once = retry_once
 
-    def get_token(self):
-        token_request = self.session.post("https://auth.riotgames.com/token", data=self.data)
-        return token_request.json()["id_token"]
+    def get_token(self, first_try=True):
+        try:
+            token_request = self.session.post("https://auth.riotgames.com/token", data=self.data)
+            return token_request.json()["id_token"]
+        except JSONDecodeError:
+            if self.retry_once and first_try:
+                return self.get_token(False)
+
+            logging.warning(f"Could not acquire ID token for user {credentials['account_name']}")
+            logging.warning(f"Please make sure your credentials at {credentials_location} are right")
+            return None
 
     def _get_from_api(self, uri, first_try=True):
-        request_url = "{}{}".format(self.base_url, uri)
+        request_url = f"{self.base_url}{uri}"
         logging.debug("Making a call to: " + request_url)
 
         response = self.session.get(request_url, cookies={"id_token": self.token})

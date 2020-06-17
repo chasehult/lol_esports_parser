@@ -1,3 +1,5 @@
+[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+
 # Leaguepedia Esports Parser
 A utility to transform LoL games data from both QQ and ACS into a single Data Transfer Object
 
