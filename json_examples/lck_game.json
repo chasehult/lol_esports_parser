@@ -12,16 +12,18 @@
     "winner": "RED",
     "teams": {
         "BLUE": {
-            "riftHeraldKills": 0,
-            "dragonKills": 2,
-            "baronKills": 0,
-            "towerKills": 1,
-            "inhibitorKills": 0,
-            "firstTower": false,
-            "firstInhibitor": false,
-            "firstRiftHerald": false,
-            "firstDragon": true,
-            "firstBaron": false,
+            "endOfGameStats": {
+                "riftHeraldKills": 0,
+                "dragonKills": 2,
+                "baronKills": 0,
+                "towerKills": 1,
+                "inhibitorKills": 0,
+                "firstTower": false,
+                "firstInhibitor": false,
+                "firstRiftHerald": false,
+                "firstDragon": true,
+                "firstBaron": false
+            },
             "bans": [
                 48,
                 2,
@@ -5587,16 +5589,18 @@
             "name": "GEN"
         },
         "RED": {
-            "riftHeraldKills": 2,
-            "dragonKills": 3,
-            "baronKills": 2,
-            "towerKills": 10,
-            "inhibitorKills": 2,
-            "firstTower": true,
-            "firstInhibitor": true,
-            "firstRiftHerald": true,
-            "firstDragon": false,
-            "firstBaron": true,
+            "endOfGameStats": {
+                "riftHeraldKills": 2,
+                "dragonKills": 3,
+                "baronKills": 2,
+                "towerKills": 10,
+                "inhibitorKills": 2,
+                "firstTower": true,
+                "firstInhibitor": true,
+                "firstRiftHerald": true,
+                "firstDragon": false,
+                "firstBaron": true
+            },
             "bans": [
                 875,
                 142,
@@ -11445,7 +11449,7 @@
                 },
                 {
                     "timestamp": 1219.821,
-                    "type": "NASHOR",
+                    "type": "BARON",
                     "killerId": 7
                 },
                 {
@@ -11455,7 +11459,7 @@
                 },
                 {
                     "timestamp": 1642.287,
-                    "type": "NASHOR",
+                    "type": "BARON",
                     "killerId": 7
                 },
                 {

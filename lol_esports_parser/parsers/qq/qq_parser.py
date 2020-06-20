@@ -24,8 +24,8 @@ def get_qq_series(qq_match_url: str, patch: str = None, add_names: bool = True) 
 
     Params:
         qq_url: the qq url of the full match, usually acquired from Leaguepedia.
-        patch: if given will use patch information to infer rune tree information.
-        add_names: whether or not to add champions/items/runes names next to their objects through lol_id_tools
+        get_timeline: whether or not to query the /timeline/ endpoints for the games.
+        add_names: whether or not to add champions/items/runes names next to their objects through lol_id_tools.
 
     Returns:
         A LolSeries.
@@ -45,9 +45,9 @@ def parse_qq_game(qq_game_id: int, patch: str = None, add_names: bool = True) ->
     """Parses a QQ game and returns a LolGameDto.
 
     Params:
-        qq_id: the qq game id, acquired from qq’s match list endpoint and therefore a string.
-        patch: optional patch to include in the object
-        add_names: whether or not to add champions/items/runes names next to their objects through lol_id_tools
+        qq_game_̤d: the qq game id, acquired from qq’s match list endpoint.
+        patch: optional patch to include in the object and query rune trees.
+        add_names: whether or not to add champions/items/runes names next to their objects through lol_id_tools.
 
     Returns:
         A LolGameDto.
@@ -136,7 +136,7 @@ def parse_qq_game(qq_game_id: int, patch: str = None, add_names: bool = True) ->
                 inGameName=match_member["GameName"],
                 role=roles[match_member["Place"]],
                 championId=int(match_member["ChampionId"]),
-                endOfGameStats=lol_dto.classes.game.LolGamePlayerStats(
+                endOfGameStats=lol_dto.classes.game.LolGamePlayerEndOfGameStats(
                     kills=int(match_member["Game_K"]),
                     deaths=int(match_member["Game_D"]),
                     assists=int(match_member["Game_A"]),
@@ -216,18 +216,17 @@ def parse_qq_game(qq_game_id: int, patch: str = None, add_names: bool = True) ->
             first_tower = True in (bool(player["firstTower"]) for player in battle_data[team_side]["players"])
 
         # We fill more team related information
-        team.update(
-            {
-                "baronKills": int(battle_data[team_side]["b-dragon"]),
-                "dragonKills": int(battle_data[team_side]["s-dragon"]),
-                "firstTower": first_tower,
-                "towerKills": int(battle_data[team_side]["tower"]),
-                "bans": [
-                    int(battle_data[team_side][f"ban-hero-{ban_number}"])
-                    for ban_number in range(1, 6)
-                    if f"ban-hero-{ban_number}" in battle_data[team_side]
-                ],
-            }
+        team["bans"] = [
+            int(battle_data[team_side][f"ban-hero-{ban_number}"])
+            for ban_number in range(1, 6)
+            if f"ban-hero-{ban_number}" in battle_data[team_side]
+        ]
+
+        team["endOfGameStats"] = lol_dto.classes.game.LolGameTeamEndOfGameStats(
+            towerKills=int(battle_data[team_side]["tower"]),
+            baronKills=int(battle_data[team_side]["b-dragon"]),
+            dragonKills=int(battle_data[team_side]["s-dragon"]),
+            firstTower=first_tower,
         )
 
         # We add ban names from the bans field
@@ -312,7 +311,7 @@ def parse_player_battle_data(
         # In the games with buggy championId, almost all fields were empty, we raise
         raise ValueError
 
-    end_of_game_stats = lol_dto.classes.game.LolGamePlayerStats(
+    end_of_game_stats = lol_dto.classes.game.LolGamePlayerEndOfGameStats(
         kills=int(player_battle_data["kill"]),
         deaths=int(player_battle_data["death"]),
         assists=int(player_battle_data["assist"]),

@@ -780,10 +780,6 @@
                         }
                     ],
                     "name": "JDG",
-                    "baronKills": 1,
-                    "dragonKills": 4,
-                    "firstTower": false,
-                    "towerKills": 8,
                     "bans": [
                         142,
                         134,
@@ -791,6 +787,12 @@
                         201,
                         89
                     ],
+                    "endOfGameStats": {
+                        "towerKills": 8,
+                        "baronKills": 1,
+                        "dragonKills": 4,
+                        "firstTower": false
+                    },
                     "bansNames": [
                         "Zoe",
                         "Syndra",
@@ -1588,10 +1590,6 @@
                         }
                     ],
                     "name": "TES",
-                    "baronKills": 0,
-                    "dragonKills": 2,
-                    "firstTower": true,
-                    "towerKills": 5,
                     "bans": [
                         429,
                         110,
@@ -1599,6 +1597,12 @@
                         111,
                         25
                     ],
+                    "endOfGameStats": {
+                        "towerKills": 5,
+                        "baronKills": 0,
+                        "dragonKills": 2,
+                        "firstTower": true
+                    },
                     "bansNames": [
                         "Kalista",
                         "Varus",
@@ -2400,10 +2404,6 @@
                         }
                     ],
                     "name": "TES",
-                    "baronKills": 2,
-                    "dragonKills": 3,
-                    "firstTower": true,
-                    "towerKills": 9,
                     "bans": [
                         104,
                         7,
@@ -2411,6 +2411,12 @@
                         412,
                         201
                     ],
+                    "endOfGameStats": {
+                        "towerKills": 9,
+                        "baronKills": 2,
+                        "dragonKills": 3,
+                        "firstTower": true
+                    },
                     "bansNames": [
                         "Graves",
                         "LeBlanc",
@@ -3196,10 +3202,6 @@
                         }
                     ],
                     "name": "JDG",
-                    "baronKills": 0,
-                    "dragonKills": 2,
-                    "firstTower": false,
-                    "towerKills": 2,
                     "bans": [
                         142,
                         134,
@@ -3207,6 +3209,12 @@
                         42,
                         517
                     ],
+                    "endOfGameStats": {
+                        "towerKills": 2,
+                        "baronKills": 0,
+                        "dragonKills": 2,
+                        "firstTower": false
+                    },
                     "bansNames": [
                         "Zoe",
                         "Syndra",
@@ -4008,10 +4016,6 @@
                         }
                     ],
                     "name": "JDG",
-                    "baronKills": 0,
-                    "dragonKills": 1,
-                    "firstTower": true,
-                    "towerKills": 5,
                     "bans": [
                         142,
                         134,
@@ -4019,6 +4023,12 @@
                         59,
                         60
                     ],
+                    "endOfGameStats": {
+                        "towerKills": 5,
+                        "baronKills": 0,
+                        "dragonKills": 1,
+                        "firstTower": true
+                    },
                     "bansNames": [
                         "Zoe",
                         "Syndra",
@@ -4804,10 +4814,6 @@
                         }
                     ],
                     "name": "TES",
-                    "baronKills": 1,
-                    "dragonKills": 3,
-                    "firstTower": false,
-                    "towerKills": 7,
                     "bans": [
                         104,
                         110,
@@ -4815,6 +4821,12 @@
                         516,
                         7
                     ],
+                    "endOfGameStats": {
+                        "towerKills": 7,
+                        "baronKills": 1,
+                        "dragonKills": 3,
+                        "firstTower": false
+                    },
                     "bansNames": [
                         "Graves",
                         "Varus",
@@ -5616,10 +5628,6 @@
                         }
                     ],
                     "name": "JDG",
-                    "baronKills": 1,
-                    "dragonKills": 1,
-                    "firstTower": false,
-                    "towerKills": 10,
                     "bans": [
                         142,
                         134,
@@ -5627,6 +5635,12 @@
                         38,
                         42
                     ],
+                    "endOfGameStats": {
+                        "towerKills": 10,
+                        "baronKills": 1,
+                        "dragonKills": 1,
+                        "firstTower": false
+                    },
                     "bansNames": [
                         "Zoe",
                         "Syndra",
@@ -6424,10 +6438,6 @@
                         }
                     ],
                     "name": "TES",
-                    "baronKills": 0,
-                    "dragonKills": 4,
-                    "firstTower": true,
-                    "towerKills": 2,
                     "bans": [
                         110,
                         429,
@@ -6435,6 +6445,12 @@
                         2,
                         82
                     ],
+                    "endOfGameStats": {
+                        "towerKills": 2,
+                        "baronKills": 0,
+                        "dragonKills": 4,
+                        "firstTower": true
+                    },
                     "bansNames": [
                         "Varus",
                         "Kalista",
@@ -7230,10 +7246,6 @@
                         }
                     ],
                     "name": "TES",
-                    "baronKills": 0,
-                    "dragonKills": 2,
-                    "firstTower": false,
-                    "towerKills": 2,
                     "bans": [
                         104,
                         7,
@@ -7241,6 +7253,12 @@
                         350,
                         142
                     ],
+                    "endOfGameStats": {
+                        "towerKills": 2,
+                        "baronKills": 0,
+                        "dragonKills": 2,
+                        "firstTower": false
+                    },
                     "bansNames": [
                         "Graves",
                         "LeBlanc",
@@ -8032,10 +8050,6 @@
                         }
                     ],
                     "name": "JDG",
-                    "baronKills": 1,
-                    "dragonKills": 2,
-                    "firstTower": true,
-                    "towerKills": 7,
                     "bans": [
                         134,
                         110,
@@ -8043,6 +8057,12 @@
                         42,
                         79
                     ],
+                    "endOfGameStats": {
+                        "towerKills": 7,
+                        "baronKills": 1,
+                        "dragonKills": 2,
+                        "firstTower": true
+                    },
                     "bansNames": [
                         "Syndra",
                         "Varus",

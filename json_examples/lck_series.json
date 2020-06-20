@@ -19,16 +19,18 @@
             "winner": "BLUE",
             "teams": {
                 "BLUE": {
-                    "riftHeraldKills": 2,
-                    "dragonKills": 4,
-                    "baronKills": 2,
-                    "towerKills": 11,
-                    "inhibitorKills": 6,
-                    "firstTower": true,
-                    "firstInhibitor": true,
-                    "firstRiftHerald": true,
-                    "firstDragon": true,
-                    "firstBaron": true,
+                    "endOfGameStats": {
+                        "riftHeraldKills": 2,
+                        "dragonKills": 4,
+                        "baronKills": 2,
+                        "towerKills": 11,
+                        "inhibitorKills": 6,
+                        "firstTower": true,
+                        "firstInhibitor": true,
+                        "firstRiftHerald": true,
+                        "firstDragon": true,
+                        "firstBaron": true
+                    },
                     "bans": [
                         875,
                         142,
@@ -8087,7 +8089,7 @@
                         },
                         {
                             "timestamp": 2102.897,
-                            "type": "NASHOR",
+                            "type": "BARON",
                             "killerId": 3
                         },
                         {
@@ -8097,7 +8099,7 @@
                         },
                         {
                             "timestamp": 2649.876,
-                            "type": "NASHOR",
+                            "type": "BARON",
                             "killerId": 2
                         }
                     ],
@@ -8107,7 +8109,7 @@
                             "lane": "BOT",
                             "towerLocation": "OUTER",
                             "side": "RED",
-                            "timestamp": 1454.272
+                            "timestamp": 761.328
                         },
                         {
                             "type": "TOWER",
@@ -8188,7 +8190,7 @@
                             "lane": "MID",
                             "towerLocation": "INNER",
                             "side": "BLUE",
-                            "timestamp": 1623.077
+                            "timestamp": 2617.492
                         },
                         {
                             "type": "INHIBITOR",
@@ -8226,16 +8228,18 @@
                     "name": "T1"
                 },
                 "RED": {
-                    "riftHeraldKills": 0,
-                    "dragonKills": 3,
-                    "baronKills": 0,
-                    "towerKills": 2,
-                    "inhibitorKills": 0,
-                    "firstTower": false,
-                    "firstInhibitor": false,
-                    "firstRiftHerald": false,
-                    "firstDragon": false,
-                    "firstBaron": false,
+                    "endOfGameStats": {
+                        "riftHeraldKills": 0,
+                        "dragonKills": 3,
+                        "baronKills": 0,
+                        "towerKills": 2,
+                        "inhibitorKills": 0,
+                        "firstTower": false,
+                        "firstInhibitor": false,
+                        "firstRiftHerald": false,
+                        "firstDragon": false,
+                        "firstBaron": false
+                    },
                     "bans": [
                         79,
                         48,
@@ -15859,7 +15863,7 @@
                             "lane": "MID",
                             "towerLocation": "OUTER",
                             "side": "BLUE",
-                            "timestamp": 1037.875
+                            "timestamp": 2046.652
                         }
                     ],
                     "name": "GEN"
@@ -16095,16 +16099,18 @@
             "winner": "BLUE",
             "teams": {
                 "BLUE": {
-                    "riftHeraldKills": 2,
-                    "dragonKills": 3,
-                    "baronKills": 1,
-                    "towerKills": 9,
-                    "inhibitorKills": 1,
-                    "firstTower": true,
-                    "firstInhibitor": true,
-                    "firstRiftHerald": true,
-                    "firstDragon": true,
-                    "firstBaron": true,
+                    "endOfGameStats": {
+                        "riftHeraldKills": 2,
+                        "dragonKills": 3,
+                        "baronKills": 1,
+                        "towerKills": 9,
+                        "inhibitorKills": 1,
+                        "firstTower": true,
+                        "firstInhibitor": true,
+                        "firstRiftHerald": true,
+                        "firstDragon": true,
+                        "firstBaron": true
+                    },
                     "bans": [
                         875,
                         60,
@@ -22027,7 +22033,7 @@
                         },
                         {
                             "timestamp": 1498.789,
-                            "type": "NASHOR",
+                            "type": "BARON",
                             "killerId": 2
                         },
                         {
@@ -22056,14 +22062,14 @@
                             "lane": "TOP",
                             "towerLocation": "OUTER",
                             "side": "BLUE",
-                            "timestamp": 1133.79
+                            "timestamp": 1315.767
                         },
                         {
                             "type": "TOWER",
                             "lane": "BOT",
                             "towerLocation": "OUTER",
                             "side": "RED",
-                            "timestamp": 1454.272
+                            "timestamp": 761.328
                         },
                         {
                             "type": "TOWER",
@@ -22117,16 +22123,18 @@
                     "name": "T1"
                 },
                 "RED": {
-                    "riftHeraldKills": 0,
-                    "dragonKills": 1,
-                    "baronKills": 0,
-                    "towerKills": 3,
-                    "inhibitorKills": 0,
-                    "firstTower": false,
-                    "firstInhibitor": false,
-                    "firstRiftHerald": false,
-                    "firstDragon": false,
-                    "firstBaron": false,
+                    "endOfGameStats": {
+                        "riftHeraldKills": 0,
+                        "dragonKills": 1,
+                        "baronKills": 0,
+                        "towerKills": 3,
+                        "inhibitorKills": 0,
+                        "firstTower": false,
+                        "firstInhibitor": false,
+                        "firstRiftHerald": false,
+                        "firstDragon": false,
+                        "firstBaron": false
+                    },
                     "bans": [
                         48,
                         79,
@@ -27812,14 +27820,14 @@
                             "lane": "BOT",
                             "towerLocation": "OUTER",
                             "side": "BLUE",
-                            "timestamp": 1278.318
+                            "timestamp": 1219.914
                         },
                         {
                             "type": "TOWER",
                             "lane": "MID",
                             "towerLocation": "OUTER",
                             "side": "BLUE",
-                            "timestamp": 1037.875
+                            "timestamp": 2046.652
                         }
                     ],
                     "name": "GEN"
@@ -28092,16 +28100,18 @@
             "winner": "RED",
             "teams": {
                 "BLUE": {
-                    "riftHeraldKills": 0,
-                    "dragonKills": 2,
-                    "baronKills": 0,
-                    "towerKills": 1,
-                    "inhibitorKills": 0,
-                    "firstTower": false,
-                    "firstInhibitor": false,
-                    "firstRiftHerald": false,
-                    "firstDragon": true,
-                    "firstBaron": false,
+                    "endOfGameStats": {
+                        "riftHeraldKills": 0,
+                        "dragonKills": 2,
+                        "baronKills": 0,
+                        "towerKills": 1,
+                        "inhibitorKills": 0,
+                        "firstTower": false,
+                        "firstInhibitor": false,
+                        "firstRiftHerald": false,
+                        "firstDragon": true,
+                        "firstBaron": false
+                    },
                     "bans": [
                         48,
                         2,
@@ -33654,7 +33664,7 @@
                             "lane": "BOT",
                             "towerLocation": "OUTER",
                             "side": "RED",
-                            "timestamp": 1454.272
+                            "timestamp": 761.328
                         },
                         {
                             "type": "TOWER",
@@ -33667,16 +33677,18 @@
                     "name": "GEN"
                 },
                 "RED": {
-                    "riftHeraldKills": 2,
-                    "dragonKills": 3,
-                    "baronKills": 2,
-                    "towerKills": 10,
-                    "inhibitorKills": 2,
-                    "firstTower": true,
-                    "firstInhibitor": true,
-                    "firstRiftHerald": true,
-                    "firstDragon": false,
-                    "firstBaron": true,
+                    "endOfGameStats": {
+                        "riftHeraldKills": 2,
+                        "dragonKills": 3,
+                        "baronKills": 2,
+                        "towerKills": 10,
+                        "inhibitorKills": 2,
+                        "firstTower": true,
+                        "firstInhibitor": true,
+                        "firstRiftHerald": true,
+                        "firstDragon": false,
+                        "firstBaron": true
+                    },
                     "bans": [
                         875,
                         142,
@@ -39525,7 +39537,7 @@
                         },
                         {
                             "timestamp": 1219.821,
-                            "type": "NASHOR",
+                            "type": "BARON",
                             "killerId": 7
                         },
                         {
@@ -39535,7 +39547,7 @@
                         },
                         {
                             "timestamp": 1642.287,
-                            "type": "NASHOR",
+                            "type": "BARON",
                             "killerId": 7
                         },
                         {
@@ -39550,21 +39562,21 @@
                             "lane": "MID",
                             "towerLocation": "OUTER",
                             "side": "BLUE",
-                            "timestamp": 1037.875
+                            "timestamp": 2046.652
                         },
                         {
                             "type": "TOWER",
                             "lane": "TOP",
                             "towerLocation": "OUTER",
                             "side": "BLUE",
-                            "timestamp": 1133.79
+                            "timestamp": 1315.767
                         },
                         {
                             "type": "TOWER",
                             "lane": "BOT",
                             "towerLocation": "OUTER",
                             "side": "BLUE",
-                            "timestamp": 1278.318
+                            "timestamp": 1219.914
                         },
                         {
                             "type": "TOWER",
@@ -39585,7 +39597,7 @@
                             "lane": "MID",
                             "towerLocation": "INNER",
                             "side": "BLUE",
-                            "timestamp": 1623.077
+                            "timestamp": 2617.492
                         },
                         {
                             "type": "TOWER",

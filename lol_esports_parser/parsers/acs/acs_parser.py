@@ -11,7 +11,17 @@ from lol_esports_parser.parsers.acs.acs_access import ACS
 acs = ACS()
 
 
-def get_acs_series(mh_url_list: list, get_timeline: bool = False, add_names: bool = False) -> LolSeries:
+def get_acs_series(mh_url_list: list, get_timeline: bool = False, add_names: bool = True) -> LolSeries:
+    """Gets a list of ACS games as a single LolSeries object.
+
+    Params:
+        mh_url_list: the list of match history URLs to include in the series object.
+        get_timeline: whether or not to query the /timeline/ endpoints for the games.
+        add_names: whether or not to add champions/items/runes names next to their objects through lol_id_tools.
+
+    Returns:
+        A LolSeries made from all the games in the given order.
+    """
     games_futures = []
     with ThreadPoolExecutor() as executor:
         for mh_url in mh_url_list:
@@ -25,8 +35,11 @@ def get_acs_game(mh_url: str, get_timeline: bool = False, add_names: bool = Fals
 
     Params:
         mh_url: a Riot match history URL, containing the game hash.
-        get_timeline: whether to retrieve the timeline object and merge it in a single LolGame.
-        add_names: whether to add objects names for human readability.
+        get_timeline: whether or not to query the /timeline/ endpoints for the games.
+        add_names: whether or not to add champions/items/runes names next to their objects through lol_id_tools.
+
+    Returns:
+        A LolGame with all available information.
     """
     parsed_url = urllib.parse.urlparse(urllib.parse.urlparse(mh_url).fragment)
     query = urllib.parse.parse_qs(parsed_url.query)

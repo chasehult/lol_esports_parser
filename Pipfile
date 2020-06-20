@@ -10,9 +10,12 @@ leaguepedia-parser = "*"
 [packages]
 requests = "*"
 dateparser = "*"
-riot-transmute = "*"
-lol-dto = "*"
+riot-transmute = "==0.1a1"
+lol-dto = "==0.1a1"
 lol-id-tools = "*"
 
 [requires]
 python_version = "3.8"
+
+[pipenv]
+allow_prereleases = true
