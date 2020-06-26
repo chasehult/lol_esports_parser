@@ -64,7 +64,7 @@ def parse_qq_game(qq_game_id: int, patch: str = None, add_names: bool = True) ->
 
     # We start by building the root of the game object
     lol_game_dto = lol_dto.classes.game.LolGame(
-        sources={"qq": {"id": int(qq_game_id), "server": qq_server_id, "battleId": qq_battle_id}},
+        sources={"qq": {"id": int(qq_game_id), "serverId": qq_server_id, "battleId": qq_battle_id}},
         gameInSeries=int(game_info["sMatchInfo"]["MatchNum"]),
         teams={},
     )
