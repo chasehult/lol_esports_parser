@@ -10,6 +10,7 @@ import dateparser
 import lol_id_tools as lit
 import lol_dto
 
+from lol_esports_parser.dto.qq_source import SourceQQ
 from lol_esports_parser.dto.series_dto import LolSeries, create_series
 from lol_esports_parser.parsers.qq.qq_access import get_qq_games_list, get_all_qq_game_info
 from lol_esports_parser.parsers.rune_tree_handler import RuneTreeHandler
@@ -64,7 +65,7 @@ def parse_qq_game(qq_game_id: int, patch: str = None, add_names: bool = True) ->
 
     # We start by building the root of the game object
     lol_game_dto = lol_dto.classes.game.LolGame(
-        sources={"qq": {"id": int(qq_game_id), "serverId": qq_server_id, "battleId": qq_battle_id}},
+        sources={"qq": SourceQQ(id=int(qq_game_id), serverId=qq_server_id, battleId=qq_battle_id)},
         gameInSeries=int(game_info["sMatchInfo"]["MatchNum"]),
         teams={},
     )

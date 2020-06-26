@@ -8109,7 +8109,7 @@
                             "lane": "BOT",
                             "towerLocation": "OUTER",
                             "side": "RED",
-                            "timestamp": 761.328
+                            "timestamp": 1454.272
                         },
                         {
                             "type": "TOWER",
@@ -8190,7 +8190,7 @@
                             "lane": "MID",
                             "towerLocation": "INNER",
                             "side": "BLUE",
-                            "timestamp": 2617.492
+                            "timestamp": 1623.077
                         },
                         {
                             "type": "INHIBITOR",
@@ -15863,7 +15863,7 @@
                             "lane": "MID",
                             "towerLocation": "OUTER",
                             "side": "BLUE",
-                            "timestamp": 2046.652
+                            "timestamp": 1037.875
                         }
                     ],
                     "name": "GEN"
@@ -22062,14 +22062,14 @@
                             "lane": "TOP",
                             "towerLocation": "OUTER",
                             "side": "BLUE",
-                            "timestamp": 1315.767
+                            "timestamp": 1133.79
                         },
                         {
                             "type": "TOWER",
                             "lane": "BOT",
                             "towerLocation": "OUTER",
                             "side": "RED",
-                            "timestamp": 761.328
+                            "timestamp": 1454.272
                         },
                         {
                             "type": "TOWER",
@@ -27820,14 +27820,14 @@
                             "lane": "BOT",
                             "towerLocation": "OUTER",
                             "side": "BLUE",
-                            "timestamp": 1219.914
+                            "timestamp": 1278.318
                         },
                         {
                             "type": "TOWER",
                             "lane": "MID",
                             "towerLocation": "OUTER",
                             "side": "BLUE",
-                            "timestamp": 2046.652
+                            "timestamp": 1037.875
                         }
                     ],
                     "name": "GEN"
@@ -33664,7 +33664,7 @@
                             "lane": "BOT",
                             "towerLocation": "OUTER",
                             "side": "RED",
-                            "timestamp": 761.328
+                            "timestamp": 1454.272
                         },
                         {
                             "type": "TOWER",
@@ -39562,21 +39562,21 @@
                             "lane": "MID",
                             "towerLocation": "OUTER",
                             "side": "BLUE",
-                            "timestamp": 2046.652
+                            "timestamp": 1037.875
                         },
                         {
                             "type": "TOWER",
                             "lane": "TOP",
                             "towerLocation": "OUTER",
                             "side": "BLUE",
-                            "timestamp": 1315.767
+                            "timestamp": 1133.79
                         },
                         {
                             "type": "TOWER",
                             "lane": "BOT",
                             "towerLocation": "OUTER",
                             "side": "BLUE",
-                            "timestamp": 1219.914
+                            "timestamp": 1278.318
                         },
                         {
                             "type": "TOWER",
@@ -39597,7 +39597,7 @@
                             "lane": "MID",
                             "towerLocation": "INNER",
                             "side": "BLUE",
-                            "timestamp": 2617.492
+                            "timestamp": 1623.077
                         },
                         {
                             "type": "TOWER",

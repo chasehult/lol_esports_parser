@@ -9,7 +9,7 @@
             "sources": {
                 "qq": {
                     "id": 7802,
-                    "server": 130,
+                    "serverId": 130,
                     "battleId": 2261762
                 }
             },
@@ -1621,7 +1621,7 @@
             "sources": {
                 "qq": {
                     "id": 7803,
-                    "server": 130,
+                    "serverId": 130,
                     "battleId": 2261771
                 }
             },
@@ -3233,7 +3233,7 @@
             "sources": {
                 "qq": {
                     "id": 7804,
-                    "server": 130,
+                    "serverId": 130,
                     "battleId": 2261772
                 }
             },
@@ -4845,7 +4845,7 @@
             "sources": {
                 "qq": {
                     "id": 7805,
-                    "server": 130,
+                    "serverId": 130,
                     "battleId": 2261776
                 }
             },
@@ -6469,7 +6469,7 @@
             "sources": {
                 "qq": {
                     "id": 7806,
-                    "server": 130,
+                    "serverId": 130,
                     "battleId": 2261779
                 }
             },
