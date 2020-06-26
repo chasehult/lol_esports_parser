@@ -9,7 +9,7 @@ setuptools.setup(
     name="lol_esports_parser",
     version="0.1a3",
     packages=setuptools.find_packages(),
-    install_requires=["requests", "dateparser", "lol-id-tools>=1.4.0", "riot-transmute>=0.1a4", "lol-dto>=0.1a3"],
+    install_requires=["requests", "dateparser", "lol-id-tools>=1.4.0", "riot-transmute>=0.1a5", "lol-dto>=0.1a3"],
     url="https://github.com/mrtolkien/lol_esports_parser",
     license="MIT",
     author='Gary "Tolki" Mialaret',

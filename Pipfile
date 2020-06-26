@@ -10,8 +10,8 @@ leaguepedia-parser = "*"
 [packages]
 requests = "*"
 dateparser = "*"
-riot-transmute = "==0.1a1"
-lol-dto = "==0.1a1"
+riot-transmute = ">=0.1a5"
+lol-dto = ">=0.1a3"
 lol-id-tools = "*"
 
 [requires]

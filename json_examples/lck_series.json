@@ -42,7 +42,7 @@
                             "inGameName": "T1 Canna",
                             "profileIconId": 29,
                             "championId": 517,
-                            "uniqueIdentifiers": null,
+                            "uniqueIdentifiers": {},
                             "primaryRuneTreeId": 8000,
                             "secondaryRuneTreeId": 8300,
                             "runes": [
@@ -105,6 +105,21 @@
                                         1001
                                     ],
                                     "name": "Time Warp Tonic"
+                                },
+                                {
+                                    "id": 8010,
+                                    "slot": 6,
+                                    "name": "Conqueror"
+                                },
+                                {
+                                    "id": 9111,
+                                    "slot": 7,
+                                    "name": "Triumph"
+                                },
+                                {
+                                    "id": 9105,
+                                    "slot": 8,
+                                    "name": "Legend: Tenacity"
                                 }
                             ],
                             "summonerSpells": [
@@ -1509,7 +1524,7 @@
                             "inGameName": "T1 Cuzz",
                             "profileIconId": 29,
                             "championId": 104,
-                            "uniqueIdentifiers": null,
+                            "uniqueIdentifiers": {},
                             "primaryRuneTreeId": 8200,
                             "secondaryRuneTreeId": 8000,
                             "runes": [
@@ -1572,6 +1587,21 @@
                                         0
                                     ],
                                     "name": "Legend: Alacrity"
+                                },
+                                {
+                                    "id": 8230,
+                                    "slot": 6,
+                                    "name": "Phase Rush"
+                                },
+                                {
+                                    "id": 8275,
+                                    "slot": 7,
+                                    "name": "Nimbus Cloak"
+                                },
+                                {
+                                    "id": 8233,
+                                    "slot": 8,
+                                    "name": "Absolute Focus"
                                 }
                             ],
                             "summonerSpells": [
@@ -3114,7 +3144,7 @@
                             "inGameName": "T1 Faker",
                             "profileIconId": 29,
                             "championId": 42,
-                            "uniqueIdentifiers": null,
+                            "uniqueIdentifiers": {},
                             "primaryRuneTreeId": 8000,
                             "secondaryRuneTreeId": 8300,
                             "runes": [
@@ -3177,6 +3207,21 @@
                                         0
                                     ],
                                     "name": "Biscuit Delivery"
+                                },
+                                {
+                                    "id": 8021,
+                                    "slot": 6,
+                                    "name": "Fleet Footwork"
+                                },
+                                {
+                                    "id": 9101,
+                                    "slot": 7,
+                                    "name": "Overheal"
+                                },
+                                {
+                                    "id": 9104,
+                                    "slot": 8,
+                                    "name": "Legend: Alacrity"
                                 }
                             ],
                             "summonerSpells": [
@@ -4543,7 +4588,7 @@
                             "inGameName": "T1 Teddy",
                             "profileIconId": 29,
                             "championId": 110,
-                            "uniqueIdentifiers": null,
+                            "uniqueIdentifiers": {},
                             "primaryRuneTreeId": 8200,
                             "secondaryRuneTreeId": 8000,
                             "runes": [
@@ -4606,6 +4651,21 @@
                                         0
                                     ],
                                     "name": "Cut Down"
+                                },
+                                {
+                                    "id": 8229,
+                                    "slot": 6,
+                                    "name": "Arcane Comet"
+                                },
+                                {
+                                    "id": 8226,
+                                    "slot": 7,
+                                    "name": "Manaflow Band"
+                                },
+                                {
+                                    "id": 8210,
+                                    "slot": 8,
+                                    "name": "Transcendence"
                                 }
                             ],
                             "summonerSpells": [
@@ -6041,7 +6101,7 @@
                             "inGameName": "T1 Effort",
                             "profileIconId": 20,
                             "championId": 412,
-                            "uniqueIdentifiers": null,
+                            "uniqueIdentifiers": {},
                             "primaryRuneTreeId": 8400,
                             "secondaryRuneTreeId": 8300,
                             "runes": [
@@ -6104,6 +6164,21 @@
                                         0
                                     ],
                                     "name": "Minion Dematerializer"
+                                },
+                                {
+                                    "id": 8465,
+                                    "slot": 6,
+                                    "name": "Guardian"
+                                },
+                                {
+                                    "id": 8446,
+                                    "slot": 7,
+                                    "name": "Demolish"
+                                },
+                                {
+                                    "id": 8444,
+                                    "slot": 8,
+                                    "name": "Second Wind"
                                 }
                             ],
                             "summonerSpells": [
@@ -8065,7 +8140,8 @@
                         {
                             "timestamp": 450.288,
                             "type": "DRAGON",
-                            "killerId": 2
+                            "killerId": 2,
+                            "subType": "INFERNAL"
                         },
                         {
                             "timestamp": 555.312,
@@ -8075,7 +8151,8 @@
                         {
                             "timestamp": 771.735,
                             "type": "DRAGON",
-                            "killerId": 2
+                            "killerId": 2,
+                            "subType": "MOUNTAIN"
                         },
                         {
                             "timestamp": 968.779,
@@ -8085,7 +8162,8 @@
                         {
                             "timestamp": 1834.019,
                             "type": "DRAGON",
-                            "killerId": 2
+                            "killerId": 2,
+                            "subType": "CLOUD"
                         },
                         {
                             "timestamp": 2102.897,
@@ -8095,7 +8173,8 @@
                         {
                             "timestamp": 2448.704,
                             "type": "DRAGON",
-                            "killerId": 2
+                            "killerId": 2,
+                            "subType": "CLOUD"
                         },
                         {
                             "timestamp": 2649.876,
@@ -8253,7 +8332,7 @@
                             "inGameName": "GEN Rascal",
                             "profileIconId": 29,
                             "championId": 516,
-                            "uniqueIdentifiers": null,
+                            "uniqueIdentifiers": {},
                             "primaryRuneTreeId": 8400,
                             "secondaryRuneTreeId": 8300,
                             "runes": [
@@ -8316,6 +8395,21 @@
                                         0
                                     ],
                                     "name": "Biscuit Delivery"
+                                },
+                                {
+                                    "id": 8437,
+                                    "slot": 6,
+                                    "name": "Grasp of the Undying"
+                                },
+                                {
+                                    "id": 8446,
+                                    "slot": 7,
+                                    "name": "Demolish"
+                                },
+                                {
+                                    "id": 8444,
+                                    "slot": 8,
+                                    "name": "Second Wind"
                                 }
                             ],
                             "summonerSpells": [
@@ -9766,7 +9860,7 @@
                             "inGameName": "GEN Clid",
                             "profileIconId": 29,
                             "championId": 421,
-                            "uniqueIdentifiers": null,
+                            "uniqueIdentifiers": {},
                             "primaryRuneTreeId": 8000,
                             "secondaryRuneTreeId": 8200,
                             "runes": [
@@ -9829,6 +9923,21 @@
                                         0
                                     ],
                                     "name": "Waterwalking"
+                                },
+                                {
+                                    "id": 8010,
+                                    "slot": 6,
+                                    "name": "Conqueror"
+                                },
+                                {
+                                    "id": 9111,
+                                    "slot": 7,
+                                    "name": "Triumph"
+                                },
+                                {
+                                    "id": 9105,
+                                    "slot": 8,
+                                    "name": "Legend: Tenacity"
                                 }
                             ],
                             "summonerSpells": [
@@ -11260,7 +11369,7 @@
                             "inGameName": "GEN Bdd",
                             "profileIconId": 29,
                             "championId": 268,
-                            "uniqueIdentifiers": null,
+                            "uniqueIdentifiers": {},
                             "primaryRuneTreeId": 8200,
                             "secondaryRuneTreeId": 8300,
                             "runes": [
@@ -11323,6 +11432,21 @@
                                         1056
                                     ],
                                     "name": "Time Warp Tonic"
+                                },
+                                {
+                                    "id": 8229,
+                                    "slot": 6,
+                                    "name": "Arcane Comet"
+                                },
+                                {
+                                    "id": 8226,
+                                    "slot": 7,
+                                    "name": "Manaflow Band"
+                                },
+                                {
+                                    "id": 8233,
+                                    "slot": 8,
+                                    "name": "Absolute Focus"
                                 }
                             ],
                             "summonerSpells": [
@@ -12811,7 +12935,7 @@
                             "inGameName": "GEN Ruler",
                             "profileIconId": 29,
                             "championId": 523,
-                            "uniqueIdentifiers": null,
+                            "uniqueIdentifiers": {},
                             "primaryRuneTreeId": 8000,
                             "secondaryRuneTreeId": 8200,
                             "runes": [
@@ -12874,6 +12998,21 @@
                                         0
                                     ],
                                     "name": "Gathering Storm"
+                                },
+                                {
+                                    "id": 8010,
+                                    "slot": 6,
+                                    "name": "Conqueror"
+                                },
+                                {
+                                    "id": 9101,
+                                    "slot": 7,
+                                    "name": "Overheal"
+                                },
+                                {
+                                    "id": 9103,
+                                    "slot": 8,
+                                    "name": "Legend: Bloodline"
                                 }
                             ],
                             "summonerSpells": [
@@ -14151,7 +14290,7 @@
                             "inGameName": "GEN Life",
                             "profileIconId": 29,
                             "championId": 350,
-                            "uniqueIdentifiers": null,
+                            "uniqueIdentifiers": {},
                             "primaryRuneTreeId": 8200,
                             "secondaryRuneTreeId": 8000,
                             "runes": [
@@ -14214,6 +14353,21 @@
                                         0
                                     ],
                                     "name": "Cut Down"
+                                },
+                                {
+                                    "id": 8214,
+                                    "slot": 6,
+                                    "name": "Summon Aery"
+                                },
+                                {
+                                    "id": 8226,
+                                    "slot": 7,
+                                    "name": "Manaflow Band"
+                                },
+                                {
+                                    "id": 8210,
+                                    "slot": 8,
+                                    "name": "Transcendence"
                                 }
                             ],
                             "summonerSpells": [
@@ -15844,17 +15998,20 @@
                         {
                             "timestamp": 1088.026,
                             "type": "DRAGON",
-                            "killerId": 7
+                            "killerId": 7,
+                            "subType": "CLOUD"
                         },
                         {
                             "timestamp": 1452.19,
                             "type": "DRAGON",
-                            "killerId": 7
+                            "killerId": 7,
+                            "subType": "CLOUD"
                         },
                         {
                             "timestamp": 2140.502,
                             "type": "DRAGON",
-                            "killerId": 7
+                            "killerId": 7,
+                            "subType": "CLOUD"
                         }
                     ],
                     "buildingsKills": [
@@ -16124,7 +16281,7 @@
                             "inGameName": "T1 Canna",
                             "profileIconId": 29,
                             "championId": 517,
-                            "uniqueIdentifiers": null,
+                            "uniqueIdentifiers": {},
                             "primaryRuneTreeId": 8000,
                             "secondaryRuneTreeId": 8300,
                             "runes": [
@@ -16187,6 +16344,21 @@
                                         1153
                                     ],
                                     "name": "Time Warp Tonic"
+                                },
+                                {
+                                    "id": 8010,
+                                    "slot": 6,
+                                    "name": "Conqueror"
+                                },
+                                {
+                                    "id": 9111,
+                                    "slot": 7,
+                                    "name": "Triumph"
+                                },
+                                {
+                                    "id": 9105,
+                                    "slot": 8,
+                                    "name": "Legend: Tenacity"
                                 }
                             ],
                             "summonerSpells": [
@@ -17102,7 +17274,7 @@
                             "inGameName": "T1 Cuzz",
                             "profileIconId": 29,
                             "championId": 2,
-                            "uniqueIdentifiers": null,
+                            "uniqueIdentifiers": {},
                             "primaryRuneTreeId": 8000,
                             "secondaryRuneTreeId": 8200,
                             "runes": [
@@ -17165,6 +17337,21 @@
                                         0
                                     ],
                                     "name": "Waterwalking"
+                                },
+                                {
+                                    "id": 8010,
+                                    "slot": 6,
+                                    "name": "Conqueror"
+                                },
+                                {
+                                    "id": 9111,
+                                    "slot": 7,
+                                    "name": "Triumph"
+                                },
+                                {
+                                    "id": 9104,
+                                    "slot": 8,
+                                    "name": "Legend: Alacrity"
                                 }
                             ],
                             "summonerSpells": [
@@ -18284,7 +18471,7 @@
                             "inGameName": "T1 Faker",
                             "profileIconId": 29,
                             "championId": 42,
-                            "uniqueIdentifiers": null,
+                            "uniqueIdentifiers": {},
                             "primaryRuneTreeId": 8000,
                             "secondaryRuneTreeId": 8300,
                             "runes": [
@@ -18347,6 +18534,21 @@
                                         0
                                     ],
                                     "name": "Biscuit Delivery"
+                                },
+                                {
+                                    "id": 8021,
+                                    "slot": 6,
+                                    "name": "Fleet Footwork"
+                                },
+                                {
+                                    "id": 9101,
+                                    "slot": 7,
+                                    "name": "Overheal"
+                                },
+                                {
+                                    "id": 9104,
+                                    "slot": 8,
+                                    "name": "Legend: Alacrity"
                                 }
                             ],
                             "summonerSpells": [
@@ -19427,7 +19629,7 @@
                             "inGameName": "T1 Teddy",
                             "profileIconId": 29,
                             "championId": 110,
-                            "uniqueIdentifiers": null,
+                            "uniqueIdentifiers": {},
                             "primaryRuneTreeId": 8200,
                             "secondaryRuneTreeId": 8000,
                             "runes": [
@@ -19490,6 +19692,21 @@
                                         0
                                     ],
                                     "name": "Cut Down"
+                                },
+                                {
+                                    "id": 8229,
+                                    "slot": 6,
+                                    "name": "Arcane Comet"
+                                },
+                                {
+                                    "id": 8226,
+                                    "slot": 7,
+                                    "name": "Manaflow Band"
+                                },
+                                {
+                                    "id": 8210,
+                                    "slot": 8,
+                                    "name": "Transcendence"
                                 }
                             ],
                             "summonerSpells": [
@@ -20511,7 +20728,7 @@
                             "inGameName": "T1 Effort",
                             "profileIconId": 20,
                             "championId": 43,
-                            "uniqueIdentifiers": null,
+                            "uniqueIdentifiers": {},
                             "primaryRuneTreeId": 8200,
                             "secondaryRuneTreeId": 8300,
                             "runes": [
@@ -20574,6 +20791,21 @@
                                         0
                                     ],
                                     "name": "Biscuit Delivery"
+                                },
+                                {
+                                    "id": 8229,
+                                    "slot": 6,
+                                    "name": "Arcane Comet"
+                                },
+                                {
+                                    "id": 8275,
+                                    "slot": 7,
+                                    "name": "Nimbus Cloak"
+                                },
+                                {
+                                    "id": 8233,
+                                    "slot": 8,
+                                    "name": "Absolute Focus"
                                 }
                             ],
                             "summonerSpells": [
@@ -22014,7 +22246,8 @@
                         {
                             "timestamp": 473.548,
                             "type": "DRAGON",
-                            "killerId": 2
+                            "killerId": 2,
+                            "subType": "INFERNAL"
                         },
                         {
                             "timestamp": 597.451,
@@ -22024,7 +22257,8 @@
                         {
                             "timestamp": 795.316,
                             "type": "DRAGON",
-                            "killerId": 2
+                            "killerId": 2,
+                            "subType": "CLOUD"
                         },
                         {
                             "timestamp": 1036.041,
@@ -22039,7 +22273,8 @@
                         {
                             "timestamp": 1564.907,
                             "type": "DRAGON",
-                            "killerId": 2
+                            "killerId": 2,
+                            "subType": "MOUNTAIN"
                         }
                     ],
                     "buildingsKills": [
@@ -22148,7 +22383,7 @@
                             "inGameName": "GEN Rascal",
                             "profileIconId": 29,
                             "championId": 516,
-                            "uniqueIdentifiers": null,
+                            "uniqueIdentifiers": {},
                             "primaryRuneTreeId": 8400,
                             "secondaryRuneTreeId": 8300,
                             "runes": [
@@ -22211,6 +22446,21 @@
                                         0
                                     ],
                                     "name": "Biscuit Delivery"
+                                },
+                                {
+                                    "id": 8437,
+                                    "slot": 6,
+                                    "name": "Grasp of the Undying"
+                                },
+                                {
+                                    "id": 8446,
+                                    "slot": 7,
+                                    "name": "Demolish"
+                                },
+                                {
+                                    "id": 8444,
+                                    "slot": 8,
+                                    "name": "Second Wind"
                                 }
                             ],
                             "summonerSpells": [
@@ -23212,7 +23462,7 @@
                             "inGameName": "GEN Clid",
                             "profileIconId": 29,
                             "championId": 59,
-                            "uniqueIdentifiers": null,
+                            "uniqueIdentifiers": {},
                             "primaryRuneTreeId": 8000,
                             "secondaryRuneTreeId": 8100,
                             "runes": [
@@ -23275,6 +23525,21 @@
                                         0
                                     ],
                                     "name": "Ultimate Hunter"
+                                },
+                                {
+                                    "id": 8010,
+                                    "slot": 6,
+                                    "name": "Conqueror"
+                                },
+                                {
+                                    "id": 9111,
+                                    "slot": 7,
+                                    "name": "Triumph"
+                                },
+                                {
+                                    "id": 9105,
+                                    "slot": 8,
+                                    "name": "Legend: Tenacity"
                                 }
                             ],
                             "summonerSpells": [
@@ -24546,7 +24811,7 @@
                             "inGameName": "GEN Bdd",
                             "profileIconId": 29,
                             "championId": 26,
-                            "uniqueIdentifiers": null,
+                            "uniqueIdentifiers": {},
                             "primaryRuneTreeId": 8300,
                             "secondaryRuneTreeId": 8200,
                             "runes": [
@@ -24609,6 +24874,21 @@
                                         0
                                     ],
                                     "name": "Transcendence"
+                                },
+                                {
+                                    "id": 8351,
+                                    "slot": 6,
+                                    "name": "Glacial Augment"
+                                },
+                                {
+                                    "id": 8304,
+                                    "slot": 7,
+                                    "name": "Magical Footwear"
+                                },
+                                {
+                                    "id": 8316,
+                                    "slot": 8,
+                                    "name": "Minion Dematerializer"
                                 }
                             ],
                             "summonerSpells": [
@@ -25587,7 +25867,7 @@
                             "inGameName": "GEN Ruler",
                             "profileIconId": 29,
                             "championId": 81,
-                            "uniqueIdentifiers": null,
+                            "uniqueIdentifiers": {},
                             "primaryRuneTreeId": 8000,
                             "secondaryRuneTreeId": 8200,
                             "runes": [
@@ -25650,6 +25930,21 @@
                                         0
                                     ],
                                     "name": "Transcendence"
+                                },
+                                {
+                                    "id": 8010,
+                                    "slot": 6,
+                                    "name": "Conqueror"
+                                },
+                                {
+                                    "id": 8009,
+                                    "slot": 7,
+                                    "name": "Presence of Mind"
+                                },
+                                {
+                                    "id": 9103,
+                                    "slot": 8,
+                                    "name": "Legend: Bloodline"
                                 }
                             ],
                             "summonerSpells": [
@@ -26615,7 +26910,7 @@
                             "inGameName": "GEN Life",
                             "profileIconId": 29,
                             "championId": 3,
-                            "uniqueIdentifiers": null,
+                            "uniqueIdentifiers": {},
                             "primaryRuneTreeId": 8400,
                             "secondaryRuneTreeId": 8200,
                             "runes": [
@@ -26678,6 +26973,21 @@
                                         0
                                     ],
                                     "name": "Celerity"
+                                },
+                                {
+                                    "id": 8439,
+                                    "slot": 6,
+                                    "name": "Aftershock"
+                                },
+                                {
+                                    "id": 8446,
+                                    "slot": 7,
+                                    "name": "Demolish"
+                                },
+                                {
+                                    "id": 8444,
+                                    "slot": 8,
+                                    "name": "Second Wind"
                                 }
                             ],
                             "summonerSpells": [
@@ -27811,7 +28121,8 @@
                         {
                             "timestamp": 1145.58,
                             "type": "DRAGON",
-                            "killerId": 7
+                            "killerId": 7,
+                            "subType": "MOUNTAIN"
                         }
                     ],
                     "buildingsKills": [
@@ -28125,7 +28436,7 @@
                             "inGameName": "GEN Rascal",
                             "profileIconId": 29,
                             "championId": 126,
-                            "uniqueIdentifiers": null,
+                            "uniqueIdentifiers": {},
                             "primaryRuneTreeId": 8200,
                             "secondaryRuneTreeId": 8300,
                             "runes": [
@@ -28188,6 +28499,21 @@
                                         0
                                     ],
                                     "name": "Biscuit Delivery"
+                                },
+                                {
+                                    "id": 8230,
+                                    "slot": 6,
+                                    "name": "Phase Rush"
+                                },
+                                {
+                                    "id": 8226,
+                                    "slot": 7,
+                                    "name": "Manaflow Band"
+                                },
+                                {
+                                    "id": 8233,
+                                    "slot": 8,
+                                    "name": "Absolute Focus"
                                 }
                             ],
                             "summonerSpells": [
@@ -29218,7 +29544,7 @@
                             "inGameName": "GEN Clid",
                             "profileIconId": 29,
                             "championId": 113,
-                            "uniqueIdentifiers": null,
+                            "uniqueIdentifiers": {},
                             "primaryRuneTreeId": 8400,
                             "secondaryRuneTreeId": 8000,
                             "runes": [
@@ -29281,6 +29607,21 @@
                                         0
                                     ],
                                     "name": "Legend: Tenacity"
+                                },
+                                {
+                                    "id": 8439,
+                                    "slot": 6,
+                                    "name": "Aftershock"
+                                },
+                                {
+                                    "id": 8463,
+                                    "slot": 7,
+                                    "name": "Font of Life"
+                                },
+                                {
+                                    "id": 8429,
+                                    "slot": 8,
+                                    "name": "Conditioning"
                                 }
                             ],
                             "summonerSpells": [
@@ -30321,7 +30662,7 @@
                             "inGameName": "GEN Bdd",
                             "profileIconId": 29,
                             "championId": 26,
-                            "uniqueIdentifiers": null,
+                            "uniqueIdentifiers": {},
                             "primaryRuneTreeId": 8300,
                             "secondaryRuneTreeId": 8200,
                             "runes": [
@@ -30384,6 +30725,21 @@
                                         0
                                     ],
                                     "name": "Transcendence"
+                                },
+                                {
+                                    "id": 8351,
+                                    "slot": 6,
+                                    "name": "Glacial Augment"
+                                },
+                                {
+                                    "id": 8304,
+                                    "slot": 7,
+                                    "name": "Magical Footwear"
+                                },
+                                {
+                                    "id": 8316,
+                                    "slot": 8,
+                                    "name": "Minion Dematerializer"
                                 }
                             ],
                             "summonerSpells": [
@@ -31341,7 +31697,7 @@
                             "inGameName": "GEN Ruler",
                             "profileIconId": 29,
                             "championId": 429,
-                            "uniqueIdentifiers": null,
+                            "uniqueIdentifiers": {},
                             "primaryRuneTreeId": 8000,
                             "secondaryRuneTreeId": 8200,
                             "runes": [
@@ -31404,6 +31760,21 @@
                                         0
                                     ],
                                     "name": "Gathering Storm"
+                                },
+                                {
+                                    "id": 8008,
+                                    "slot": 6,
+                                    "name": "Lethal Tempo"
+                                },
+                                {
+                                    "id": 9101,
+                                    "slot": 7,
+                                    "name": "Overheal"
+                                },
+                                {
+                                    "id": 9104,
+                                    "slot": 8,
+                                    "name": "Legend: Alacrity"
                                 }
                             ],
                             "summonerSpells": [
@@ -32408,7 +32779,7 @@
                             "inGameName": "GEN Life",
                             "profileIconId": 29,
                             "championId": 106,
-                            "uniqueIdentifiers": null,
+                            "uniqueIdentifiers": {},
                             "primaryRuneTreeId": 8300,
                             "secondaryRuneTreeId": 8200,
                             "runes": [
@@ -32471,6 +32842,21 @@
                                         0
                                     ],
                                     "name": "Celerity"
+                                },
+                                {
+                                    "id": 8358,
+                                    "slot": 6,
+                                    "name": "Prototype: Omnistone"
+                                },
+                                {
+                                    "id": 8313,
+                                    "slot": 7,
+                                    "name": "Perfect Timing"
+                                },
+                                {
+                                    "id": 8316,
+                                    "slot": 8,
+                                    "name": "Minion Dematerializer"
                                 }
                             ],
                             "summonerSpells": [
@@ -33650,12 +34036,14 @@
                         {
                             "timestamp": 344.66,
                             "type": "DRAGON",
-                            "killerId": 2
+                            "killerId": 2,
+                            "subType": "MOUNTAIN"
                         },
                         {
                             "timestamp": 1005.175,
                             "type": "DRAGON",
-                            "killerId": 2
+                            "killerId": 2,
+                            "subType": "OCEAN"
                         }
                     ],
                     "buildingsKills": [
@@ -33702,7 +34090,7 @@
                             "inGameName": "T1 Canna",
                             "profileIconId": 29,
                             "championId": 516,
-                            "uniqueIdentifiers": null,
+                            "uniqueIdentifiers": {},
                             "primaryRuneTreeId": 8300,
                             "secondaryRuneTreeId": 8400,
                             "runes": [
@@ -33765,6 +34153,21 @@
                                         0
                                     ],
                                     "name": "Overgrowth"
+                                },
+                                {
+                                    "id": 8360,
+                                    "slot": 6,
+                                    "name": "Unsealed Spellbook"
+                                },
+                                {
+                                    "id": 8304,
+                                    "slot": 7,
+                                    "name": "Magical Footwear"
+                                },
+                                {
+                                    "id": 8345,
+                                    "slot": 8,
+                                    "name": "Biscuit Delivery"
                                 }
                             ],
                             "summonerSpells": [
@@ -34787,7 +35190,7 @@
                             "inGameName": "T1 Cuzz",
                             "profileIconId": 29,
                             "championId": 517,
-                            "uniqueIdentifiers": null,
+                            "uniqueIdentifiers": {},
                             "primaryRuneTreeId": 8000,
                             "secondaryRuneTreeId": 8100,
                             "runes": [
@@ -34850,6 +35253,21 @@
                                         0
                                     ],
                                     "name": "Ravenous Hunter"
+                                },
+                                {
+                                    "id": 8010,
+                                    "slot": 6,
+                                    "name": "Conqueror"
+                                },
+                                {
+                                    "id": 8009,
+                                    "slot": 7,
+                                    "name": "Presence of Mind"
+                                },
+                                {
+                                    "id": 9105,
+                                    "slot": 8,
+                                    "name": "Legend: Tenacity"
                                 }
                             ],
                             "summonerSpells": [
@@ -36079,7 +36497,7 @@
                             "inGameName": "T1 Faker",
                             "profileIconId": 29,
                             "championId": 268,
-                            "uniqueIdentifiers": null,
+                            "uniqueIdentifiers": {},
                             "primaryRuneTreeId": 8000,
                             "secondaryRuneTreeId": 8200,
                             "runes": [
@@ -36142,6 +36560,21 @@
                                         0
                                     ],
                                     "name": "Transcendence"
+                                },
+                                {
+                                    "id": 8008,
+                                    "slot": 6,
+                                    "name": "Lethal Tempo"
+                                },
+                                {
+                                    "id": 9111,
+                                    "slot": 7,
+                                    "name": "Triumph"
+                                },
+                                {
+                                    "id": 9104,
+                                    "slot": 8,
+                                    "name": "Legend: Alacrity"
                                 }
                             ],
                             "summonerSpells": [
@@ -37140,7 +37573,7 @@
                             "inGameName": "T1 Teddy",
                             "profileIconId": 29,
                             "championId": 523,
-                            "uniqueIdentifiers": null,
+                            "uniqueIdentifiers": {},
                             "primaryRuneTreeId": 8000,
                             "secondaryRuneTreeId": 8200,
                             "runes": [
@@ -37203,6 +37636,21 @@
                                         0
                                     ],
                                     "name": "Gathering Storm"
+                                },
+                                {
+                                    "id": 8010,
+                                    "slot": 6,
+                                    "name": "Conqueror"
+                                },
+                                {
+                                    "id": 9101,
+                                    "slot": 7,
+                                    "name": "Overheal"
+                                },
+                                {
+                                    "id": 9103,
+                                    "slot": 8,
+                                    "name": "Legend: Bloodline"
                                 }
                             ],
                             "summonerSpells": [
@@ -38176,7 +38624,7 @@
                             "inGameName": "T1 Effort",
                             "profileIconId": 20,
                             "championId": 412,
-                            "uniqueIdentifiers": null,
+                            "uniqueIdentifiers": {},
                             "primaryRuneTreeId": 8400,
                             "secondaryRuneTreeId": 8300,
                             "runes": [
@@ -38239,6 +38687,21 @@
                                         0
                                     ],
                                     "name": "Minion Dematerializer"
+                                },
+                                {
+                                    "id": 8439,
+                                    "slot": 6,
+                                    "name": "Aftershock"
+                                },
+                                {
+                                    "id": 8463,
+                                    "slot": 7,
+                                    "name": "Font of Life"
+                                },
+                                {
+                                    "id": 8473,
+                                    "slot": 8,
+                                    "name": "Bone Plating"
                                 }
                             ],
                             "summonerSpells": [
@@ -39528,7 +39991,8 @@
                         {
                             "timestamp": 662.832,
                             "type": "DRAGON",
-                            "killerId": 7
+                            "killerId": 7,
+                            "subType": "CLOUD"
                         },
                         {
                             "timestamp": 914.316,
@@ -39543,7 +40007,8 @@
                         {
                             "timestamp": 1363.421,
                             "type": "DRAGON",
-                            "killerId": 7
+                            "killerId": 7,
+                            "subType": "OCEAN"
                         },
                         {
                             "timestamp": 1642.287,
@@ -39553,7 +40018,8 @@
                         {
                             "timestamp": 1701.462,
                             "type": "DRAGON",
-                            "killerId": 7
+                            "killerId": 7,
+                            "subType": "OCEAN"
                         }
                     ],
                     "buildingsKills": [
