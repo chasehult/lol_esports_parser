@@ -1,7 +1,7 @@
 import json
 import os
 
-from lol_esports_parser.parsers.acs.acs_parser import get_acs_game, get_acs_series
+from lol_esports_parser.parsers.riot.riot_parser import get_riot_game, get_riot_series
 
 
 def test_lck_finals():
@@ -11,7 +11,7 @@ def test_lck_finals():
         "http://matchhistory.na.leagueoflegends.com/en/#match-details/ESPORTSTMNT03/1353193?gameHash=63e4e6e5d695f410",
     ]
 
-    lck_finals = get_acs_series(mh_urls, get_timeline=True, add_names=True)
+    lck_finals = get_riot_series(mh_urls, get_timeline=True, add_names=True)
 
     with open(os.path.join("json_examples", "lck_series.json"), "w+") as file:
         json.dump(lck_finals, file, indent=4)
@@ -25,7 +25,7 @@ def test_lck_finals_game_3():
         "https://matchhistory.na.leagueoflegends.com/en/#match-details/ESPORTSTMNT03/1353193?gameHash=63e4e6e5d695f410"
     )
 
-    game = get_acs_game(mh_url, get_timeline=True, add_names=True)
+    game = get_riot_game(mh_url, get_timeline=True, add_names=True)
 
     with open(os.path.join("json_examples", "lck_game.json"), "w+") as file:
         json.dump(game, file, indent=4)
@@ -43,3 +43,16 @@ def test_lck_finals_game_3():
     cuzz = next(p for p in game["teams"]["RED"]["players"] if p["inGameName"] == "T1 Cuzz")
 
     assert "Skirmisher's Sabre - Runic Echoes" in [item["name"] for item in cuzz["endOfGameStats"]["items"]]
+
+
+def test_prime_league_summer():
+    # This is a live server game
+    mh_url = "https://matchhistory.euw.leagueoflegends.com/en/#match-details/EUW1/4676184349/31980018?tab=overview"
+
+    game = get_riot_game(mh_url, get_timeline=True, add_names=True)
+
+    assert game["winner"] == "BLUE"
+
+    series = get_riot_series([mh_url], get_timeline=True, add_names=True)
+
+    assert series

@@ -39,8 +39,6 @@
                     "players": [
                         {
                             "id": 1,
-                            "inGameName": "T1 Canna",
-                            "profileIconId": 29,
                             "championId": 517,
                             "uniqueIdentifiers": {},
                             "primaryRuneTreeId": 8000,
@@ -217,6 +215,8 @@
                                 "firstInhibitor": false,
                                 "firstInhibitorAssist": false
                             },
+                            "inGameName": "T1 Canna",
+                            "profileIconId": 29,
                             "championName": "Sylas",
                             "primaryRuneTreeName": "Precision",
                             "secondaryRuneTreeName": "Inspiration",
@@ -1521,8 +1521,6 @@
                         },
                         {
                             "id": 2,
-                            "inGameName": "T1 Cuzz",
-                            "profileIconId": 29,
                             "championId": 104,
                             "uniqueIdentifiers": {},
                             "primaryRuneTreeId": 8200,
@@ -1699,6 +1697,8 @@
                                 "firstInhibitor": false,
                                 "firstInhibitorAssist": true
                             },
+                            "inGameName": "T1 Cuzz",
+                            "profileIconId": 29,
                             "championName": "Graves",
                             "primaryRuneTreeName": "Sorcery",
                             "secondaryRuneTreeName": "Precision",
@@ -3141,8 +3141,6 @@
                         },
                         {
                             "id": 3,
-                            "inGameName": "T1 Faker",
-                            "profileIconId": 29,
                             "championId": 42,
                             "uniqueIdentifiers": {},
                             "primaryRuneTreeId": 8000,
@@ -3319,6 +3317,8 @@
                                 "firstInhibitor": true,
                                 "firstInhibitorAssist": false
                             },
+                            "inGameName": "T1 Faker",
+                            "profileIconId": 29,
                             "championName": "Corki",
                             "primaryRuneTreeName": "Precision",
                             "secondaryRuneTreeName": "Inspiration",
@@ -4585,8 +4585,6 @@
                         },
                         {
                             "id": 4,
-                            "inGameName": "T1 Teddy",
-                            "profileIconId": 29,
                             "championId": 110,
                             "uniqueIdentifiers": {},
                             "primaryRuneTreeId": 8200,
@@ -4763,6 +4761,8 @@
                                 "firstInhibitor": false,
                                 "firstInhibitorAssist": false
                             },
+                            "inGameName": "T1 Teddy",
+                            "profileIconId": 29,
                             "championName": "Varus",
                             "primaryRuneTreeName": "Sorcery",
                             "secondaryRuneTreeName": "Precision",
@@ -6098,8 +6098,6 @@
                         },
                         {
                             "id": 5,
-                            "inGameName": "T1 Effort",
-                            "profileIconId": 20,
                             "championId": 412,
                             "uniqueIdentifiers": {},
                             "primaryRuneTreeId": 8400,
@@ -6276,6 +6274,8 @@
                                 "firstInhibitor": false,
                                 "firstInhibitorAssist": false
                             },
+                            "inGameName": "T1 Effort",
+                            "profileIconId": 20,
                             "championName": "Thresh",
                             "primaryRuneTreeName": "Resolve",
                             "secondaryRuneTreeName": "Inspiration",
@@ -8269,7 +8269,7 @@
                             "lane": "MID",
                             "towerLocation": "INNER",
                             "side": "BLUE",
-                            "timestamp": 1623.077
+                            "timestamp": 2617.492
                         },
                         {
                             "type": "INHIBITOR",
@@ -8329,8 +8329,6 @@
                     "players": [
                         {
                             "id": 6,
-                            "inGameName": "GEN Rascal",
-                            "profileIconId": 29,
                             "championId": 516,
                             "uniqueIdentifiers": {},
                             "primaryRuneTreeId": 8400,
@@ -8507,6 +8505,8 @@
                                 "firstInhibitor": false,
                                 "firstInhibitorAssist": false
                             },
+                            "inGameName": "GEN Rascal",
+                            "profileIconId": 29,
                             "championName": "Ornn",
                             "primaryRuneTreeName": "Resolve",
                             "secondaryRuneTreeName": "Inspiration",
@@ -9857,8 +9857,6 @@
                         },
                         {
                             "id": 7,
-                            "inGameName": "GEN Clid",
-                            "profileIconId": 29,
                             "championId": 421,
                             "uniqueIdentifiers": {},
                             "primaryRuneTreeId": 8000,
@@ -10035,6 +10033,8 @@
                                 "firstInhibitor": false,
                                 "firstInhibitorAssist": false
                             },
+                            "inGameName": "GEN Clid",
+                            "profileIconId": 29,
                             "championName": "Rek'Sai",
                             "primaryRuneTreeName": "Precision",
                             "secondaryRuneTreeName": "Sorcery",
@@ -11366,8 +11366,6 @@
                         },
                         {
                             "id": 8,
-                            "inGameName": "GEN Bdd",
-                            "profileIconId": 29,
                             "championId": 268,
                             "uniqueIdentifiers": {},
                             "primaryRuneTreeId": 8200,
@@ -11544,6 +11542,8 @@
                                 "firstInhibitor": false,
                                 "firstInhibitorAssist": false
                             },
+                            "inGameName": "GEN Bdd",
+                            "profileIconId": 29,
                             "championName": "Azir",
                             "primaryRuneTreeName": "Sorcery",
                             "secondaryRuneTreeName": "Inspiration",
@@ -12932,8 +12932,6 @@
                         },
                         {
                             "id": 9,
-                            "inGameName": "GEN Ruler",
-                            "profileIconId": 29,
                             "championId": 523,
                             "uniqueIdentifiers": {},
                             "primaryRuneTreeId": 8000,
@@ -13110,6 +13108,8 @@
                                 "firstInhibitor": false,
                                 "firstInhibitorAssist": false
                             },
+                            "inGameName": "GEN Ruler",
+                            "profileIconId": 29,
                             "championName": "Aphelios",
                             "primaryRuneTreeName": "Precision",
                             "secondaryRuneTreeName": "Sorcery",
@@ -14287,8 +14287,6 @@
                         },
                         {
                             "id": 10,
-                            "inGameName": "GEN Life",
-                            "profileIconId": 29,
                             "championId": 350,
                             "uniqueIdentifiers": {},
                             "primaryRuneTreeId": 8200,
@@ -14465,6 +14463,8 @@
                                 "firstInhibitor": false,
                                 "firstInhibitorAssist": false
                             },
+                            "inGameName": "GEN Life",
+                            "profileIconId": 29,
                             "championName": "Yuumi",
                             "primaryRuneTreeName": "Sorcery",
                             "secondaryRuneTreeName": "Precision",
@@ -16278,8 +16278,6 @@
                     "players": [
                         {
                             "id": 1,
-                            "inGameName": "T1 Canna",
-                            "profileIconId": 29,
                             "championId": 517,
                             "uniqueIdentifiers": {},
                             "primaryRuneTreeId": 8000,
@@ -16456,6 +16454,8 @@
                                 "firstInhibitor": false,
                                 "firstInhibitorAssist": false
                             },
+                            "inGameName": "T1 Canna",
+                            "profileIconId": 29,
                             "championName": "Sylas",
                             "primaryRuneTreeName": "Precision",
                             "secondaryRuneTreeName": "Inspiration",
@@ -17271,8 +17271,6 @@
                         },
                         {
                             "id": 2,
-                            "inGameName": "T1 Cuzz",
-                            "profileIconId": 29,
                             "championId": 2,
                             "uniqueIdentifiers": {},
                             "primaryRuneTreeId": 8000,
@@ -17449,6 +17447,8 @@
                                 "firstInhibitor": false,
                                 "firstInhibitorAssist": true
                             },
+                            "inGameName": "T1 Cuzz",
+                            "profileIconId": 29,
                             "championName": "Olaf",
                             "primaryRuneTreeName": "Precision",
                             "secondaryRuneTreeName": "Sorcery",
@@ -18468,8 +18468,6 @@
                         },
                         {
                             "id": 3,
-                            "inGameName": "T1 Faker",
-                            "profileIconId": 29,
                             "championId": 42,
                             "uniqueIdentifiers": {},
                             "primaryRuneTreeId": 8000,
@@ -18646,6 +18644,8 @@
                                 "firstInhibitor": false,
                                 "firstInhibitorAssist": false
                             },
+                            "inGameName": "T1 Faker",
+                            "profileIconId": 29,
                             "championName": "Corki",
                             "primaryRuneTreeName": "Precision",
                             "secondaryRuneTreeName": "Inspiration",
@@ -19626,8 +19626,6 @@
                         },
                         {
                             "id": 4,
-                            "inGameName": "T1 Teddy",
-                            "profileIconId": 29,
                             "championId": 110,
                             "uniqueIdentifiers": {},
                             "primaryRuneTreeId": 8200,
@@ -19804,6 +19802,8 @@
                                 "firstInhibitor": false,
                                 "firstInhibitorAssist": false
                             },
+                            "inGameName": "T1 Teddy",
+                            "profileIconId": 29,
                             "championName": "Varus",
                             "primaryRuneTreeName": "Sorcery",
                             "secondaryRuneTreeName": "Precision",
@@ -20725,8 +20725,6 @@
                         },
                         {
                             "id": 5,
-                            "inGameName": "T1 Effort",
-                            "profileIconId": 20,
                             "championId": 43,
                             "uniqueIdentifiers": {},
                             "primaryRuneTreeId": 8200,
@@ -20903,6 +20901,8 @@
                                 "firstInhibitor": false,
                                 "firstInhibitorAssist": true
                             },
+                            "inGameName": "T1 Effort",
+                            "profileIconId": 20,
                             "championName": "Karma",
                             "primaryRuneTreeName": "Sorcery",
                             "secondaryRuneTreeName": "Inspiration",
@@ -22380,8 +22380,6 @@
                     "players": [
                         {
                             "id": 6,
-                            "inGameName": "GEN Rascal",
-                            "profileIconId": 29,
                             "championId": 516,
                             "uniqueIdentifiers": {},
                             "primaryRuneTreeId": 8400,
@@ -22558,6 +22556,8 @@
                                 "firstInhibitor": false,
                                 "firstInhibitorAssist": false
                             },
+                            "inGameName": "GEN Rascal",
+                            "profileIconId": 29,
                             "championName": "Ornn",
                             "primaryRuneTreeName": "Resolve",
                             "secondaryRuneTreeName": "Inspiration",
@@ -23459,8 +23459,6 @@
                         },
                         {
                             "id": 7,
-                            "inGameName": "GEN Clid",
-                            "profileIconId": 29,
                             "championId": 59,
                             "uniqueIdentifiers": {},
                             "primaryRuneTreeId": 8000,
@@ -23637,6 +23635,8 @@
                                 "firstInhibitor": false,
                                 "firstInhibitorAssist": false
                             },
+                            "inGameName": "GEN Clid",
+                            "profileIconId": 29,
                             "championName": "Jarvan IV",
                             "primaryRuneTreeName": "Precision",
                             "secondaryRuneTreeName": "Domination",
@@ -24808,8 +24808,6 @@
                         },
                         {
                             "id": 8,
-                            "inGameName": "GEN Bdd",
-                            "profileIconId": 29,
                             "championId": 26,
                             "uniqueIdentifiers": {},
                             "primaryRuneTreeId": 8300,
@@ -24986,6 +24984,8 @@
                                 "firstInhibitor": false,
                                 "firstInhibitorAssist": false
                             },
+                            "inGameName": "GEN Bdd",
+                            "profileIconId": 29,
                             "championName": "Zilean",
                             "primaryRuneTreeName": "Inspiration",
                             "secondaryRuneTreeName": "Sorcery",
@@ -25864,8 +25864,6 @@
                         },
                         {
                             "id": 9,
-                            "inGameName": "GEN Ruler",
-                            "profileIconId": 29,
                             "championId": 81,
                             "uniqueIdentifiers": {},
                             "primaryRuneTreeId": 8000,
@@ -26042,6 +26040,8 @@
                                 "firstInhibitor": false,
                                 "firstInhibitorAssist": false
                             },
+                            "inGameName": "GEN Ruler",
+                            "profileIconId": 29,
                             "championName": "Ezreal",
                             "primaryRuneTreeName": "Precision",
                             "secondaryRuneTreeName": "Sorcery",
@@ -26907,8 +26907,6 @@
                         },
                         {
                             "id": 10,
-                            "inGameName": "GEN Life",
-                            "profileIconId": 29,
                             "championId": 3,
                             "uniqueIdentifiers": {},
                             "primaryRuneTreeId": 8400,
@@ -27085,6 +27083,8 @@
                                 "firstInhibitor": false,
                                 "firstInhibitorAssist": false
                             },
+                            "inGameName": "GEN Life",
+                            "profileIconId": 29,
                             "championName": "Galio",
                             "primaryRuneTreeName": "Resolve",
                             "secondaryRuneTreeName": "Sorcery",
@@ -28433,8 +28433,6 @@
                     "players": [
                         {
                             "id": 1,
-                            "inGameName": "GEN Rascal",
-                            "profileIconId": 29,
                             "championId": 126,
                             "uniqueIdentifiers": {},
                             "primaryRuneTreeId": 8200,
@@ -28611,6 +28609,8 @@
                                 "firstInhibitor": false,
                                 "firstInhibitorAssist": false
                             },
+                            "inGameName": "GEN Rascal",
+                            "profileIconId": 29,
                             "championName": "Jayce",
                             "primaryRuneTreeName": "Sorcery",
                             "secondaryRuneTreeName": "Inspiration",
@@ -29541,8 +29541,6 @@
                         },
                         {
                             "id": 2,
-                            "inGameName": "GEN Clid",
-                            "profileIconId": 29,
                             "championId": 113,
                             "uniqueIdentifiers": {},
                             "primaryRuneTreeId": 8400,
@@ -29719,6 +29717,8 @@
                                 "firstInhibitor": false,
                                 "firstInhibitorAssist": false
                             },
+                            "inGameName": "GEN Clid",
+                            "profileIconId": 29,
                             "championName": "Sejuani",
                             "primaryRuneTreeName": "Resolve",
                             "secondaryRuneTreeName": "Precision",
@@ -30659,8 +30659,6 @@
                         },
                         {
                             "id": 3,
-                            "inGameName": "GEN Bdd",
-                            "profileIconId": 29,
                             "championId": 26,
                             "uniqueIdentifiers": {},
                             "primaryRuneTreeId": 8300,
@@ -30837,6 +30835,8 @@
                                 "firstInhibitor": false,
                                 "firstInhibitorAssist": false
                             },
+                            "inGameName": "GEN Bdd",
+                            "profileIconId": 29,
                             "championName": "Zilean",
                             "primaryRuneTreeName": "Inspiration",
                             "secondaryRuneTreeName": "Sorcery",
@@ -31694,8 +31694,6 @@
                         },
                         {
                             "id": 4,
-                            "inGameName": "GEN Ruler",
-                            "profileIconId": 29,
                             "championId": 429,
                             "uniqueIdentifiers": {},
                             "primaryRuneTreeId": 8000,
@@ -31872,6 +31870,8 @@
                                 "firstInhibitor": false,
                                 "firstInhibitorAssist": false
                             },
+                            "inGameName": "GEN Ruler",
+                            "profileIconId": 29,
                             "championName": "Kalista",
                             "primaryRuneTreeName": "Precision",
                             "secondaryRuneTreeName": "Sorcery",
@@ -32776,8 +32776,6 @@
                         },
                         {
                             "id": 5,
-                            "inGameName": "GEN Life",
-                            "profileIconId": 29,
                             "championId": 106,
                             "uniqueIdentifiers": {},
                             "primaryRuneTreeId": 8300,
@@ -32954,6 +32952,8 @@
                                 "firstInhibitor": false,
                                 "firstInhibitorAssist": false
                             },
+                            "inGameName": "GEN Life",
+                            "profileIconId": 29,
                             "championName": "Volibear",
                             "primaryRuneTreeName": "Inspiration",
                             "secondaryRuneTreeName": "Sorcery",
@@ -34087,8 +34087,6 @@
                     "players": [
                         {
                             "id": 6,
-                            "inGameName": "T1 Canna",
-                            "profileIconId": 29,
                             "championId": 516,
                             "uniqueIdentifiers": {},
                             "primaryRuneTreeId": 8300,
@@ -34265,6 +34263,8 @@
                                 "firstInhibitor": false,
                                 "firstInhibitorAssist": true
                             },
+                            "inGameName": "T1 Canna",
+                            "profileIconId": 29,
                             "championName": "Ornn",
                             "primaryRuneTreeName": "Inspiration",
                             "secondaryRuneTreeName": "Resolve",
@@ -35187,8 +35187,6 @@
                         },
                         {
                             "id": 7,
-                            "inGameName": "T1 Cuzz",
-                            "profileIconId": 29,
                             "championId": 517,
                             "uniqueIdentifiers": {},
                             "primaryRuneTreeId": 8000,
@@ -35365,6 +35363,8 @@
                                 "firstInhibitor": false,
                                 "firstInhibitorAssist": false
                             },
+                            "inGameName": "T1 Cuzz",
+                            "profileIconId": 29,
                             "championName": "Sylas",
                             "primaryRuneTreeName": "Precision",
                             "secondaryRuneTreeName": "Domination",
@@ -36494,8 +36494,6 @@
                         },
                         {
                             "id": 8,
-                            "inGameName": "T1 Faker",
-                            "profileIconId": 29,
                             "championId": 268,
                             "uniqueIdentifiers": {},
                             "primaryRuneTreeId": 8000,
@@ -36672,6 +36670,8 @@
                                 "firstInhibitor": false,
                                 "firstInhibitorAssist": false
                             },
+                            "inGameName": "T1 Faker",
+                            "profileIconId": 29,
                             "championName": "Azir",
                             "primaryRuneTreeName": "Precision",
                             "secondaryRuneTreeName": "Sorcery",
@@ -37570,8 +37570,6 @@
                         },
                         {
                             "id": 9,
-                            "inGameName": "T1 Teddy",
-                            "profileIconId": 29,
                             "championId": 523,
                             "uniqueIdentifiers": {},
                             "primaryRuneTreeId": 8000,
@@ -37748,6 +37746,8 @@
                                 "firstInhibitor": true,
                                 "firstInhibitorAssist": false
                             },
+                            "inGameName": "T1 Teddy",
+                            "profileIconId": 29,
                             "championName": "Aphelios",
                             "primaryRuneTreeName": "Precision",
                             "secondaryRuneTreeName": "Sorcery",
@@ -38621,8 +38621,6 @@
                         },
                         {
                             "id": 10,
-                            "inGameName": "T1 Effort",
-                            "profileIconId": 20,
                             "championId": 412,
                             "uniqueIdentifiers": {},
                             "primaryRuneTreeId": 8400,
@@ -38799,6 +38797,8 @@
                                 "firstInhibitor": false,
                                 "firstInhibitorAssist": true
                             },
+                            "inGameName": "T1 Effort",
+                            "profileIconId": 20,
                             "championName": "Thresh",
                             "primaryRuneTreeName": "Resolve",
                             "secondaryRuneTreeName": "Inspiration",
@@ -40063,7 +40063,7 @@
                             "lane": "MID",
                             "towerLocation": "INNER",
                             "side": "BLUE",
-                            "timestamp": 1623.077
+                            "timestamp": 2617.492
                         },
                         {
                             "type": "TOWER",
