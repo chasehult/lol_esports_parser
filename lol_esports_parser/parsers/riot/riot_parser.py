@@ -6,6 +6,7 @@ from concurrent.futures.thread import ThreadPoolExecutor
 import lol_dto
 import riot_transmute
 import riotwatcher
+from lol_dto.classes.game import LolGame
 
 from lol_esports_parser.dto.series_dto import LolSeries, create_series
 from lol_esports_parser.parsers.riot.acs_access import ACS
@@ -34,7 +35,9 @@ def get_riot_series(mh_url_list: list, get_timeline: bool = False, add_names: bo
     return create_series([g.result() for g in games_futures])
 
 
-def get_riot_game(mh_url: str, get_timeline: bool = False, add_names: bool = False) -> lol_dto.classes.game.LolGame:
+def get_riot_game(
+    mh_url: str, get_timeline: bool = False, add_names: bool = False, infer_team_names: bool = True
+) -> lol_dto.classes.game.LolGame:
     """Returns a LolGame for the given match history URL.
 
     Params:
@@ -92,20 +95,28 @@ def get_riot_game(mh_url: str, get_timeline: bool = False, add_names: bool = Fal
         game = lol_dto.utilities.merge_games(game, timeline_game)
 
     # We cannot get team names in custom games
-    if "gameHash" in query:
-        for team in game["teams"].values():
-            for player in team["players"]:
-                # We get team name from the first player in the team’s list
-                if "name" not in team:
-                    team["name"] = player["inGameName"].split(" ")[0]
+    if "gameHash" in query and infer_team_names:
+        game = infer_and_add_team_names(game, mh_url)
 
-                # We assert every player has the same tag or raise an info-level log
-                try:
-                    assert player["inGameName"].split(" ")[0] == team["name"]
-                except AssertionError:
-                    logging.info(
-                        f"Game {mh_url} has an issue with team tags\n"
-                        f'Conflict between team tag {team["name"]} and player {player["inGameName"]}'
-                    )
+    return game
+
+
+def infer_and_add_team_names(game: LolGame, mh_url) -> LolGame:
+    """Try and infer teams trigrams from player’s in game name.
+    """
+    for team in game["teams"].values():
+        for player in team["players"]:
+            # We get team name from the first player in the team’s list
+            if "name" not in team:
+                team["name"] = player["inGameName"].split(" ")[0]
+
+            # We assert every player has the same tag or raise an info-level log
+            try:
+                assert player["inGameName"].split(" ")[0] == team["name"]
+            except AssertionError:
+                logging.info(
+                    f"Game with URL {mh_url} has an issue with team tags\n"
+                    f'Conflict between team tag {team["name"]} and player {player["inGameName"]}'
+                )
 
     return game

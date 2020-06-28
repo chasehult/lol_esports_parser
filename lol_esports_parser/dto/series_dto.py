@@ -21,7 +21,7 @@ def create_series(games: List[lol_dto.classes.game.LolGame]) -> LolSeries:
     # Making extra sure they’re in the right order
     try:
         if sorted(games, key=lambda x: x["start"]) != games:
-            logging.warning(' GAMES MIGHT BE IN THE WRONG ORDER')
+            logging.warning(" GAMES MIGHT BE IN THE WRONG ORDER")
     except KeyError:
         # The missing field should already have been raised
         pass
