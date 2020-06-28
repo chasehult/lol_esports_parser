@@ -2,20 +2,14 @@ import json
 import logging
 import os
 
-from lol_esports_parser.parsers.qq.qq_parser import get_qq_series
-from lol_esports_parser.parsers.qq.qq_access import get_basic_qq_game_info
-
-
-def test_get_game_info():
-    game_info = get_basic_qq_game_info(5346)
-    assert game_info["sMatchId"] == "5346"
+import lol_esports_parser
 
 
 def test_lpl_spring_finals():
     # Standard, working game
     match_url = "http://lol.qq.com/match/match_data.shtml?bmid=6131"
 
-    series = get_qq_series(match_url, "10.7")
+    series = lol_esports_parser.get_qq_series(match_url, "10.7")
 
     with open(os.path.join("json_examples", "qq_series.json"), "w+") as file:
         json.dump(series, file, indent=4)
@@ -41,7 +35,7 @@ def test_missing_fields():
     # This series’s game 3 is missing many fields
     match_url = "https://lpl.qq.com/es/stats.shtml?bmid=6207"
 
-    series = get_qq_series(match_url, "10.11")
+    series = lol_esports_parser.get_qq_series(match_url, "10.11")
 
     assert series["winner"] == "LGD"
 
@@ -51,7 +45,7 @@ def test_missing_team_info(caplog):
     match_url = "https://lpl.qq.com/es/stats.shtml?bmid=5658"
 
     with caplog.at_level(logging.WARNING):
-        series = get_qq_series(match_url, "10.1")
+        series = lol_esports_parser.get_qq_series(match_url, "10.1")
         assert len(caplog.records) > 0
 
     assert series["winner"] == "JDG"
@@ -62,7 +56,7 @@ def test_incoherent_team_data(caplog):
     match_url = "https://lpl.qq.com/es/stats.shtml?bmid=6001"
 
     with caplog.at_level(logging.WARNING):
-        series = get_qq_series(match_url, "10.1")
+        series = lol_esports_parser.get_qq_series(match_url, "10.1")
         assert len(caplog.records) > 0
 
     assert series["winner"] == "WE"
@@ -72,7 +66,7 @@ def test_incoherent_player_data(caplog):
     match_url = "https://lpl.qq.com/es/stats.shtml?bmid=6067"
 
     with caplog.at_level(logging.WARNING):
-        series = get_qq_series(match_url, "10.1")
+        series = lol_esports_parser.get_qq_series(match_url, "10.1")
         assert len(caplog.records) > 0
 
     assert series["winner"] == "JDG"
@@ -82,7 +76,7 @@ def test_missing_battle_data(caplog):
     match_url = "https://lpl.qq.com/es/stats.shtml?bmid=6050"
 
     with caplog.at_level(logging.WARNING):
-        series = get_qq_series(match_url, "10.6")
+        series = lol_esports_parser.get_qq_series(match_url, "10.6")
         assert len(caplog.records) > 0
 
     assert series["winner"] == "RW"
@@ -92,7 +86,7 @@ def test_missing_players(caplog):
     match_url = "https://lpl.qq.com/es/stats.shtml?bmid=6062"
 
     with caplog.at_level(logging.WARNING):
-        series = get_qq_series(match_url, "10.6")
+        series = lol_esports_parser.get_qq_series(match_url, "10.6")
         assert len(caplog.records) > 0
 
     assert series["winner"] == "RW"
@@ -102,7 +96,7 @@ def test_missing_less_players(caplog):
     match_url = "https://lpl.qq.com/es/stats.shtml?bmid=6096"
 
     with caplog.at_level(logging.WARNING):
-        series = get_qq_series(match_url, "10.6")
+        series = lol_esports_parser.get_qq_series(match_url, "10.6")
         assert len(caplog.records) > 0
 
     assert series["winner"] == "WE"
@@ -113,7 +107,7 @@ def test_wrong_sides(caplog):
     match_url = "https://lpl.qq.com/es/stats.shtml?bmid=6001"
 
     with caplog.at_level(logging.WARNING):
-        series = get_qq_series(match_url, "10.6")
+        series = lol_esports_parser.get_qq_series(match_url, "10.6")
         assert len(caplog.records) > 0
 
     assert series["winner"] == "WE"

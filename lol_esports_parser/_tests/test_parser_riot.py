@@ -1,7 +1,7 @@
 import json
 import os
 
-from lol_esports_parser.parsers.riot.riot_parser import get_riot_game, get_riot_series
+import lol_esports_parser
 
 
 def test_lck_finals():
@@ -11,7 +11,7 @@ def test_lck_finals():
         "http://matchhistory.na.leagueoflegends.com/en/#match-details/ESPORTSTMNT03/1353193?gameHash=63e4e6e5d695f410",
     ]
 
-    lck_finals = get_riot_series(mh_urls, get_timeline=True, add_names=True)
+    lck_finals = lol_esports_parser.get_riot_series(mh_urls, get_timeline=True, add_names=True)
 
     with open(os.path.join("json_examples", "lck_series.json"), "w+") as file:
         json.dump(lck_finals, file, indent=4)
@@ -25,7 +25,7 @@ def test_lck_finals_game_3():
         "https://matchhistory.na.leagueoflegends.com/en/#match-details/ESPORTSTMNT03/1353193?gameHash=63e4e6e5d695f410"
     )
 
-    game = get_riot_game(mh_url, get_timeline=True, add_names=True)
+    game = lol_esports_parser.get_riot_game(mh_url, get_timeline=True, add_names=True)
 
     with open(os.path.join("json_examples", "lck_game.json"), "w+") as file:
         json.dump(game, file, indent=4)
@@ -49,10 +49,10 @@ def test_prime_league_summer():
     # This is a live server game
     mh_url = "https://matchhistory.euw.leagueoflegends.com/en/#match-details/EUW1/4676184349/31980018?tab=overview"
 
-    game = get_riot_game(mh_url, get_timeline=True, add_names=True)
+    game = lol_esports_parser.get_riot_game(mh_url, get_timeline=True, add_names=True)
 
     assert game["winner"] == "BLUE"
 
-    series = get_riot_series([mh_url], get_timeline=True, add_names=True)
+    series = lol_esports_parser.get_riot_series([mh_url], get_timeline=True, add_names=True)
 
     assert series

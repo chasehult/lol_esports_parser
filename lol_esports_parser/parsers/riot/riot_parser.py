@@ -1,6 +1,7 @@
 import logging
 import os
 import urllib.parse
+import warnings
 from concurrent.futures.thread import ThreadPoolExecutor
 
 import lol_dto
@@ -13,7 +14,12 @@ from lol_esports_parser.parsers.riot.acs_access import ACS
 
 
 acs = ACS()
-lol_watcher = riotwatcher.LolWatcher(os.environ["RIOT_API_KEY"])
+
+try:
+    lol_watcher = riotwatcher.LolWatcher(os.environ["RIOT_API_KEY"])
+except KeyError:
+    warnings.warn("'RIOT_API_KEY' environment variable not found.\n"
+                  "The parser will not be able to retrieve games on the live server.")
 
 
 def get_riot_series(mh_url_list: list, get_timeline: bool = False, add_names: bool = True) -> LolSeries:
